@@ -53,16 +53,16 @@ class Main extends CI_Controller {
 		$this->siteinfo['site_des'] 		='ศูนย์ข้อมูลการเปลี่ยนแปลงสภาพภูมิอากาศ มหาวิทยาลัยเชียงใหม่';
 		
 		
-		$this->load->driver('cache', array('adapter' => 'apc', 'backup' => 'file'));	
-		$time_limits = 6048000;
-		if ( ! $this->mapList = $this->cache->get('ga')){
-			$uri = 'https://www.googleapis.com/analytics/v3/data/ga?ids=ga%3A171340988&start-date=2017-01-01&end-date=today&metrics=ga%3Ausers%2Cga%3Asessions&access_token='.$this->ga_token;
-			$rs = json_decode(file_get_contents($uri));
-			if($rs!=null){
-				$this->cache->save('ga',json_decode(file_get_contents($uri)), $time_limits);
-			}
-		}
-		$this->rsStat = $this->cache->get('ga');
+		// $this->load->driver('cache', array('adapter' => 'apc', 'backup' => 'file'));	
+		// $time_limits = 6048000;
+		// if ( ! $this->mapList = $this->cache->get('ga')){
+		// 	$uri = 'https://www.googleapis.com/analytics/v3/data/ga?ids=ga%3A171340988&start-date=2017-01-01&end-date=today&metrics=ga%3Ausers%2Cga%3Asessions&access_token='.$this->ga_token;
+		// 	$rs = json_decode(file_get_contents($uri));
+		// 	if($rs!=null){
+		// 		$this->cache->save('ga',json_decode(file_get_contents($uri)), $time_limits);
+		// 	}
+		// }
+		// $this->rsStat = $this->cache->get('ga');
 		
 	}
 	
