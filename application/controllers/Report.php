@@ -3030,7 +3030,8 @@ class Report extends CI_Controller {
 		set_time_limit(0);
         $time = $this->uri->segment(3);
 		$time_limit = 1800;
-
+		$url = 'https://www.cmuccdc.org/api/ccdc_2/cmu4/'.$time.'?v='.date('YmdHis');
+		echo $url;
 		$data = json_decode(file_get_contents('https://www.cmuccdc.org/api/ccdc_2/cmu4/'.$time.'?v='.date('YmdHis')));
 		echo '<pre>';
 		print_r($data);
