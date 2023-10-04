@@ -185,7 +185,7 @@
 	>
 
 		<div class="text-center mb-0">Copyright &copy; 2017. All rights reserved by CCDC</div>
-		<!-- <div class="f_stat float-sm-right mb-0"><i class="fas fa-users"></i> Users <?=number_format($rsStat->rows[0][0])?> | <i class="far fa-eye"></i>  Sessions <?=number_format($rsStat->rows[0][1])?></div> -->
+		<!-- <div class="f_stat float-sm-right mb-0"><i class="fas fa-users"></i> Users <?=@number_format($rsStat->rows[0][0])?> | <i class="far fa-eye"></i>  Sessions <?=@number_format($rsStat->rows[0][1])?></div> -->
 
 		<div class="clearfix"></div>
 	</footer>
