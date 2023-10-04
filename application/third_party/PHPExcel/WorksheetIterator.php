@@ -84,6 +84,7 @@ class PHPExcel_WorksheetIterator implements Iterator
      *
      * @return int
      */
+    #[\ReturnTypeWillChange]
     public function key()
     {
         return $this->position;
