@@ -2557,7 +2557,7 @@ class TCPDF {
 	 * @since 1.0
 	 * @see SetLeftMargin(), SetTopMargin(), SetRightMargin(), SetAutoPageBreak()
 	 */
-	public function SetMargins($left, $top, $right=-1, $keepmargins=false) {
+	public function SetMargins($left=0, $top=0, $right=-1, $keepmargins=false) {
 		//Set left, top and right margins
 		$this->lMargin = $left;
 		$this->tMargin = $top;
