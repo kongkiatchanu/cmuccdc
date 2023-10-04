@@ -104,6 +104,7 @@ class PHPExcel_WorksheetIterator implements Iterator
      *
      * @return boolean
      */
+    #[\ReturnTypeWillChange]
     public function valid()
     {
         return $this->position < $this->subject->getSheetCount();
