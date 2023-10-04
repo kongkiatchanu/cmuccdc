@@ -27,6 +27,7 @@
  */
 class PHPExcel_WorksheetIterator implements Iterator
 {
+    #[\ReturnTypeWillChange]
     /**
      * Spreadsheet to iterate
      *
