@@ -1002,6 +1002,9 @@ class Main extends CI_Controller {
 			$rsDustboy=json_decode(file_get_contents($this->API_URI.'downloadexcel/'.$source_id));
 			if($rsDustboy){
 			
+				echo '<pre>';
+				print_r($rsDustboy);
+				echo '</pre>';
 			
 			$title= $rsDustboy->dustboy_id;
 			$this->load->library('excel');
