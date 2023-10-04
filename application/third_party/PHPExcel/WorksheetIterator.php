@@ -25,6 +25,7 @@
  * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
  * @version    ##VERSION##, ##DATE##
  */
+#[\ReturnTypeWillChange] 
 class PHPExcel_WorksheetIterator implements Iterator
 {
     /**
