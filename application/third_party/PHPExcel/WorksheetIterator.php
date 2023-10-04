@@ -92,6 +92,7 @@ class PHPExcel_WorksheetIterator implements Iterator
     /**
      * Next value
      */
+    #[\ReturnTypeWillChange]
     public function next()
     {
         ++$this->position;
