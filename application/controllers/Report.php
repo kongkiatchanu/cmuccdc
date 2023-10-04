@@ -3032,6 +3032,10 @@ class Report extends CI_Controller {
 		$time_limit = 1800;
 
 		$data = json_decode(file_get_contents('https://www.cmuccdc.org/api/ccdc_2/cmu4/'.$time.'?v='.date('YmdHis')));
+		echo '<pre>';
+		print_r($data);
+		echo '</pre>';
+		exit;
 		$rs_time = '';
 		if($time)
 		{
