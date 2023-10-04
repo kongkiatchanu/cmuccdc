@@ -17,6 +17,7 @@
                     <option value="log_mini_2561_2562" <?=$this->input->get('tb')=="log_mini_2561_2562"?'selected':''?>>log_mini_2561_2562</option>
                     <option value="log_mini_2561_sep2021" <?=$this->input->get('tb')=="log_mini_2561_sep2021"?'selected':''?>>log_mini_2561_sep2021</option>
                     <option value="log_wplus" <?=$this->input->get('tb')=="log_wplus"?'selected':''?>>log_wplus</option>
+                    <option value="log_zdata" <?=$this->input->get('tb')=="log_zdata"?'selected':''?>>log_zdata</option>
                 </select>
             </div>
 			<div class="form-group mr-3">

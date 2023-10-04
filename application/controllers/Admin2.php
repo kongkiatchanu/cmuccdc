@@ -1179,6 +1179,8 @@ class Admin2 extends CI_Controller {
 				$table='log_mini_2561_sep2021';
 			}else if($ar['tb']=="log_wplus"){
 				$table='log_wplus';
+			}else if($ar['tb']=="log_zdata"){
+				$table='log_zdata';
 			}
 			
 		
@@ -1234,7 +1236,11 @@ class Admin2 extends CI_Controller {
 				$table='log_mini_2561_sep2021';
 			}else if($ar['tb']=="log_wplus"){
 				$table='log_wplus';
+			}else if($ar['tb']=="log_zdata"){
+				$table='log_zdata';
 			}
+
+			
 			
 			if($ar['start_date']!='' && $ar['end_date']!=''){
 				$rsList = $this->admin_model->getLastDustboyValue2($table,$ar['webid'],$ar['start_date'], $ar['end_date']);
@@ -1275,7 +1281,10 @@ class Admin2 extends CI_Controller {
 				$table='log_mini_2561_sep2021';
 			}else if($ar['tb']=="log_wplus"){
 				$table='log_wplus';
+			}else if($ar['tb']=="log_zdata"){
+				$table='log_zdata';
 			}
+
 			if($ar['start_date']!='' && $ar['end_date']!=''){
 				$rsList = $this->admin_model->getLastDustboyValue2($table,$ar['webid'],$ar['start_date'], $ar['end_date']);
 			}else{
@@ -1304,7 +1313,10 @@ class Admin2 extends CI_Controller {
 				$table='log_mini_2561_sep2021';
 			}else if($ar['tb']=="log_wplus"){
 				$table='log_wplus';
+			}else if($ar['tb']=="log_zdata"){
+				$table='log_zdata';
 			}
+			
 			if($ar['start_date']!='' && $ar['end_date']!=''){
 				$rsList = $this->admin_model->getLastDustboyValue2($table,$ar['webid'],$ar['start_date'], $ar['end_date']);
 			}else{
