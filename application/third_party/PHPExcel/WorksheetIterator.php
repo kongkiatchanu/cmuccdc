@@ -25,7 +25,6 @@
  * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
  * @version    ##VERSION##, ##DATE##
  */
-#[AllowDynamicProperties]
 class PHPExcel_WorksheetIterator implements Iterator
 {
     /**
@@ -47,6 +46,7 @@ class PHPExcel_WorksheetIterator implements Iterator
      *
      * @param PHPExcel         $subject
      */
+    #[\ReturnTypeWillChange]
     public function __construct(PHPExcel $subject = null)
     {
         // Set subject
