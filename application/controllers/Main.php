@@ -1024,12 +1024,7 @@ class Main extends CI_Controller {
 			$objPHPExcel->getActiveSheet()->getColumnDimension('F')->setWidth(20);             			
 			$objPHPExcel->getActiveSheet()->getColumnDimension('G')->setWidth(20);             			
 			$objPHPExcel->getActiveSheet()->getColumnDimension('H')->setWidth(20);             			
-			// $objPHPExcel->setActiveSheetIndex(0)  
-            //     ->setCellValue('A1', 'pm10')    
-            //     ->setCellValue('B1', 'pm2.5')  
-            //     ->setCellValue('C1', 'temp')  
-            //     ->setCellValue('D1', 'humid')
-            //     ->setCellValue('E1', 'timestamp'); 
+
 			if($rsDustboy->version=="wplus"){
 				$objPHPExcel->setActiveSheetIndex(0)  
                 ->setCellValue('A1', 'PM10')    
@@ -1058,35 +1053,9 @@ class Main extends CI_Controller {
 			$filename='report-'.date("dmYHi").'.xlsx'; 
 			header('Content-Type: application/vnd.ms-excel'); 
 			header('Content-Disposition: attachment;filename="'.$filename.'"'); //tell browser what's the file name
-			header('Cache-Control: max-age=0'); 
-			ob_end_clean();     
+			header('Cache-Control: max-age=0');     
+
 			$objWriter->save('php://output'); 
-			/*
-			$this->excel->setActiveSheetIndex(0);
-		
-			$filename= $rsDustboy[0]->dustboy_id;
-			
-			$rsValue = json_decode(json_encode($rsDustboy[0]->value), True);
-			$this->excel->getActiveSheet()->setTitle($filename);
-
-			$this->excel->getActiveSheet()->setCellValue('A1', 'pm10');
-			$this->excel->getActiveSheet()->setCellValue('B1', 'pm2.5');
-			$this->excel->getActiveSheet()->setCellValue('C1', 'temp');
-			$this->excel->getActiveSheet()->setCellValue('D1', 'humid');
-			$this->excel->getActiveSheet()->setCellValue('E1', 'timestamp');
-			
-			$this->excel->getActiveSheet()->getStyle('A1')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
-		
-			$this->excel->getActiveSheet()->fromArray($rsValue,NULL,'A2');
-	 
-			$filename=$filename.'.xls'; 
-	 
-			header('Content-Type: application/vnd.ms-excel');
-			header('Content-Disposition: attachment;filename="'.$filename.'"'); 
-			header('Cache-Control: max-age=0'); 
-
-			$objWriter = PHPExcel_IOFactory::createWriter($this->excel, 'Excel5'); 
-			$objWriter->save('php://output');*/
 			}else{redirect(site_url());}
 			
 		}else{redirect(site_url());}
