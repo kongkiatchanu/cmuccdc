@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun:400,600&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Kanit:400,600&display=swap')
+html,body
+    height: 100%
+    font-family: 'Kanit', sans-serif
+
+.map
+    width: 1100px
+    height: 350px
+    background: #eeeeee
+    box-shadow: 0 2px 8px #00000035
+    margin: 0 0 1rem 0
+    .leaflet-control-layers
+        &.custom-layout
+            margin-top: 60px
+        .safety-button
+            cursor: pointer
+            display: flex
+            justify-content: center
+            align-items: center
+            background-image: none
+            img
+                width: 20px
+                height: 20px
+    .leaflet-control-locate 
+        &.active.following
+            a 
+                color: #fc8428
+        a
+            font-size: .75rem
+            color: #0c364c
+    .leaflet-bar
+        border: none
+        box-shadow: 0 3px 8px #00000059
+        a
+            width: 2rem
+            height: 2rem
+            line-height: 2rem
+            font-weight: 600
+            &:first-child
+                border-top-left-radius: 5px
+                border-top-right-radius: 5px
+            &:last-child
+                border-bottom-left-radius: 5px
+                border-bottom-right-radius: 5px
+    .leaflet-control-layers
+        border: none
+        box-shadow: 0 3px 8px #00000059
+    path.leaflet-interactive
+        stroke: #9dc02d
+        stroke-width: 2
+        fill: #9dc02d
+        fill-opacity: 0.1
+    path.leaflet-control-locate-circle
+        stroke: #0c364c
+        stroke-width: 2
+        fill: #0c364c
+        fill-opacity: 0.2
+    circle
+        fill: #0c364c !important
+    .custom_marker
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 25px
+        height: 25px
+        color: #fff
+        // box-shadow: 0px 0px 5px 0px #afafaf
+        border-radius: 50%
+        font-family: 'kanit', sans-serif
+        font-weight: 600
+        font-size: 7pt
+        margin: -2px
+        img
+            width: 50%
+            height: 50%
+
+//anime
+.anime_delay025
+    animation-delay: .25s !important
+.anime_delay05
+    animation-delay: .5s !important
+.anime_delay075
+    animation-delay: .75s !important
+.anime_delay1
+    animation-delay: 1s !important
+.anime_delay125
+    animation-delay: 1.25s !important
+.anime_delay15
+    animation-delay: 1.5s !important
+.anime_delay175
+    animation-delay: 1.75s !important
+.anime_delay2
+    animation-delay: 2s !important
+.anime_delay3
+    animation-delay: 3s !important
+.anime_delay4
+    animation-delay: 4s !important
+.anime_delay5
+    animation-delay: 5s !important
+.fade_in
+    animation: fade_in .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+.fade_out
+    animation: fade_out .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+.fade_in_ture
+    animation: fade_in_ture .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+.fade_out_ture
+    animation: fade_out_ture .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+.slide_in_left
+    animation: slide_in_left .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+.slide_in_right
+    animation: slide_in_right .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+.slit_in_vertical 
+    animation: slit_in_vertical_marker 0.5s ease-out both
+.slit_in_vertical_table 
+    animation: slit_in_vertical_table 2s ease-out both
+.slit_out_vertical 
+    animation: slit_out_vertical 0.5s ease-out both
+.shadow-drop-bottom 
+    animation: shadow-drop-bottom 0.6s both
+.swing-in-top-fwd 
+    animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both
+.text-shadow-drop-bottom-icon 
+    animation: text-shadow-drop-bottom-icon 1.75s ease-in-out both
+
+@keyframes fade_in
+    0%  
+        opacity: 0
+        z-index: 0
+    100%    
+        opacity: 1
+        z-index: 1
+@keyframes fade_out
+    0%  
+        opacity: 1
+        z-index: 1
+    100%    
+        opacity: 0
+        z-index: 0
+@keyframes fade_in_ture
+    0%  
+        opacity: 0
+    100%    
+        opacity: 1
+@keyframes fade_out_ture
+    0%  
+        opacity: 1
+    100%    
+        opacity: 0
+@keyframes slide_in_left
+    0%
+        transform: translateX(-1000px)
+        opacity: 0
+    100% 
+        transform: translateX(0)
+        opacity: 1
+@keyframes slide_in_right
+    0%
+        transform: translateX(1000px)
+        opacity: 0
+    100% 
+        transform: translateX(0)
+        opacity: 1
+@keyframes slit_in_vertical_marker
+    0% 
+        box-shadow: 0px 0px 0px 0px #afafaf
+        transform: translateZ(-800px) rotateY(90deg)
+        opacity: 0
+        z-index: 0
+    54% 
+        box-shadow: 0px 0px 0px 0px #afafaf
+        transform: translateZ(-160px) rotateY(87deg)
+        opacity: 1
+        z-index: 1
+    100% 
+        box-shadow: 0px 0px 5px 0px #858585
+        transform: translateZ(0) rotateY(0)
+@keyframes slit_in_vertical_table
+    0% 
+        box-shadow: 0px 0px 0px 0px #00000030
+        transform: translateZ(-800px) rotateY(90deg)
+        opacity: 0
+    44% 
+        box-shadow: 0px 0px 0px 0px #00000030
+        transform: translateZ(-160px) rotateY(87deg)
+        opacity: 1
+    65% 
+        box-shadow: 0px 0px 0px 0px #00000030
+        transform: translateZ(0) rotateY(0)
+    100%
+        box-shadow: 0px 4px 8px 0px #00000030
+        transform: translateY(-1px)
+
+@keyframes slit_out_vertical  
+    0% 
+        transform: translateZ(0) rotateY(0)
+        opacity: 1
+        z-index: 1
+    54% 
+        transform: translateZ(-160px) rotateY(87deg)
+        opacity: 1
+        z-index: 1
+    100% 
+        transform: translateZ(-800px) rotateY(90deg)
+        opacity: 0
+        z-index: 0
+@keyframes shadow-drop-bottom
+    0% 
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0)
+    100% 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35)
+@keyframes swing-in-top-fwd 
+    0% 
+        transform: rotateX(-100deg)
+        transform-origin: top
+        opacity: 0
+    100% 
+        transform: rotateX(0deg)
+        transform-origin: top
+        opacity: 1
+@keyframes text-shadow-drop-bottom-icon 
+    0% 
+        color: #0c364c
+        text-shadow: 0 0 0 #00000000
+    100% 
+        color: #ffffff
+        text-shadow: 0 6px 18px #00000059

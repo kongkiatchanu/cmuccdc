@@ -1,0 +1,1203 @@
+@import url("../font/supermarket/supermarket.css");  
+$base_color : #002c41
+$base_color_hover : #002c4159
+$base_color2 : #ff3600
+$bg_color: #e9a76a
+$bg_color_hover: #e9a76a59
+.text-base-color
+    color: $base_color !important
+.text-base-color2
+    color: $base_color2 !important
+.text-bg-color
+    color: $bg_color !important
+.bg-base-color
+    background-color: $base_color !important
+.bg-base-color2
+    background-color: $base_color2 !important
+.bg-bg-color
+    background-color: $bg_color !important
+.btn-base-color
+    color: #fff
+    background-color: $base_color
+    border-color: $base_color
+    box-shadow: 0 5px 10px 0px #0000001a
+    &:hover
+        background-color: $base_color_hover
+        border-color: $base_color_hover
+        box-shadow: none
+.btn-bg-color
+    color: #fff
+    background-color: $bg_color
+    border-color: $bg_color
+    box-shadow: 0 5px 10px 0px #0000001a
+    &:hover
+        background-color: $bg_color_hover
+        border-color: $bg_color_hover
+        box-shadow: none
+.btn-custom
+    border-radius: 20px
+.btn-custom-sm
+    font-size: .875rem
+    line-height: 1.5
+    border-radius: 20px
+    padding: .125rem .75rem
+.alert-base-color 
+    color: #ffffff
+    background-color: $base_color
+    border: none
+    border-radius: 10px
+    box-shadow: 0 5px 10px 0px #00000059
+    padding: 1rem
+.alert-base-color2 
+    color: $base_color
+    background-color: #ffffff
+    border: none
+    border-radius: 10px
+    box-shadow: 0 3px 10px 0px #00000029
+    padding: 1rem
+.alert-bg-color
+    color: #ffffff
+    background-color: $bg_color
+    border: none
+    border-radius: 10px
+    box-shadow: 0 5px 10px 0px #00000059
+    padding: 1rem
+.alert-bg-color2
+    color: $bg_color
+    background-color: #ffffff
+    border: none
+    border-radius: 10px
+    // box-shadow: 0 10px 20px -8px #00000059
+    box-shadow: 0 3px 10px 0px #00000029
+    padding: 1rem
+html,body
+    // background: $base_color
+    font-family: supermarket
+    overflow: hidden
+
+/* width */
+::-webkit-scrollbar 
+    width: 8px
+/* Track */
+::-webkit-scrollbar-track 
+    background: #f2f2f25a
+/* Handle */
+::-webkit-scrollbar-thumb 
+    background: $base_color
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover 
+    background: $base_color
+
+#main-scrollbar
+    position: fixed
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    .scrollbar-track 
+        width: 5px
+        background: #f2f2f25a
+        .scrollbar-thumb
+            width: 5px
+            background: $base_color
+section
+    &#layout
+        background: $base_color
+        #layout-main
+            align-items: center            
+            height: 100vh
+            // border: 1px solid red
+            &:before,&:after
+                content: ''
+                z-index: 1
+                transition: transform .3s cubic-bezier(1,0,0,1)
+                will-change: transform
+            &:before
+                position: absolute
+                height: 100%
+                top: 0
+                bottom: 0
+                left: 0
+                right: 50%
+                background-color: $base_color2
+                transform: translateY(0)
+            &:after
+                position: absolute
+                height: 100%
+                top: 0
+                bottom: 0
+                left: 50%
+                right: 0
+                background-color: #003852
+                transform: translateY(0)
+            &.active
+                &:before
+                    transform: translateY(-100%)
+                &:after
+                    transform: translateY(100%)
+            #layout-left
+                padding-left: 13rem
+                padding-right: 8rem
+                border-right: 2px solid #ffffff
+                .line2
+                    position: absolute
+                    width: 2rem
+                    height: 1px
+                    right: 8rem
+                    border: 1px solid #ffffff
+            #layout-right
+                padding-left: 8rem
+                padding-right: 13rem
+                .line2
+                    position: absolute
+                    width: 2rem
+                    height: 1px
+                    right: 13rem
+                    border: 1px solid #ffffff
+            #layout-left,#layout-right
+                width: 100%
+                height: 40vh
+                text-align: center
+                vertical-align: middle
+                color: #ffffff
+                // animation: none
+                // animation-delay: .8s
+                .line1
+                    width: 125px
+                    height: 1px
+                    border: 1px solid #ffffff
+                    margin-bottom: 1.5rem
+                    animation: fade-in .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both
+                    // animation: line1 .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both
+                    // @keyframes line1
+                    //     0% 
+                    //         width: 0%
+                    //     100% 
+                    //         width: 125px
+                .line2
+                    animation: fade-in .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both
+                    // animation: line2 .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both
+                    // @keyframes line2
+                    //     0% 
+                    //         width: 0%
+                    //     100% 
+                    //         width: 2rem
+                .title
+                    font-size: 28px
+                    // letter-spacing: 8px
+                    text-align: left
+                    margin-bottom: 2rem
+                    animation: fade-in .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both
+                    letter-spacing: 8px
+                    // animation: title-layout .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both
+                    // @keyframes title-layout
+                    //     0% 
+                    //         letter-spacing: -0.5em
+                    //         filter: blur(12px)
+                    //         opacity: 0
+                    //     100% 
+                    //         letter-spacing: 8px
+                    //         filter: blur(0px)
+                    //         opacity: 1
+                    
+                .form-group
+                    text-align: left
+                    #tracking,#username,#password
+                        text-align: center
+                        letter-spacing: 2px
+                        color: #ffffff
+                        background-color: transparent
+                        border: none
+                        border-radius: 10px
+                        padding-top: 1.5rem
+                        padding-bottom: 1.5rem
+                        animation: fade-in .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both
+                        box-shadow: inset 0 3px 7px 0px rgba(0, 0, 0, 0.35)
+                        // animation: input-form .8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both
+                        // @keyframes input-form
+                        //     0% 
+                        //         width: 0%
+                        //     45% 
+                        //         width: 100%
+                        //     50% 
+                        //         box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0)
+                        //     100% 
+                        //         box-shadow: inset 0 3px 7px 0px rgba(0, 0, 0, 0.35)
+                        &::placeholder
+                            color: #ffffff85
+                            text-align: center
+                    #submit-login,
+                        // height: 80%
+                        color: #ffffff
+                        background: $base_color
+                        border: none
+                        border-radius: 10px
+                        letter-spacing: 5px
+                        transition: .25s cubic-bezier(0.250, 0.460, 0.450, 0.940)
+                        box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.35)
+                        margin-top: 1rem
+                        animation: fade-in .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both
+                        // animation: submit-login .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both
+                        // @keyframes submit-login
+                        //     0% 
+                        //         letter-spacing: -0.5em
+                        //         filter: blur(12px)
+                        //         opacity: 0
+                        //     100% 
+                        //         filter: blur(0px)
+                        //         opacity: 1
+                        &:hover
+                            transform: translateY(-5px)
+                            box-shadow: 0 15px 15px -7px rgba(0, 0, 0, 0.35)
+                    .text-input-down
+                        color: #ffffff
+                        font-size: 14px
+                        margin-top: .75rem 
+                        animation: fade-in .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both
+                        letter-spacing: 3px
+                        // animation: text-input-down .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both
+                        // @keyframes text-input-down
+                        //     0% 
+                        //         letter-spacing: -0.5em
+                        //         filter: blur(12px)
+                        //         opacity: 0
+                        //     100% 
+                        //         letter-spacing: 3px
+                        //         filter: blur(0px)
+                        //         opacity: 1
+                    .col-form-label
+                        animation: fade-in .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both
+                        letter-spacing: 4px
+                        // animation: label-input .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both
+                        // @keyframes label-input
+                        //     0% 
+                        //         letter-spacing: -0.5em
+                        //         filter: blur(12px)
+                        //         opacity: 0
+                        //     100% 
+                        //         letter-spacing: 4px
+                        //         filter: blur(0px)
+                        //         opacity: 1
+                    .col-form-input
+                        label
+                            letter-spacing: 2px
+
+    &#main-modal
+        #tracking-modal
+            .modal-content
+                min-height: 200px
+                background-color: $base_color
+                animation-delay: .5s
+                border-radius: 10px
+                .modal-body
+                    .close
+                        color: #ffffff
+                        text-shadow:  none !important
+                        &:focus
+                            outline: none
+                    .title
+                        text-align: center
+                        margin-top: 1rem
+                        margin-bottom: 1rem
+                        letter-spacing: 2px
+                        h4
+                            color: #ffffff
+                            margin-left: 1rem
+                        p
+                            color: #ffffff
+                            margin: 0
+                            span
+                                display: none
+                                &.active
+                                    display: inline
+                    ul
+                        width: 100%
+                        display: table
+                        table-layout: fixed
+                        list-style: none
+                        padding: 0
+                        margin-bottom: 0.5rem
+                        li.step
+                            // display: table-cell
+                            display: none
+                            position: relative
+                            width: auto
+                            text-align: center
+                            padding: 10px 0 10px 0
+                            margin: 2rem
+                            .icon
+                                display: flex
+                                justify-content: center
+                                align-items: center
+                                position: relative
+                                z-index: 10
+                                width: 5rem
+                                height: 5rem
+                                border-radius: 50%
+                                padding: .5rem
+                                margin: 0 auto 1.5rem auto
+                                #anima-install
+                                    path
+                                        stroke: $base_color2
+                                        // stroke-width: 3
+                                #anima-fix
+                                    path
+                                        stroke: $base_color2
+                                        fill: $base_color2
+                            // .progress
+                            //     position: absolute
+                            //     z-index: 9
+                            //     width: 50% 
+                            //     height: 10px
+                            //     top: 35%
+                            //     transform: translateY(-35%)
+                            //     border-radius: 0
+                            //     &.before
+                            //         left: 0
+                            //     &.after
+                            //         right: 0
+                            //     .progress-do
+                            //         width: 100%
+                            //         background-color: $base_color2
+                            //     .progress-success
+                            //         width: 100%
+                            //         background-color: #28a745
+                            //     .progress-warning
+                            //         width: 100%
+                            //         background-color: #ffc107
+                            //     .progress-error
+                            //         width: 100%
+                            //         background-color: #dc3545
+                            span
+                                letter-spacing: 2px
+                                color: #ffffff
+                                a
+                                    color: #ffffff
+                                    transition: .25s cubic-bezier(0.250, 0.460, 0.450, 0.940) 
+                                    &:hover
+                                        color: #007ab3
+                                        font-weight: 600
+                                        text-decoration: none
+                                        transform: translateY(2px)
+                            &.active
+                                display: table-cell
+                                .icon
+                                    animation: shadow-drop-bottom-tracking-icon .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both
+                                    i
+                                        color: $base_color2
+                                        // &.fa-check
+                                        //     color: #28a745
+    
+    &#layout-dashboard
+        display: flex
+        position: relative
+        min-height: 100vh
+        background-color: #ffffff
+        letter-spacing: 1px
+        padding: 2rem 1rem
+        
+        .layout-right
+            width: 100%
+            // min-height: 90vh
+            padding: 0 1rem
+            margin: 0 0 4rem 22%
+            transition: .25s cubic-bezier(0.250, 0.460, 0.450, 0.940)
+            &.active
+                margin-left: 0%
+            .main
+                float: right
+                width: 100%
+                min-height: 85%
+                // min-height: 1000px
+                padding: .75rem 1rem
+                margin-top: 6vh
+                // border: 1px solid #000000
+                // box-shadow: 0 5px 20px -8px rgba(0, 0, 0, 0.35)
+                .main-header
+                    // border: 1px solid #000000
+                    margin-bottom: 1rem
+                    .title
+                        font-size: 1.5rem
+                    .controller
+                        float: right
+                .main-body
+                    // border: 1px solid #000000
+                    font-size: 1rem
+                    margin: 2rem 0
+                    .url
+                        color: $base_color
+                        text-decoration: none
+                        background-color: transparent
+                        &:hover
+                            color: $bg_color
+                            text-decoration: none
+                            font-weight: bolder
+                    .url-revers
+                        color: $bg_color
+                        text-decoration: none
+                        background-color: transparent
+                        &:hover
+                            color: $base_color
+                            text-decoration: none
+                            font-weight: bolder
+                    .url-revers-none
+                        color: $bg_color
+                        text-decoration: none
+                        background-color: transparent
+                        &:hover
+                            text-decoration: none
+                            font-weight: bolder
+                    .table-responsive
+                        overflow-x: visible
+                    .dataTables_length
+                        padding: 0 .5rem
+                        select
+                            border: none
+                            border-radius: 5px
+                            box-shadow: inset 0 4px 15px -8px #0000005a
+                    .dataTables_filter
+                        padding: 0 .5rem
+                        input
+                            border: none
+                            border-radius: 5px
+                            box-shadow: inset 0 4px 15px -8px #0000005a
+                    .table-custom
+                        border-spacing: 0 .75rem
+                        padding: 0 .25rem
+                        thead
+                            .table-row-header
+                                .table-header
+                                    font-size: .9rem
+                                    background-color: $base_color
+                                    color: #ffffff
+                                    border-left: 2px solid #ffffff
+                                    box-shadow: 0 0 20px -8px #0000001a
+                                    padding: 1rem
+                                    margin-bottom: 1rem
+                                    &:first-child
+                                        border-top-left-radius: 10px
+                                        border-bottom-left-radius: 10px
+                                    &:last-child
+                                        border-top-right-radius: 10px
+                                        border-bottom-right-radius: 10px
+                                    &:before,&:after
+                                        bottom: 1.25em
+                        tbody
+                            .table-row-detail
+                                border-radius: 10px
+                                box-shadow: 0 2px 8px 0px #0000001a
+                                .table-detail
+                                    font-size: .9rem
+                                    border-left: 2px solid $base_color
+                                    padding: .5rem .75rem
+                                    &:first-child
+                                        border: none
+                                    // &:last-child
+                                    //     border-top-right-radius: 10px
+                                    //     border-bottom-right-radius: 10px
+                    .pagination
+                        .paginate_button
+                            .page-link
+                                color: $base_color 
+                                background-color: #ffffff
+                                border: none
+                                box-shadow: 0 2px 8px 0px #0000001a
+                            &.disabled
+                                .page-link
+                                    color: #002c418a
+                                    background-color: #ffffff
+                            &.active
+                                .page-link
+                                    color: #ffffff 
+                                    background-color: $base_color
+                                    border: none
+                                    box-shadow: 0 2px 8px 0px #0000001a
+                    .table-non-datatable
+                        border-spacing: 0 .75rem
+                        border-collapse: separate
+                        padding: 0 .25rem
+                        thead
+                            .table-row-header
+                                .table-header
+                                    font-size: .9rem
+                                    background-color: $base_color
+                                    color: #ffffff
+                                    border-left: 2px solid #ffffff
+                                    box-shadow: 0 0 20px -8px #0000001a
+                                    padding: 1rem
+                                    margin-bottom: 1rem
+                                    &:first-child
+                                        border-top-left-radius: 10px
+                                        border-bottom-left-radius: 10px
+                                    &:last-child
+                                        border-top-right-radius: 10px
+                                        border-bottom-right-radius: 10px
+                                    &:before,&:after
+                                        bottom: 1.25em
+                        tbody
+                            .table-row-detail
+                                border-radius: 10px
+                                box-shadow: 0 2px 8px 0px #0000001a
+                                .table-detail-header
+                                    border: none
+                                    border-radius: 10px
+                                .table-detail
+                                    border: none
+                                    font-size: .9rem
+                                    border-left: 2px solid $base_color
+                                    padding: .5rem .75rem
+                                    &:first-child
+                                        border: none
+                                    // &:last-child
+                                    //     border-top-right-radius: 10px
+                                    //     border-bottom-right-radius: 10px      
+                    
+
+                                            
+.custom-form
+    input
+        border: none
+        border-radius: 5px
+        box-shadow: inset 0 4px 15px -8px #0000005a
+        &:focus
+            border: none
+            outline: 0
+            box-shadow: inset 0 4px 15px -8px #0000005a
+    textarea
+        border: none
+        border-radius: 5px
+        box-shadow: inset 0 4px 15px -8px #0000005a
+        &:focus
+            border: none
+            outline: 0
+            box-shadow: inset 0 4px 15px -8px #0000005a
+    select
+        border: none
+        border-radius: 5px
+        box-shadow: inset 0 4px 15px -8px #0000005a
+        &:focus
+            border: none
+            outline: 0
+            box-shadow: inset 0 4px 15px -8px #0000005a
+        option
+            &:selected
+                background: $bg_color !important
+        
+    .custom-checkbox,.custom-radio,.custom-switch
+        .custom-control-input
+            &:focus
+                &~.custom-control-label
+                    &:before
+                        border: 1px solid #adb5bd
+                        // box-shadow: inset 0 4px 15px -8px #0000005a
+                        box-shadow: none
+            &:checked
+                &~.custom-control-label
+                    &:before
+                        color: #fff
+                        border-color: $base_color
+                        background-color: $base_color
+        .custom-control-label
+            &:before
+                // box-shadow: inset 0 4px 15px -8px #0000005a
+                box-shadow: none
+    .custom-checkbox
+        .custom-control-input
+            &:checked
+                &~.custom-control-label
+                    &:after
+                        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23e9a76a' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e")
+    .custom-radio
+        .custom-control-input
+            &:checked
+                &~.custom-control-label
+                    &:after
+                        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23e9a76a'/%3e%3c/svg%3e")
+    .custom-switch
+        .custom-control-input
+            &:checked
+                &~.custom-control-label
+                    &:after
+                        background-color: $bg_color
+    .custom-file
+        .custom-file-label
+            border: none
+            border-radius: 5px
+            box-shadow: inset 0 4px 15px -8px #0000005a
+            &:after
+                border: none
+                border-radius: 5px
+                box-shadow: inset 0 4px 15px -8px #0000005a
+    label
+        &.error
+            display: block
+            text-align: right
+            color: #dc3545
+            font-size: .875rem
+            margin: .5rem 0 0 0 !important
+    .custom-dropzone
+        border: none
+        border-radius: 5px
+        box-shadow: inset 0 4px 15px -8px #0000005a
+        .dz-message 
+            .dz-button
+                color: #21252959
+                font-size: 1.5rem
+                letter-spacing: 2px
+        .dz-preview 
+            .dz-details 
+                .dz-size 
+                    span
+                        color: $bg_color
+                .dz-filename 
+                    span
+                        color: $bg_color
+    .summernote
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+    .date
+        a
+            color: $bg_color !important
+            &:hover
+                color: $base_color !important
+
+        
+.header
+    position: fixed
+    top: 0
+    right: 2rem
+    background-color: #ffffff
+    z-index: 5
+    display: flex
+    align-items: center
+    justify-content: flex-end
+    float: right
+    width: 100%
+    height: 10vh
+    padding: .5rem 0rem
+    // border: 1px solid #000000
+    .navbar
+        .nav-item
+            display: flex
+            align-items: center
+            .search 
+                // position: absolute
+                display: flex
+                align-items: center
+                border-radius: 50%
+                cursor: pointer
+                transition: all .3s ease .6s
+                // box-shadow: 0 3px 14px -1px rgba(#000, .18)
+                svg 
+                    cursor: pointer
+                    margin: 20px
+                    width: 18px
+                    height: 18px
+                    display: block
+                    color: #000
+                    stroke-width: 2
+                    transform: rotate(90deg)
+                    transition: all .3s ease .6s
+                & > div 
+                    position: relative
+                    width: 0
+                    transition: all .5s cubic-bezier(.51,.92,.24,1.15) .5s
+                    input 
+                        font-size: inherit
+                        line-height: inherit
+                        padding: 0 24px 0 0
+                        border: 0
+                        display: block
+                        outline: none
+                        font-family: inherit
+                        position: absolute
+                        line-height: 20px
+                        font-size: 16px
+                        background: #fff
+                        -webkit-appearance: none
+                        top: 0
+                        width: 100%
+                        opacity: 0
+                        z-index: 1
+                        visibility: hidden
+                        transition: all 0s ease 0s
+                        &::-webkit-input-placeholder 
+                            color: #00000050
+                        
+                        &:-moz-placeholder 
+                            color: #00000050
+                        
+                        &::-moz-placeholder 
+                            color: #00000050
+                        
+                        &:-ms-input-placeholder 
+                            color: #00000050
+                    & > div 
+                        white-space: nowrap
+                        color: $base_color
+                        display: flex
+                        span 
+                            line-height: 20px
+                            font-size: 16px
+                            opacity: 0
+                            display: block
+                            visibility: hidden
+                            transform: translate(0, 12px)
+                            transition: all .4s ease
+                            &:nth-child(1) 
+                                transition-delay: .4s
+                            
+                            &:nth-child(2) 
+                                transition-delay: .2s
+                            
+                            &:nth-child(3) 
+                                transition-delay: 0s
+                &.open 
+                    cursor: default
+                    border-radius: 8px
+                    transition-delay: 0s
+                    box-shadow: 0 10px 36px -2px rgba(#000, .18)
+                    svg 
+                        opacity: .4
+                        transform: rotate(0deg)
+                        transition-delay: 0s
+                    & > div 
+                        transition-delay: 0s
+                        width: 200px
+                        & > div 
+                            span 
+                                color: #00000050
+                                opacity: 1
+                                visibility: visible
+                                transform: translate(0, 0)
+                                &:nth-child(1) 
+                                    transition-delay: .4s
+                                
+                                &:nth-child(2) 
+                                    transition-delay: .45s
+                                
+                                &:nth-child(3) 
+                                    transition-delay: .50s
+                        input 
+                            opacity: 1
+                            visibility: visible
+                            transition-delay: .75s
+            .img-profile
+                width: 50px
+                height: 50px
+                border-radius: 50%
+                padding: .25rem
+            .nav-link-profile
+                color: $base-color
+            .dropdown-menu-profile
+                border: none
+                box-shadow: 0 5px 20px -8px rgba(0, 0, 0, 0.35)
+                .dropdown-item-profile
+                    &:active
+                        color: #ffffff
+                        text-decoration: none
+                        background-color: $bg_color
+                    &:hover
+                        color: #ffffff
+                        text-decoration: none
+                        background-color: $base_color
+                    i
+                        margin-right: .5rem
+                    span
+                        letter-spacing: 2px
+.menu-hide
+    position: fixed
+    top: 0
+    left: 0
+    // height: 100%
+    padding: 2.5rem 1rem 2.5rem 3rem
+    z-index: 7
+    transform: translateX(-6rem)
+    transition: .25s cubic-bezier(0.250, 0.460, 0.450, 0.940)
+    &.active
+        transform: translateX(0rem)
+    .icon
+        width: 100%
+        height: 2.75rem
+        .anima-icon
+            float: right
+            width: 2.75rem
+            height: 100%
+            background-color: $bg_color
+            border-radius: 50%
+            box-shadow: 0 5px 20px -3px rgba(0, 0, 0, 0.35)
+            padding: .5rem
+            transform: scale(.8)
+            svg
+                path
+                    stroke: #ffffff
+.layout-left
+    position: fixed
+    top: 0
+    left: 0
+    width: 22%
+    height: 100%
+    z-index: 6
+    padding: 1.5rem 1rem
+    transition: .25s cubic-bezier(0.250, 0.460, 0.450, 0.940)
+    &.active
+        transform: translateX(-26rem)
+        // width: 5.5%
+        // .slide-menu
+        //     .logo
+        //         opacity: 0
+        //     .sidebar-navbar-nav
+        //         padding-left: 0 !important
+        //         padding-right: 0 !important
+        //     .sidebar-nav-item
+        //         padding-left: 0 !important
+        //         padding-right: 0 !important
+        //         .sidebar-nav-link
+        //             padding-left: 0 !important
+        //             padding-right: 0 !important
+        //             span
+        //                 opacity: 0
+        //                 display: none
+    
+    .slide-menu
+        height: 100%
+        background-color: #ffffff
+        border-radius: 25px
+        padding: 1rem
+        box-shadow: 0 10px 20px -8px #00000059
+        .icon
+            width: 100%
+            height: 2.75rem
+            .anima-icon
+                float: right
+                width: 2.75rem
+                height: 100%
+                background-color: $bg_color
+                border-radius: 50%
+                box-shadow: 0 5px 20px -3px rgba(0, 0, 0, 0.35)
+                padding: .5rem
+                transform: scale(.8) rotate(180deg)
+                svg
+                    path
+                        stroke: #ffffff
+        .logo
+            width: 100%
+            text-align: center
+            padding: 0 0 1rem 0
+            // border: 1px solid #000000
+            transition: .25s cubic-bezier(0.250, 0.460, 0.450, 0.940)
+            img
+                width: 65px
+        .sidebar-navbar-nav
+            height: 64vh
+            .sidebar-nav-item
+                font-size: 1.1rem
+                padding-left: 1rem
+                padding-right: 1rem
+                &.active
+                    .sidebar-nav-link
+                        color: $bg_color
+                        border-radius: 10px
+                        // box-shadow: inset 0 1px 10px -5px rgba(0, 0, 0, 0.35)
+                        box-shadow: 0 5px 10px 0px #0000001a
+                .anima-icon
+                    width: 15px
+                    margin-right: 1rem
+                    &.up
+                        animation: arrow-up .5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both
+                        @keyframes arrow-up
+                            0%
+                                opacity: 1
+                            5%
+                                opacity: 0
+                            50%
+                                transform: rotate(-90deg)
+                            100%
+                                transform: rotate(-90deg)
+                                opacity: 1
+                    &.down
+                        animation: arrow-down .5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both
+                        @keyframes arrow-down
+                            0%
+                                opacity: 1
+                            5%
+                                opacity: 0
+                            50%
+                                transform: rotate(90deg) translateY(-4px)
+                            100%
+                                transform: rotate(90deg) translateY(-4px)
+                                opacity: 1
+                    path
+                        fill: $base_color
+                        stroke: $base_color
+                        stroke-width: 100
+                .sidebar-nav-link
+                    color: $base_color
+                    padding: .75rem 1rem
+                .collapse-inner 
+                    padding: .5rem 0 .5rem 3rem
+                    .collapse-navbar-nav
+                        list-style-type: disc
+                        .collapse-nav-item
+                            &.active
+                                .collapse-nav-link
+                                    color: $bg_color
+                            .collapse-nav-link
+                                color: $base_color
+            .scrollbar-track 
+                width: 5px
+                background: #f2f2f25a
+                .scrollbar-thumb
+                    width: 5px
+                    background: $base_color
+
+footer
+    position: fixed
+    bottom: 0
+    right: 1.75rem
+    width: 100%
+    text-align: right
+    background-color: #ffffff
+    padding: 1rem 1rem 1.25rem 1rem
+    // box-shadow: 0px -10px 10px -8px #00000015
+
+.modal
+    .close
+        &:focus
+            outline: none
+
+@media (max-width: 575.98px) 
+    section
+        &#layout
+            #layout-main
+                #layout-left
+                    height: 35vh
+                    border: none
+                    margin-bottom: 1rem
+                #layout-right
+                    height: 64vh
+                #layout-left,#layout-right
+                    padding: 1rem 2rem 0rem 2rem 
+                    .line1
+                        width: 100px
+                    .line2
+                        right: 2rem
+                    .title
+                        font-size: 24px
+                    .form-group
+                        #submit-tracking
+                            height: calc(1.5em + .75rem + 2px)
+                            color: #ffffff
+                            background: $base_color
+                            border: none
+                            text-align: center
+                            letter-spacing: 5px
+                            transition: .25s cubic-bezier(0.250, 0.460, 0.450, 0.940)
+                            box-shadow: 0 0px 10px -2px rgba(0, 0, 0, 0.35)
+                            padding-left: 1.15rem
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) 
+    html,body
+        overflow: auto
+    section
+        &#layout
+            #layout-main
+                height: auto
+                margin: 1rem 0 2rem 0
+                #layout-left
+                    border: none
+                #layout-left,#layout-right
+                    height: auto
+                    padding: 1rem 2rem 0rem 2rem 
+                    .line1
+                        width: 100px
+                        margin-bottom: 1rem
+                    .line2
+                        right: 2rem
+                    .title
+                        font-size: 24px
+                        margin-bottom: .5rem
+                    .form-group
+                        #submit-tracking
+                            height: calc(1.5em + .75rem + 2px)
+                            color: #ffffff
+                            background: $base_color
+                            border: none
+                            text-align: center
+                            letter-spacing: 5px
+                            transition: .25s cubic-bezier(0.250, 0.460, 0.450, 0.940)
+                            box-shadow: 0 0px 10px -2px rgba(0, 0, 0, 0.35)
+                            padding-left: 1.15rem
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) 
+    section
+        &#layout
+            #layout-main
+                height: auto
+                #layout-left
+                    border: none
+                #layout-left,#layout-right
+                    height: auto
+                    padding: 5rem 5rem 0rem 5rem 
+                    .line1
+                        width: 100px
+                    .line2
+                        right: 5rem
+                    .title
+                        font-size: 24px
+                    .form-group
+                        #submit-tracking
+                            height: calc(1.5em + .75rem + 2px)
+                            color: #ffffff
+                            background: $base_color
+                            border: none
+                            text-align: center
+                            letter-spacing: 5px
+                            transition: .25s cubic-bezier(0.250, 0.460, 0.450, 0.940)
+                            box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.35)
+                            padding-left: 1.15rem
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px)
+    section
+        &#layout
+            #layout-main 
+                #layout-left
+                    padding-left: 5rem
+                    padding-right: 5rem
+                #layout-right
+                    padding-left: 5rem
+                    padding-right: 5rem
+                #layout-left,#layout-right
+                    .line2
+                        right: 5rem
+                .form-group
+                    #submit-tracking
+                        height: calc(1.5em + .75rem + 2px)
+                        color: #ffffff
+                        background: $base_color
+                        border: none
+                        text-align: center
+                        letter-spacing: 5px
+                        transition: .25s cubic-bezier(0.250, 0.460, 0.450, 0.940)
+                        box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.35)
+                        padding-left: 1.15rem
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1280px) and (max-width: 1365.9px)  
+    section
+        &#layout-dashboard
+            .layout-right
+                .main
+                    .main-body
+                        font-size: .7rem !important
+                        .table-custom
+                            .table-header
+                                font-size: .7rem !important
+                            .table-detail
+                                font-size: .7rem !important
+// @media (min-width: 1366px) and (max-width: 1599.9px)  
+@media (min-width: 1600px) and (max-width: 1919.9px)  
+    section
+        &#layout-dashboard
+            .layout-right
+                .main
+                    .main-body
+                        font-size: .75rem !important
+                        .table-custom
+                            .table-header
+                                font-size: .75rem !important
+                            .table-detail
+                                font-size: .75rem !important
+// @media (min-width: 1920px)  
+                    
+// animeation
+.shadow-drop-center 
+	animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+@keyframes shadow-drop-center 
+    0% 
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0)
+    100% 
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35)
+
+.shadow-drop-inset-bottom 
+	animation: shadow-drop-inset-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+@keyframes shadow-drop-inset-bottom 
+    0% 
+        box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0)
+    100% 
+        box-shadow: inset 0 3px 7px 0px rgba(0, 0, 0, 0.35)
+
+.shadow-drop-bottom 
+	animation: shadow-drop-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+@keyframes shadow-drop-bottom 
+    0% 
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0)
+    100% 
+        box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.35)
+
+.shadow-drop-bottom-tracking 
+	animation: shadow-drop-bottom-tracking 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+@keyframes shadow-drop-bottom-tracking 
+    0% 
+        transform: translateY(0)
+        box-shadow: 0 0 0 0 #000000
+    100% 
+        transform: translateY(-1rem)
+        box-shadow: 0 20px 20px -5px #00000055
+
+.shadow-drop-bottom-tracking-icon 
+	animation: shadow-drop-bottom-tracking-icon  .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+@keyframes shadow-drop-bottom-tracking-icon  
+    0% 
+        transform: translateY(0)
+        box-shadow: 0 0 0 0 #000000
+    100% 
+        transform: translateY(-5px)
+        box-shadow: 0 20px 20px -5px #00000055
+
+.slide-in-top 
+	animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+@keyframes slide-in-top 
+    0% 
+        transform: translateY(-1000px)
+        opacity: 0
+    100% 
+        transform: translateY(0)
+        opacity: 1
+
+.slide-in-bottom 
+	animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+@keyframes slide-in-bottom 
+    0% 
+        transform: translateY(1000px)
+        opacity: 0
+    100% 
+        transform: translateY(0)
+        opacity: 1
+
+.progress-anime
+    animation: progress-anime 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+@keyframes progress-anime
+    0% 
+        width: 0%
+    100% 
+        width: 100%
+.fade-in
+    animation: fade-in .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+@keyframes fade-in
+    0% 
+        opacity: 0
+    100% 
+        opacity: 1
+
+
+
+
+
+  
+
+
+
+

@@ -1,0 +1,47 @@
+[
+    {
+        "air_id": "1",
+        "air_range": "0-25",
+        "air_pm25": "0-25",
+        "air_pm10": "0-50",
+        "air_name": "Excellent",
+        "air_detail": "Very good air quality: suitable for outdoor activities and travel.",
+        "air_color": "#d4f9ff"
+    },
+    {
+        "air_id": "2",
+        "air_range": "26-50",
+        "air_pm25": "26-37",
+        "air_pm10": "51-80",
+        "air_name": "Satisfactory",
+        "air_detail": "Good air quality: can do outdoor activities and travel as usual.",
+        "air_color": "#d4ffdb"
+    },
+    {
+        "air_id": "3",
+        "air_range": "51-100",
+        "air_pm25": "38-50",
+        "air_pm10": "81-120",
+        "air_name": "Moderate",
+        "air_detail": "Members of the general public: able to do outdoor activities normally. Members of sensitive groups: If there are early symptoms such as coughing, difficulty breathing, eye irritation, the duration of outdoor activities should be reduced.",
+        "air_color": "#fcffd4"
+    },
+    {
+        "air_id": "4",
+        "air_range": "101-200",
+        "air_pm25": "51-90",
+        "air_pm10": "121-180",
+        "air_name": "Unhealthy",
+        "air_detail": "Members of the general public: should monitor health. If there are early symptoms such as coughing, difficulty breathing, eye irritation, the duration of outdoor activities should be reduced. Or use self-protection equipment if necessary.\r\nMembers of sensitive groups: should reduce the duration of outdoor activities. Or use self-protection equipment if necessary. If there are health symptoms such as coughing, dyspnea, eye inflammation, chest tightness, headache, irregular heartbeat, nausea, fatigue, you should consult a doctor.",
+        "air_color": "#ffe6d4"
+    },
+    {
+        "air_id": "5",
+        "air_range": ">200",
+        "air_pm25": ">90",
+        "air_pm10": ">180",
+        "air_name": "Very Unhealthy",
+        "air_detail": "Everyone should avoid outdoor activities, avoid areas with high air pollution. Or use self-protection equipment if necessary. If any health symptoms occur, you should consult a doctor.",
+        "air_color": "#ffd4d4"
+    }
+]

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- meta data & title -->
+        <meta charset="utf-8">
+        <title>การพัฒนาต้นแบบระบบตรวจวัดฝุ่นละอองขนาดต่างๆ ในบ่อเหมืองลึกแบบออนไลน์</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- CSS -->
+        <link href='https://fonts.googleapis.com/css?family=Kanit:300&subset=thai,latin' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="http://www.online-dustdetec.com/egat/assets/bootstrap/css/bootstrap.css">
+
+
+        
+    </head>
+  <body>
+
+    <!-- End #carousel-section -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-8">
+				<div class="row">
+				<p id="meter-time"></p>
+				<div class="col-md-6">
+					<p class="text-center" id="PMRealtimeAQI25GaugeContainer"></p>
+					<h3 class="text-center" id="PMRealtimeAQI25Txt" style="margin:0px;"></h3>
+					<p class="text-center" id="PMRealtimeAQI25Name"></p>
+				</div>
+				<div class="col-md-6">
+					<p class="text-center" id="PMRealtimeAQI10GaugeContainer"></p>
+					<h3 class="text-center" id="PMRealtimeAQI10Txt" style="margin:0px;"></h3>
+					<p class="text-center" id="PMRealtimeAQI10Name"></p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+    
+    <script type="text/javascript" src="http://www.online-dustdetec.com/egat/js/jquery-1.10.2.min.js"></script>
+    <script src="http://www.online-dustdetec.com/egat/assets/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/3Dchart/d3.v2.js"></script>
+	<script type="text/javascript" src="/js/3Dchart/gauge.js"></script>
+	<script type="text/javascript" src="/js/3Dchart/init.front.js"></script>
+    <script>
+        $( document ).ready(function() {
+
+			function updateGauges25(s)
+			{
+				$.ajax({
+					url: "http://cmuccdc.org/chart/getAQIValue.php?s="+s+"&type=pm25",
+					dataType: "JSON", 
+					async:false,
+					success: function(data) { 
+						gauges['PMRealtimeAQI25'].redraw(parseFloat(data.value));
+						$('#PMRealtimeAQI25Txt').html(data.txt);		
+						$('#PMRealtimeAQI25Name').html(data.name);		
+					}
+				});	  
+			}
+			function updateGauges10(s)
+			{
+				$.ajax({
+					url: "http://cmuccdc.org/chart/getAQIValue.php?s="+s+"&type=pm10",
+					dataType: "JSON", 
+					async:false,
+					success: function(data) { 
+						gauges['PMRealtimeAQI10'].redraw(parseFloat(data.value));
+						$('#PMRealtimeAQI10Txt').html(data.txt);		
+						$('#PMRealtimeAQI10Name').html(data.name);		
+					}
+				});	  
+			}
+						
+			createGauges25(7);
+			createGauges10(7);
+			
+			updateGauges25(7);
+			updateGauges10(7);
+		
+			var refreshId = setInterval( function() 
+			{
+				updateGauges25(7);
+				updateGauges10(7);
+							
+			}, 5000);
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+[
+    {
+        "location_name": "เทศบาลปากเกร็ด",
+        "location_uri": "https://pakkret.cmuccdc.org"
+    },
+    {
+        "location_name": "มหาวิทยาลัยเชียงใหม่",
+        "location_uri": "https://cmu.cmuccdc.org"
+    },
+    {
+        "location_name": "จังหวัดเชียงราย",
+        "location_uri": "https://chiangrai.cmuccdc.org"
+    },
+    {
+        "location_name": "จังหวัดแม่ฮ่องสอน",
+        "location_uri": "https://mhs.cmuccdc.org"
+    },
+    {
+        "location_name": "จังหวัดอำนาจเจริญ",
+        "location_uri": "https://acr.cmuccdc.org"
+    },
+    {
+        "location_name": "จังหวัดพะเยา",
+        "location_uri": "https://phayao.cmuccdc.org"
+    },
+    {
+        "location_name": "จังหวัดยโสธร​",
+        "location_uri": "https://yasothon.cmuccdc.org"
+    },
+    {
+        "location_name": "จังหวัดมุกดาหาร",
+        "location_uri": "https://mukdahan.cmuccdc.org"
+    },
+    {
+        "location_name": "จังหวัดกาฬสินธุ์",
+        "location_uri": "https://kalasin.cmuccdc.org"
+    },
+    {
+        "location_name": "จังหวัดบึงกาฬ",
+        "location_uri": "https://buengkan.cmuccdc.org"
+    },
+    {
+        "location_name": "จังหวัดเชียงใหม่",
+        "location_uri": "https://chiangmai.cmuccdc.org"
+    },
+    {
+        "location_name": "จังหวัดสงขลา",
+        "location_uri": "https://hatyai.cmuccdc.org"
+    },
+    {
+        "location_name": "จังหวัดภูเก็ต",
+        "location_uri": "https://phuket.cmuccdc.org"
+    },
+    {
+        "location_name": "กอรมน.",
+        "location_uri": "https://isoc.cmuccdc.org"
+    },
+    {
+        "location_name": "มหาวิทยาลัยมหาสารคาม",
+        "location_uri": "https://msu.cmuccdc.org"
+    },
+    {
+        "location_name": "จังหวัดอุบลราชธานี ",
+        "location_uri": "https://ubon.cmuccdc.org"
+    },
+    {
+        "location_name": "โครงการ greenpeace",
+        "location_uri": "https://greenpeace.cmuccdc.org/"
+    },
+    {
+        "location_name": "มหาวิทยาลัยราชภัฏสุราษฎร์ธานี",
+        "location_uri": "https://sru.cmuccdc.org/"
+    },
+    {
+        "location_name": "วิศวกรรมเหมืองแร่และปิโตรเลียม คณะวิศวกรรมศาสตร์ มช.",
+        "location_uri": "https://miningeng.cmuccdc.org/"
+    },
+    {
+        "location_name": "มูลนิธิใจกระทิง",
+        "location_uri": "https://jaikrating.cmuccdc.org/"
+    },
+    {
+        "location_name": "CMU Model",
+        "location_uri": "https://cmumodel.cmuccdc.org"
+    },
+    {
+        "location_name": "Blue Sky",
+        "location_uri": "https://bluesky.cmuccdc.org"
+    }
+]

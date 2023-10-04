@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'ThaiSans Neue';
+    src: url('ThaiSansNeue-Black.eot');
+    src: url('ThaiSansNeue-Black.eot?#iefix') format('embedded-opentype'),
+        url('ThaiSansNeue-Black.woff2') format('woff2'),
+        url('ThaiSansNeue-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

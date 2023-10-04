@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun:400,600&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Kanit:400,600&display=swap')
+html,body
+    height: 100%
+    font-family: 'Kanit', sans-serif
+
+// custom btn
+.btn.focus, .btn:focus
+    box-shadow: none
+
+// btn_contact
+#btn_contact
+    width: 45px
+    height: 45px
+    position: fixed
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    top: 1.5rem
+    left: 3.5rem
+    cursor: pointer
+    z-index: 100
+    -webkit-transform: rotate(0deg) scale(.6)
+    -moz-transform: rotate(0deg) scale(.6)
+    -o-transform: rotate(0deg) scale(.6)
+    transform: rotate(0deg) scale(.6)
+    -webkit-transition: .75s ease-in-out
+    -moz-transition: .75s ease-in-out
+    -o-transition: .75s ease-in-out
+    transition: .75s ease-in-out
+    span
+        display: block
+        position: absolute
+        height: 12px
+        width: 12px
+        background: #0c364c
+        opacity: 1
+        -webkit-transform: rotate(0deg)
+        -moz-transform: rotate(0deg)
+        -o-transform: rotate(0deg)
+        transform: rotate(0deg)
+        -webkit-transition: .5s ease-in-out
+        -moz-transition: .5s ease-in-out
+        -o-transition: .5s ease-in-out
+        transition: .5s ease-in-out
+        &:nth-child(even)
+            left: 50%
+            border-radius: 50%
+
+        &:nth-child(odd)
+            left: 0px
+            border-radius: 50%
+
+        &:nth-child(1), &:nth-child(2), &:nth-child(3)
+            top: 0px
+
+        &:nth-child(4), &:nth-child(5), &:nth-child(6)
+            top: 20px
+
+        &:nth-child(7), &:nth-child(8), &:nth-child(9)
+            top: 40px
+
+        &:nth-child(3), &:nth-child(6), &:nth-child(9)
+            left: 100%
+            
+    &.open span
+        background: #ffffff
+        &:nth-child(2)
+            top: 20px
+
+        &:nth-child(5), &:nth-child(6)
+            left: 50%
+
+        &:nth-child(8)
+            top: 20px
+    &.in_slide_btn
+        animation: in_slide_btn .5s both
+        @keyframes in_slide_btn
+            0%
+                top: 1.5rem
+            100%
+                top: 0.5rem
+    &.out_slide_btn
+        animation: out_slide_btn .5s both
+        @keyframes out_slide_btn
+            0%
+                top: 0.5rem
+            100%
+                top: 1.5rem
+section
+    &#menu_slide
+        position: fixed
+        display: flex
+        align-items: center
+        width: 100%
+        height: 8vh
+        z-index: 2
+        background: #ffffff
+        transform: translateY(-11vh)
+        &.in_slide
+            animation: in_slide .5s both
+            @keyframes in_slide
+                0%
+                    transform: translateY(-11vh)
+                    box-shadow: 0px 0px 0px 0px #bdbdbd
+                100%
+                    transform: translateY(0)
+                    box-shadow: 0px 20px 20px -12px #bdbdbd
+        &.out_slide
+            animation: out_slide .5s both
+            @keyframes out_slide
+                0%
+                    transform: translateY(0)
+                    box-shadow: 0px 20px 20px -12px #bdbdbd
+                100%
+                    transform: translateY(-11vh)
+                    box-shadow: 0px 0px 0px 0px #bdbdbd
+        .main_menu
+            margin: 0 auto
+            .nav
+                .nav-item
+                    .nav-link
+                        font-weight: 600
+                        color: #0c364c
+                        &:hover
+                            color: #9dc02d
+                    .line_active
+                        width: 50%
+                        border: .5px solid #0c364c
+                        margin: 0 auto
+       
+    &#main
+        position: relative
+        // height: 100vh
+        z-index: 1
+        background: #ffffff
+        overflow-y: hidden
+        .header,.main_content
+            display: flex
+            flex-wrap: wrap
+            margin-right: -15px
+            margin-left: -15px
+        .header
+            .logo
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                img
+                    width: 175px
+            .line
+                width: 70%
+                border: .5px solid #769223
+                margin: 0 auto
+            .menu
+                display: flex
+                align-items: center
+                height: auto
+                margin: .5rem 0 1rem 0
+                .main_menu
+                    width: 71%
+                    margin: 0 auto
+                    .nav
+                        .nav-item
+                            .nav-link
+                                font-weight: 600
+                                color: #0c364c
+                                &:hover
+                                    color: #9dc02d
+                            .line_active
+                                width: 50%
+                                border: 1px solid #0c364c 
+                                margin: 0 auto
+        .main_content
+            .content
+                width: 100%
+                position: relative
+                // height: 100vh
+                z-index: 1
+                background: #ffffff
+                .main_title
+                    display: flex
+                    align-items: center
+                    height: 15vh
+                    background: #0c364c
+                    .title_on_video
+                        position: absolute
+                        display: flex
+                        align-items: center
+                        font-family: 'Kanit', sans-serif
+                        color: #ffffff
+                        left: 4rem
+                .main_detail
+                    min-height: 64vh
+    &#contact
+        display: none
+        position: fixed
+        top: 0
+        width: 100%
+        height: 100vh
+        z-index: 0
+        background: #bdd1cf
+        .logo_contact,.menu_contact,.footer
+            display: flex
+            justify-content: center
+            align-items: center
+        .logo_contact
+            height: 95vh
+            img
+                width: 500px
+        .menu_contact
+            height: 70vh
+            .contact
+                align-self: center
+                .ul_contact
+                    .li_contact
+                        line-height: 2em
+                a
+                    color: #ffffff
+                    &:hover
+                        color: #0c364c
+                        text-decoration: none
+                .group_icon
+                    display: flex
+                    align-items: center
+                    a.icon
+                        border: 1px solid #ffffff
+                        border-radius: 50%
+                        padding: .75rem .75rem
+                        text-align: center
+                    a.icon:hover
+                        background: #0c364c
+            .menu_min
+                align-self: flex-start
+                .nav
+                    .nav-item
+                        .nav-link
+                            font-weight: 600
+                            color: #ffffff
+                            &:hover
+                                color: #0c364c
+                        .line_active
+                            width: 50%
+                            border: .5px solid #ffffff
+                            margin: 0 auto
+
+            
+        .footer
+            flex-direction: column
+            height: 4vh
+            color: #ffffff
+            font-size: 12px
+            padding: 0 0 2rem 0
+footer
+    width: 100%
+    position: fixed
+    bottom: 0
+    z-index: 999
+    background: #0c364c         
+    color: #ffffff   
+    text-align: center
+    font-size: 12px
+    padding: .5rem
+
+//anime
+.anime_delay025
+    animation-delay: .25s !important
+.anime_delay05
+    animation-delay: .5s !important
+.anime_delay075
+    animation-delay: .75s !important
+.anime_delay1
+    animation-delay: 1s !important
+.anime_delay125
+    animation-delay: 1.25s !important
+.anime_delay15
+    animation-delay: 1.5s !important
+.anime_delay175
+    animation-delay: 1.75s !important
+.anime_delay2
+    animation-delay: 2s !important
+.anime_delay3
+    animation-delay: 3s !important
+.anime_delay4
+    animation-delay: 4s !important
+.anime_delay5
+    animation-delay: 5s !important
+.fade_in
+    animation: fade_in .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+.fade_out
+    animation: fade_out .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+.fade_in_ture
+    animation: fade_in_ture .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+.fade_out_ture
+    animation: fade_out_ture .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both
+.slide_in_left
+    animation: slide_in_left .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+.slide_in_right
+    animation: slide_in_right .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+.slit_in_vertical 
+    animation: slit_in_vertical 0.5s ease-out both
+.slit_out_vertical 
+    animation: slit_out_vertical 0.5s ease-out both
+
+@keyframes fade_in
+    0%  
+        opacity: 0
+        z-index: 0
+    100%    
+        opacity: 1
+        z-index: 1
+@keyframes fade_out
+    0%  
+        opacity: 1
+        z-index: 1
+    100%    
+        opacity: 0
+        z-index: 0
+@keyframes fade_in_ture
+    0%  
+        opacity: 0
+    100%    
+        opacity: 1
+@keyframes fade_out_ture
+    0%  
+        opacity: 1
+    100%    
+        opacity: 0
+@keyframes slide_in_left
+    0%
+        transform: translateX(-1000px)
+        opacity: 0
+    100% 
+        transform: translateX(0)
+        opacity: 1
+@keyframes slide_in_right
+    0%
+        transform: translateX(1000px)
+        opacity: 0
+    100% 
+        transform: translateX(0)
+        opacity: 1
+@keyframes slit_in_vertical
+    0% 
+        transform: translateZ(-800px) rotateY(90deg)
+        opacity: 0
+        z-index: 0
+    54% 
+        transform: translateZ(-160px) rotateY(87deg)
+        opacity: 1
+        z-index: 1
+    100% 
+        transform: translateZ(0) rotateY(0)
+@keyframes slit_out_vertical  
+    0% 
+        transform: translateZ(0) rotateY(0)
+        opacity: 1
+        z-index: 1
+    54% 
+        transform: translateZ(-160px) rotateY(87deg)
+        opacity: 1
+        z-index: 1
+    100% 
+        transform: translateZ(-800px) rotateY(90deg)
+        opacity: 0
+        z-index: 0
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px)
+    #btn_contact
+        position: absolute
+        top: .5rem
+        left: 1rem
+    section
+        &#main
+            height: auto
+            padding: 0
+            overflow-x: hidden
+            .logo
+                // margin: 1rem 0 1rem 1.5rem
+                img
+                    width: 250px
+            .menu
+                height: auto
+                flex-wrap: wrap
+                margin: 
+                    top: 1rem
+                .main_menu
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                    .nav-item
+                        width: 100%
+                        text-align: center
+                        .line_active
+                            width: 30% !important
+            .content
+                height: auto
+                padding: 0 !important
+                .main_title
+                    .title_on_video
+                        left: 2rem !important
+        &#contact
+            position: absolute
+            height: 100%
+            // height: 200vh
+            .logo_contact
+                height: auto
+                // padding: 1rem 0 0 1.5rem
+                img
+                    width: 150px
+            .menu_contact
+                height: auto
+                margin-bottom: 2rem
+                font-size: .8rem
+                .col-12
+                    margin-top: 1rem 
+                    padding-left: 3rem
+                .menu_min
+                    margin-top: 0rem 
+                    .nav
+                        width: 100%
+                        text-align: left !important
+                        // padding-left: 3rem
+                        .nav-item
+                            .nav-link
+                                font-weight: 600
+                                color: #ffffff
+                                &:hover
+                                    color: #0c364c
+                                &.active
+                                    color: #0c364c
+                .line
+                    width: 100%
+                    border: .5px solid #ffffff
+                    margin-left: 4rem
+                .ul_contact
+                    // margin-left: 3rem
+                    .li_contact
+                        line-height: none
+                p
+                    margin-left: 4rem
+                    
+            .footer
+                height: auto
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px)
+    section
+        &#main
+            .menu
+                .aqi
+                    width: 12%
+                .main_menu
+                    width: 76%
+                    display: none
+                .lang
+                    width: 12%
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px)
+    #btn_contact
+        top: .8rem
+    section
+        &#main
+            .logo
+                img
+                    width: 300px
+            .menu
+                height: auto
+                flex-wrap: wrap
+                margin: 
+                    top: 1rem
+                .main_menu
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                    .nav-item
+                        width: 100%
+                        text-align: center
+                        .line_active
+                            width: 30% !important
+            
+        &#contact
+            .logo_contact
+                height: auto
+                padding: 2rem 0 1rem 0
+                img
+                    width: 300px
+            .menu_contact
+                height: auto
+                margin-bottom: 2rem
+                .menu_min
+                    margin-top: 0rem 
+                    .nav
+                        width: 23%
+                        text-align: left !important
+                        margin: 0 auto
+                        .nav-item
+                            .nav-link
+                                font-weight: 600
+                                color: #ffffff
+                                &:hover
+                                    color: #0c364c
+                                &.active
+                                    color: #0c364c
+                .line
+                    width: 100%
+                    border: .5px solid #ffffff
+                    margin-left: 4rem
+                .ul_contact
+                    margin-top: 1rem
+                    .li_contact
+                        line-height: 2em
+                p
+                    margin-top: 1rem
+                    margin-left: 2rem
+
+            .footer
+                height: auto
+@media (min-width: 1920px)
+    #btn_contact
+        &.in_slide_btn
+            animation: in_slide_btn .5s both
+            @keyframes in_slide_btn
+                0%
+                    top: 1.5rem
+                100%
+                    top: 0.75rem
+        &.out_slide_btn
+            animation: out_slide_btn .5s both
+            @keyframes out_slide_btn
+                0%
+                    top: 0.75rem
+                100%
+                    top: 1.5rem
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px) and (max-width: 1199.98px)
+//     section
+//         &#main
+//             .menu
+//                 .aqi
+//                     width: 12%
+//                 .main_menu
+//                     width: 76%
+//                 .lang
+//                     width: 12%
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px)
+//     section
+//         &#main
+//             .menu
+//                 .aqi
+//                     width: 12%
+//                 .main_menu
+//                     width: 76%
+//                     display: none
+//                 .lang
+//                     width: 12%
+@media (min-width: 1601px)
+    section
+        &#main
+            .main_content
+                .content
+                    // min-height: 800px !important
