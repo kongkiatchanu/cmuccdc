@@ -996,6 +996,7 @@ class Main extends CI_Controller {
 		}
 	}
 	public function download_excel(){
+		set_time_limit(0);
 		$source_id=$this->uri->segment(2);
 		if($source_id!=null){
 			$rsDustboy=json_decode(file_get_contents($this->API_URI.'downloadexcel/'.$source_id));
