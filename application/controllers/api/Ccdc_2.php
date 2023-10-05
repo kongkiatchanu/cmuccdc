@@ -485,7 +485,7 @@ class Ccdc_2 extends REST_Controller {
 		$time_limit = 3600;
         if (!$data = $this->cache->get('cmu_2022')){
             //คณะมนุษย์,แคมปัสแม่เหี่ย
-            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations.json?v='.date('YmdHis')));
+            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations_temp.json?v='.date('YmdHis')));
             $result = array();
             $id = array('4421','5271','5264','5265','5267','5281','5263','5262','5723','6613','6612','6');
             foreach ($data as $key => $value) {
@@ -576,7 +576,7 @@ class Ccdc_2 extends REST_Controller {
 		$time_limit = 3600;
         if (!$data = $this->cache->get('jaikrating')){
            // $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/api2/dustboy/stations?v='.date('YmdHis')));
-            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations.json?v='.date('YmdHis')));
+            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations_temp.json?v='.date('YmdHis')));
             $result = array();
             foreach ($data as $key => $value) {
                 if($value->id>=5501&&$value->id<=5521){
@@ -598,7 +598,7 @@ class Ccdc_2 extends REST_Controller {
 //        $data = $this->cache->get('pakkret');
         if (!$data||date('H',$this->cache->get_metadata('pakkret')['mtime'])<date('H')){
             // $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/api2/dustboy/stations?v='.date('YmdHis')));
-            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations.json?v='.date('YmdHis')));
+            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations_temp.json?v='.date('YmdHis')));
             $result = array();
             foreach ($data as $key => $value) {
                 if($value->id>=4061&&$value->id<=4100){
@@ -696,7 +696,7 @@ class Ccdc_2 extends REST_Controller {
 		$time_limit = 1200;
         $data = $this->cache->get('bluesky');
         if (!$data||date('H',$this->cache->get_metadata('bluesky')['mtime'])<date('H')){
-            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations.json?v='.date('YmdHis')));
+            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations_temp.json?v='.date('YmdHis')));
             $result = array();
             foreach ($data as $key => $value) {
                 if($value->id==5700||($value->id>=5467&&$value->id<=5476)){
@@ -919,7 +919,7 @@ class Ccdc_2 extends REST_Controller {
 		$time_limit = 1200;
         $data = $this->cache->get('thanalak');
         if (!$data||date('H',$this->cache->get_metadata('thanalak')['mtime'])<date('H')){
-            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations.json?v='.date('YmdHis')));
+            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations_temp.json?v='.date('YmdHis')));
             $result = array();
             foreach ($data as $key => $value) {
                 if($value->id==5724||$value->id==5058||$value->id==10||$value->id==5379||$value->id==5376||$value->id==5512||$value->id==6612||$value->id==6613||$value->id==4425){
@@ -1206,7 +1206,7 @@ class Ccdc_2 extends REST_Controller {
         $time_limit = 1200;
         $data = $this->cache->get('hpc2');
         if (!$data||date('H',$this->cache->get_metadata('hpc2')['mtime'])<date('H')){
-            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations.json'));
+            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations_temp.json'));
             $result = array();
             foreach ($data as $key => $value) {
                if (in_array($value->id, $ar_station)){
