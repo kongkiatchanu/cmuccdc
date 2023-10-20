@@ -1,7 +1,7 @@
 	
 	<?php $action = $this->session->userdata('noti_action');?>
 	<?php $year = $this->input->get('year');?>
-	<?php if(!$year){ $year = '2022';}?>
+	<?php if(!$year){ $year = '2023';}?>
 	<style>.form-filler{border-top:5px solid #0c364c;padding:20px 15px;background-color:#f8f8f8}.display-hide{display:none;}</style>
 	<style>
 	.info-box {
@@ -49,6 +49,7 @@
 						<a href="<?=base_url('maintain/pm_standard?year=2020')?>" class="btn btn-<?=$year==2020?'info':'secondary'?>">2020</a>
 						<a href="<?=base_url('maintain/pm_standard?year=2021')?>" class="btn btn-<?=$year==2021?'info':'secondary'?>">2021</a>
 						<a href="<?=base_url('maintain/pm_standard?year=2022')?>" class="btn btn-<?=$year==2022?'info':'secondary'?>">2022</a>
+						<a href="<?=base_url('maintain/pm_standard?year=2023')?>" class="btn btn-<?=$year==2022?'info':'secondary'?>">2023</a>
 					</div>
 					<h5 class="mb-3">Province Filter</h5><hr/>
 					<select class="form-control" id="province">
