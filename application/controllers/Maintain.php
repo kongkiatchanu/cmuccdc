@@ -1351,14 +1351,14 @@ class Maintain extends CI_Controller {
 		}
 	}
 	public function pm_standard(){
-		$this->siteinfo['pre_title'] = 'PM2.5 > 50';
+		$this->siteinfo['pre_title'] = 'PM2.5 > 37.5';
 		
 		$rs = array( 
 			"_lang" 			=> $this->s_lang,
 			"_pmType" 			=> $this->pmType,
 			"siteInfo" 			=> $this->siteinfo,
 			"rsProvince" 		=> $this->maintain_model->getProvinceList(),
-			"rsStatus" 			=> $rsStatus,
+			//"rsStatus" 			=> $rsStatus,
 			'view'				=> 'maintain/pm_standard',
 			"_pageLink"			=> 'maintain'
 		);
