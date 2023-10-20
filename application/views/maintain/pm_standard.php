@@ -60,7 +60,7 @@
 				</div>
 				<div class="load" style="display:none"><img src="/template/img/loader.gif"></div>
 				<div class="content pt-3 pb-3" style="display:none">
-					<h1>PM2.5 > 50 : <span id="amount"></span> Days</h1>
+					<h1>PM2.5 > 37.5 : <span id="amount"></span> Days</h1>
 					<div class="table-responsive">
 					<table class="table table-bordered" id="tblist">
 						<thead>
@@ -124,11 +124,11 @@
 				$('.'+id).html('');
 				jQuery.each(log, function(index, item) {	
 					$('.'+id+'_'+item.daily_date).html(item.pm25);
-					if(item.pm25>=50){
+					if(item.pm25>37.5){
 						$('.'+id+'_'+item.daily_date).css('color','rgb(242,101,34)');
-					}else if(item.pm25>=35 && item.pm25<50){
+					}else if(item.pm25>=25.1 && item.pm25<=37.5){
 						$('.'+id+'_'+item.daily_date).css('color','rgb(253,192,78)');
-					}else if(item.pm25>=25 && item.pm25<35){
+					}else if(item.pm25>=15.1 && item.pm25<25.1){
 						$('.'+id+'_'+item.daily_date).css('color','rgb(0,166,81)');
 					}else{
 						$('.'+id+'_'+item.daily_date).css('color','rgb(0,191,243)');
@@ -147,7 +147,7 @@
 					totals[x] = 0;
 					$(".row"+x).each(function(){
 						var val = parseInt($(this).text());
-						if (val>50) {
+						if (val>37.5) {
 							check=1;
 						}          
 					});   
