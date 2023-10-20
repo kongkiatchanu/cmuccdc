@@ -11,6 +11,8 @@ $lang['nav_7_1']	='Summary data';
 $lang['nav_7_2']	='Daily report';
 $lang['nav_7_3']	='Daily Average';
 $lang['nav_7_4']	='PM2.5 Prophecy';
+$lang['nav_7777']	='Number of PM2.5 exceedance day';
+
 $lang['nav_8']	='Knowledge';
 $lang['nav_8_1']	='Article';
 $lang['nav_8_2']	='Article / Research';

@@ -57,6 +57,7 @@
                                     <a class="dropdown-item" href="<?=base_url('report_hpc1')?>">สถานการณ์PM<sub>2.5</sub>แยกรายพื้นที่ เขตสุภาพที่ 1</a>
                                     <a class="dropdown-item" href="<?=base_url('hpc1')?>" target="_blank">ศูนย์ข้อมูลฝุ่นควัน เขตสุภาพที่ 1</a>
                                     <a class="dropdown-item" href="<?=base_url('cmu_report')?>" target="_blank">รายงานประจำวัน มช.</a>
+                                    <a class="dropdown-item" href="<?=base_url('maintain/pm_standard')?>" target="_blank"><?=translate('nav_7777')?></a>
                                     <div class="dropdown-divider"></div>
                                     <h6 class="dropdown-header"><?=translate('nav_8_5')?></h6>
                                     <!-- <a class="dropdown-item" href="<?=base_url('calculate')?>"><?=translate('nav_8_5_1')?></a> -->
