@@ -49,7 +49,7 @@
 						<a href="<?=base_url('maintain/pm_standard?year=2020')?>" class="btn btn-<?=$year==2020?'info':'secondary'?>">2020</a>
 						<a href="<?=base_url('maintain/pm_standard?year=2021')?>" class="btn btn-<?=$year==2021?'info':'secondary'?>">2021</a>
 						<a href="<?=base_url('maintain/pm_standard?year=2022')?>" class="btn btn-<?=$year==2022?'info':'secondary'?>">2022</a>
-						<a href="<?=base_url('maintain/pm_standard?year=2023')?>" class="btn btn-<?=$year==2022?'info':'secondary'?>">2023</a>
+						<a href="<?=base_url('maintain/pm_standard?year=2023')?>" class="btn btn-<?=$year==2023?'info':'secondary'?>">2023</a>
 					</div>
 					<h5 class="mb-3">Province Filter</h5><hr/>
 					<select class="form-control" id="province">
