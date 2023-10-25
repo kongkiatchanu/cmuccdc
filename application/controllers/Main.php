@@ -816,7 +816,13 @@ class Main extends CI_Controller {
 			if($rsProfile->dustboy_id!=null){
 				$rsAir = json_decode(file_get_contents($this->API_URI.'airinfo'));
 				$rsForcast = json_decode(file_get_contents('https://www-old.cmuccdc.org/api2/dustboy/forecast/'.$rsProfile->dustboy_id));
-				$this->siteinfo['pre_title'] = $rsProfile->dustboy_name_th;
+
+				if($this->s_lang=="english"){
+					$this->siteinfo['pre_title'] = $rsProfile->dustboy_name_en;
+				}else{
+					$this->siteinfo['pre_title'] = $rsProfile->dustboy_name_th;
+				}
+				
 				$rs = array( 
 					"rsStat" 			=> $this->rsStat,
 					"_lang" 			=> $this->s_lang,
@@ -841,7 +847,9 @@ class Main extends CI_Controller {
 				$rsAir = json_decode(file_get_contents($this->API_URI.'airinfo'));
 				$rsForcast = json_decode(file_get_contents('https://www-old.cmuccdc.org/api2/dustboy/forecast/'.$rsProfile->dustboy_id));
 				//print_r($rsForcast);
+
 				$this->siteinfo['pre_title'] = $rsProfile->dustboy_name_th;
+
 				$rs = array( 
 					"rsStat" 			=> $this->rsStat,
 					"_lang" 			=> $this->s_lang,
