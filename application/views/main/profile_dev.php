@@ -202,14 +202,24 @@
 									<div class="table-responsive">
 										<table class="table table-hover">
 											<thead class="thead-dark">
-												<tr>
-												  <th class="align-middle" width="10%" style="text-align:center;">สัญลักษณ์</th>
-												  
-												  <th class="align-middle" width="15%" style="text-align:center;">PM<sub>2.5</sub><br/>เฉลี่ย 24 ชั่วโมงต่อเนื่อง : &#x03BC;g/m<sup>3</sup></th>
-												  <th class="align-middle" width="15%" style="text-align:center;">PM<sub>10</sub><br/>เฉลี่ย 24 ชั่วโมงต่อเนื่อง : &#x03BC;g/m<sup>3</sup></th>
-												  <th class="align-middle" width="16%" style="text-align:center;">ความหมาย</th>
-												  <th class="align-middle" width="37%" style="text-align:center;">แนวทางการป้องกัน</th>
-												</tr>
+												<?php if($_lang=="thailand"){?>
+													<tr>
+													<th class="align-middle" width="10%" style="text-align:center;">สัญลักษณ์</th>
+													<th class="align-middle" width="15%" style="text-align:center;">PM<sub>2.5</sub><br/>เฉลี่ย 24 ชั่วโมงต่อเนื่อง : &#x03BC;g/m<sup>3</sup></th>
+													<th class="align-middle" width="15%" style="text-align:center;">PM<sub>10</sub><br/>เฉลี่ย 24 ชั่วโมงต่อเนื่อง : &#x03BC;g/m<sup>3</sup></th>
+													<th class="align-middle" width="16%" style="text-align:center;">ความหมาย</th>
+													<th class="align-middle" width="37%" style="text-align:center;">แนวทางการป้องกัน</th>
+													</tr>
+												<?php }else{?>
+													<tr>
+													<th class="align-middle" width="10%" style="text-align:center;">Symbol</th>
+													<th class="align-middle" width="15%" style="text-align:center;">PM<sub>2.5</sub><br/>(daily average)  : &#x03BC;g/m<sup>3</sup></th>
+													<th class="align-middle" width="15%" style="text-align:center;">PM<sub>10</sub><br/>(daily average)  : &#x03BC;g/m<sup>3</sup></th>
+													<th class="align-middle" width="16%" style="text-align:center;">AQI category</th>
+													<th class="align-middle" width="37%" style="text-align:center;">Description of Air quality</th>
+													</tr>
+												<?php }?>
+												
 											</thead>
 											<tbody>
 											<?php foreach($rsAir as $val){?>
@@ -218,8 +228,8 @@
 													
 													<td style="vertical-align: middle;text-align:center;"><?=$val->air_pm25?></td>
 													<td style="vertical-align: middle;text-align:center;"><?=$val->air_pm10?></td>
-													<td style="vertical-align: middle;text-align:center;"><?=$val->air_name?></td>
-													<td style="vertical-align: middle;"><?=$val->air_detail?></td>
+													<td style="vertical-align: middle;text-align:center;"><?=$_lang=="thailand"? $val->air_name:$val->air_name_en?></td>
+													<td style="vertical-align: middle;"><?=$_lang=="thailand"?$val->air_detail:$val->air_detail_en?></td>
 												</tr>
 											<?php }?>
 											</tbody>
