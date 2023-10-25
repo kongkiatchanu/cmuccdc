@@ -197,7 +197,7 @@
 							<div class="row" style="margin-bottom:50px;">
 								<div class="col-md-12">
 									<div class="mb-3">
-										<h3 class="text-center aqi-title">ดัชนีคุณภาพอากาศของประเทศไทย</h3>
+										<h3 class="text-center aqi-title"><?=$_lang== 'thailand'?'ดัชนีคุณภาพอากาศของประเทศไทย':'Thailand Air Quality Index'?></h3>
 									</div>
 									<div class="table-responsive">
 										<table class="table table-hover">
