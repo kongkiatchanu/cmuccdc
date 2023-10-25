@@ -327,7 +327,12 @@
 									<div class="mb-3">
 										<h3 class="text-center aqi-title">Air Quality Index scale as defined by<br/> the US-EPA 2016 standard</h3>
 									</div>
-									<p><img src="/template/img/us-01.jpg" style="width:100%"></p>
+									<?php if($_lang== 'thailand'){?>
+										<p><img src="/template/img/us-01.jpg" style="width:100%"></p>
+									<?php }else{?>
+										<p><img src="/template/img/us-02.jpg" style="width:100%"></p>
+									<?php }?>
+									
 								</div>
 							</div>
 						</div>
