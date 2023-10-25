@@ -239,9 +239,15 @@
 												<div class="col-sm-5 text-center"><div id="pm"><?=$rsProfile['value']!=null? $rsProfile['value']->pm25 : '-'?><span>μg/m<sup>3</sup></span></div></div>
 												<div class="col-sm-7 pt-3 pb-3">
 													<div id="detail">
+													<?php if($_lang== 'thailand'){?>
 														<p class="des"><?=$rsProfile['value']!=null? $rsProfile['value']->us_title: 'ไม่มีข้อมูล'?></p>
 														<span class="timer"><i class="far fa-calendar-alt"></i> <?=$rsProfile['value']!=null? getProfileDate($rsProfile['value']->log_datetime,0) : '-'?></span>
 														<span class="timer"><i class="far fa-clock"></i> <?=$rsProfile['value']!=null? getProfilehour($rsProfile['value']->log_datetime) : '-'?></span>
+													<?php }else{?>
+														<p class="des"><?=$rsProfile['value']!=null? $rsProfile['value']->us_title_en: '-'?></p>
+														<span class="timer"><i class="far fa-calendar-alt"></i> <?=$rsProfile['value']!=null? date('D, d-M-y', strtotime($rsProfile['value']->log_datetime,0)) : '-'?></span>
+														<span class="timer"><i class="far fa-clock"></i> <?=$rsProfile['value']!=null? date('H:i', strtotime($rsProfile['value']->log_datetime,0)) : '-'?></span>
+													<?php }?>
 													</div>
 												</div>
 											</div>
