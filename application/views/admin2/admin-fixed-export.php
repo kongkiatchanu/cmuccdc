@@ -6,7 +6,7 @@
 ?>
     <div class="table-responsive mb-5">
         <table id="table-test" class="table table-custom" style="width:100%">
-            <thead>
+            <thead style="text-align:center">
                 <tr class="table-row-header">
                     <td class="table-header" width="80" rowspan="2">หมายเลขเครื่อง</td>
                     <td class="table-header" width="400" rowspan="2">จุดติดตั้ง</td>
