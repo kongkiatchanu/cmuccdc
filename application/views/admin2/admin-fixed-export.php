@@ -43,18 +43,17 @@
 						<td class="table-detail text-center"><?=$value->location_id?></td>
 						<td class="table-detail"><?=$value->location_name?></td>
 						<td class="table-detail text-center"><?=$value->fixed_type?></td>
-
 						<td class="table-detail text-center"><?=$value->fixed_come_date=="0000-00-00"?'-':'<span title="'.$value->fixed_come_date.'">'.$value->fixed_come_date.'<br/>'.$value->fixed_come_date.'</span>'?></td>
-						<td class="table-detail"></td>
+						<td class="table-detail"><?=$value->fixed_come_comment?></td>
 						<td class="table-detail text-center"><?=$value->fixed_get_date=="0000-00-00"?'-':$value->fixed_get_date?></td>
-                        <td class="table-detail"></td>
+                        <td class="table-detail"><?=$value->fixed_get_comment?></td>
 						<td class="table-detail text-center"><?=$value->fixed_send_date=="0000-00-00"?'-':$value->fixed_send_date?></td>
-                        <td class="table-detail"></td>
-                        <td class="table-detail"></td>
+                        <td class="table-detail"><?=$value->fixed_send_comment?></td>
+                        <td class="table-detail"><?=$value->fixed_send_type?></td>
                         <td class="table-detail text-center"><?=$value->fixed_repair_date=="0000-00-00"?'-':$value->fixed_repair_date?></td>
-                        <td class="table-detail"></td>
+                        <td class="table-detail"><?=$value->fixed_repair_comment?></td>
                         <td class="table-detail text-center"><?=$value->fixed_public_date=="0000-00-00"?'-':$value->fixed_public_date?></td>
-                        <td class="table-detail"></td>
+                        <td class="table-detail"><?=$value->fixed_public_comment?></td>
 
                         <td class="table-detail text-center"><?=$value->fixed_public_post?></td>
                         <td class="table-detail text-center"><?=$ar_status[$value->fixed_status]?></td>
