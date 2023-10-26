@@ -1,7 +1,7 @@
 <?php 
-//header("Content-type: application/vnd.ms-excel");
+header("Content-type: application/vnd.ms-excel");
 // header('Content-type: application/csv'); //*** CSV ***//
-//header("Content-Disposition: attachment; filename=dustboy_date.xls");
+header("Content-Disposition: attachment; filename=dustboy_fixed.xls");
     $ar_status = array(
         'ไม่กำหนด', 'แจ้งซ่อม', 'รับเครื่อง', 'ซ่อมบำรุง', 'ทดสอบ', 'ขนส่ง/ส่งคืน'
     );
