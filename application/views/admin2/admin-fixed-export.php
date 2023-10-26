@@ -2,7 +2,9 @@
 //header("Content-type: application/vnd.ms-excel");
 // header('Content-type: application/csv'); //*** CSV ***//
 //header("Content-Disposition: attachment; filename=dustboy_date.xls");
-
+    $ar_status = array(
+        'ไม่กำหนด', 'แจ้งซ่อม', 'รับเครื่อง', 'ซ่อมบำรุง', 'ทดสอบ', 'ขนส่ง/ส่งคืน'
+    );
 ?>
     <div class="table-responsive mb-5">
         <table id="table-test" class="table table-custom" style="width:100%">
@@ -37,15 +39,29 @@
             <tbody>
                 <?php $i=0;foreach ($rsList as $value) {$i++;?>  
 				
-					<!-- <tr class="table-row-detail">
+					<tr class="table-row-detail">
 						<td class="table-detail text-center"><?=$value->location_id?></td>
 						<td class="table-detail"><?=$value->location_name?></td>
 						<td class="table-detail text-center"><?=$value->fixed_type?></td>
-						<td class="table-detail text-center"><?=$value->fixed_get_date=="0000-00-00"?'-':'<span title="'.$value->fixed_get_comment.'">'.$value->fixed_get_date.'<br/>'.$value->fixed_get_comment.'</span>'?></td>
-						<td class="table-detail text-center"><?=$value->fixed_send_date=="0000-00-00"?'-':$value->fixed_send_date?></td>
-						<td class="table-detail text-center"><?=$value->fixed_repair_date=="0000-00-00"?'-':$value->fixed_repair_date?></td>
 
-					</tr> -->
+						<td class="table-detail text-center"><?=$value->fixed_come_date=="0000-00-00"?'-':'<span title="'.$value->fixed_come_date.'">'.$value->fixed_come_date.'<br/>'.$value->fixed_come_date.'</span>'?></td>
+						<td class="table-detail"></td>
+						<td class="table-detail text-center"><?=$value->fixed_get_date=="0000-00-00"?'-':$value->fixed_get_date?></td>
+                        <td class="table-detail"></td>
+						<td class="table-detail text-center"><?=$value->fixed_send_date=="0000-00-00"?'-':$value->fixed_send_date?></td>
+                        <td class="table-detail"></td>
+                        <td class="table-detail"></td>
+                        <td class="table-detail text-center"><?=$value->fixed_repair_date=="0000-00-00"?'-':$value->fixed_repair_date?></td>
+                        <td class="table-detail"></td>
+                        <td class="table-detail text-center"><?=$value->fixed_public_date=="0000-00-00"?'-':$value->fixed_public_date?></td>
+                        <td class="table-detail"></td>
+
+                        <td class="table-detail text-center"><?=$value->fixed_public_post?></td>
+                        <td class="table-detail text-center"><?=$ar_status[$value->fixed_status]?></td>
+                        
+                        
+
+					</tr>
                 <?php }?>
 
             </tbody>
