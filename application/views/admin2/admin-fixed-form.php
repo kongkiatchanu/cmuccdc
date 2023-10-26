@@ -150,7 +150,7 @@
 					<div style="position:relative;margin-bottom:10px;">
 						<a class='btn btn-primary btn-block' href='javascript:;'>
 							<i class="fa fa-upload"></i>
-							<input type="file" name="fixed_get_file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info-1").html($(this).val());'>
+							<input type="file" name="fixed_get_file" class="btn-upload" name="file_source" size="40"  onchange='$("#upload-file-info-1").html($(this).val());'>
 						</a>
 					</div>
 				</div>
@@ -175,7 +175,7 @@
 					<div style="position:relative;margin-bottom:10px;">
 						<a class='btn btn-primary btn-block' href='javascript:;'>
 							<i class="fa fa-upload"></i>
-							<input type="file" name="fixed_send_file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info-2").html($(this).val());'>
+							<input type="file" name="fixed_send_file" class="btn-upload" name="file_source" size="40"  onchange='$("#upload-file-info-2").html($(this).val());'>
 						</a>
 					</div>
 				</div>
@@ -215,7 +215,7 @@
 					<div style="position:relative;margin-bottom:10px;">
 						<a class='btn btn-primary btn-block' href='javascript:;'>
 							<i class="fa fa-upload"></i>
-							<input type="file" name="fixed_repair_file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info-3").html($(this).val());'>
+							<input type="file" name="fixed_repair_file" class="btn-upload" name="file_source" size="40"  onchange='$("#upload-file-info-3").html($(this).val());'>
 						</a>
 					</div>
 				</div>
@@ -240,7 +240,7 @@
 					<div style="position:relative;margin-bottom:10px;">
 						<a class='btn btn-primary btn-block' href='javascript:;'>
 							<i class="fa fa-upload"></i>
-							<input type="file" name="fixed_public_file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info-4").html($(this).val());'>
+							<input type="file" name="fixed_public_file" class="btn-upload" name="file_source" size="40"  onchange='$("#upload-file-info-4").html($(this).val());'>
 						</a>
 					</div>
 				</div>
