@@ -13,11 +13,24 @@
                     <td class="table-header" width="70" rowspan="2">ประเภท</td>
                     <td class="table-header" width="300" colspan="2">วันที่ส่งเครื่องมาซ่อม</td>
                     <td class="table-header" width="300" colspan="2">วันที่รับเครื่อง</td>
-                    <td class="table-header" width="150" colspan="3">วันที่ส่งซ่อม</td>
+                    <td class="table-header" width="450" colspan="3">วันที่ส่งซ่อม</td>
                     <td class="table-header" width="300" colspan="2">วันที่รับเครื่องหลังจากซ่อม</td>
                     <td class="table-header" width="300" colspan="2">วันที่ส่งคืน</td>
                     <td class="table-header" width="150" rowspan="2">รหัสไปรษณ์ย์</td>
                     <td class="table-header" width="150" rowspan="2">สถานะการส่งซ่อม</td>
+                </tr>
+                <tr>
+                    <td class="table-header" width="150">วันที่</td>
+                    <td class="table-header" width="150">หมายเหตุ</td>
+                    <td class="table-header" width="150">วันที่</td>
+                    <td class="table-header" width="150">หมายเหตุ</td>
+                    <td class="table-header" width="150">วันที่</td>
+                    <td class="table-header" width="150">หมายเหตุ</td>
+                    <td class="table-header" width="150">ผู้ผลิต</td>
+                    <td class="table-header" width="150">วันที่</td>
+                    <td class="table-header" width="150">หมายเหตุ</td>
+                    <td class="table-header" width="150">วันที่</td>
+                    <td class="table-header" width="150">หมายเหตุ</td>
 
                 </tr>
             </thead>
