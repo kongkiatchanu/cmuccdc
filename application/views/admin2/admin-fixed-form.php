@@ -55,6 +55,19 @@
 		$q = $this->uri->segment(4);
 	}
 ?>
+<style>
+	.btn-upload{
+		position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: transparent;
+  color: transparent;
+  width: inherit;
+}
+	}
+</style>
 
 <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
@@ -110,7 +123,7 @@
 					<div style="position:relative;margin-bottom:10px;">
 						<a class='btn btn-primary btn-block' href='javascript:;'>
 							<i class="fa fa-upload"></i>
-							<input type="file" name="fixed_come_file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_source" size="40"  onchange='$("#upload-file-info-0").html($(this).val());'>
+							<input type="file" name="fixed_come_file" class="btn-upload" name="file_source" size="40"  onchange='$("#upload-file-info-0").html($(this).val());'>
 						</a>
 					</div>
 				</div>
