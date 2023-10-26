@@ -43,7 +43,7 @@
 						<td class="table-detail text-center"><?=$value->location_id?></td>
 						<td class="table-detail"><?=$value->location_name?></td>
 						<td class="table-detail text-center"><?=$value->fixed_type?></td>
-						<td class="table-detail text-center"><?=$value->fixed_come_date=="0000-00-00"?'-':'<span title="'.$value->fixed_come_date.'">'.$value->fixed_come_date.'<br/>'.$value->fixed_come_date.'</span>'?></td>
+						<td class="table-detail text-center"><?=$value->fixed_come_date=="0000-00-00"?'-':$value->fixed_come_date?></td>
 						<td class="table-detail"><?=$value->fixed_come_comment?></td>
 						<td class="table-detail text-center"><?=$value->fixed_get_date=="0000-00-00"?'-':$value->fixed_get_date?></td>
                         <td class="table-detail"><?=$value->fixed_get_comment?></td>
