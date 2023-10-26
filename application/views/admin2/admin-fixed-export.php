@@ -1,7 +1,7 @@
 <?php 
-header("Content-type: application/vnd.ms-excel");
+//header("Content-type: application/vnd.ms-excel");
 // header('Content-type: application/csv'); //*** CSV ***//
-header("Content-Disposition: attachment; filename=dustboy_date.xls");
+//header("Content-Disposition: attachment; filename=dustboy_date.xls");
 
 ?>
     <div class="table-responsive mb-5">
