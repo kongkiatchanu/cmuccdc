@@ -172,6 +172,23 @@ function report_typePM25RUS($val)
 	<input type="hidden" id="db_lng" value="<?= $rsProfile['dustboy_lng'] ?>">
 	<input type="hidden" id="db_name" value="<?= $rsProfile['dustboy_name_th'] ?>">
 	<div id="th_map"></div>
+	<div class="container">
+
+		<div class="row pt-3">
+			<div class="col-md-12">
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" id="THAQI-tab" data-toggle="tab" href="#THAQI" role="tab"
+							aria-controls="THAQI" aria-selected="false">TH</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="USAQI-tab" data-toggle="tab" href="#USAQI" role="tab"
+							aria-controls="USAQI" aria-selected="true">US</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 
 
 </div>
