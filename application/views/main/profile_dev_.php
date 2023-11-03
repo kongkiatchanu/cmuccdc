@@ -396,101 +396,101 @@
 		});
 		
 		
-		var colors = ['#05a8de', '#04b04f', '#fccc0a', '#f89939', '#ed2224'];
-		var colors2 = ['#01996c', '#ffdc5b', '#eb8440', '#d10236', '#8116b9', '#a00837'];
-		<?php $i=0;foreach($rsForcast->forecast_days as $item){$i++;?>
-		<?php if($i>1){?>
-		Highcharts.chart('forcast_container_<?=$i?>', {
-			chart: {
-				type: 'column'
-			},
-			rangeSelector : {enabled: false},
-			credits: {enabled: false}, 
-			navigator: {enabled: false},
-			scrollbar: { enabled: false },
-			exporting: { enabled: false },
-			title: {text: '<?=$item->day_name_th?>'},
-			xAxis: {type: 'category',labels: {rotation: -45,style: {fontSize: '9px',fontFamily: 'Verdana, sans-serif'}}},
-			yAxis: {min: 0,title: {text: 'PM2.5 (μg/m<sup>3</sup>)'}},
-			legend: {enabled: false},
-			tooltip: {pointFormat: 'PM2.5: <b>{point.y} (μg/m<sup>3</sup>)</b>'},
-			plotOptions: {
-				column: {
-					zones: [{
-						value: 25, 
-						color: colors[0]
-					},{
-						value: 38, 
-						color: colors[1]
-					},{
-						value: 51, 
-						color: colors[2]
-					},{
-						value: 91, 
-						color: colors[3]
-					},{
-						color: colors[4]
-					}]
-				}
-			},
-			series: [{
-				name: 'Population',
-				data: [
-				<?php $k=0;foreach($item->forecast_hours as $val_hour){$k++;?>
-					<?php if($k!=1){echo ',';}?>
-					['<?=$val_hour->time?>', <?=$val_hour->hour_avg_pm25?>]
-				<?php }?>
-				]
-			}]
-		});
-		Highcharts.chart('usforcast_container_<?=$i?>', {
-			chart: {
-				type: 'column'
-			},
-			rangeSelector : {enabled: false},
-			credits: {enabled: false}, 
-			navigator: {enabled: false},
-			scrollbar: { enabled: false },
-			exporting: { enabled: false },
-			title: {text: '<?=$item->day_name_th?>'},
-			xAxis: {type: 'category',labels: {rotation: -45,style: {fontSize: '9px',fontFamily: 'Verdana, sans-serif'}}},
-			yAxis: {min: 0,title: {text: 'PM2.5 (μg/m<sup>3</sup>)'}},
-			legend: {enabled: false},
-			tooltip: {pointFormat: 'PM2.5: <b>{point.y} (μg/m<sup>3</sup>)</b>'},
-			plotOptions: {
-				column: {
-					zones: [{
-						value: 12, 
-						color: colors2[0]
-					},{
-						value: 36, 
-						color: colors2[1]
-					},{
-						value: 56, 
-						color: colors2[2]
-					},{
-						value: 151, 
-						color: colors2[3]
-					},{
-						value: 251, 
-						color: colors2[4]
-					},{
-						color: colors2[5]
-					}]
-				}
-			},
-			series: [{
-				name: 'Population',
-				data: [
-				<?php $k=0;foreach($item->forecast_hours as $val_hour){$k++;?>
-					<?php if($k!=1){echo ',';}?>
-					['<?=$val_hour->time?>', <?=$val_hour->hour_avg_pm25?>]
-				<?php }?>
-				]
-			}]
-		});
-		<?php }?>
-		<?php }?>
+		// var colors = ['#05a8de', '#04b04f', '#fccc0a', '#f89939', '#ed2224'];
+		// var colors2 = ['#01996c', '#ffdc5b', '#eb8440', '#d10236', '#8116b9', '#a00837'];
+		// <?php $i=0;foreach($rsForcast->forecast_days as $item){$i++;?>
+		// <?php if($i>1){?>
+		// Highcharts.chart('forcast_container_<?=$i?>', {
+		// 	chart: {
+		// 		type: 'column'
+		// 	},
+		// 	rangeSelector : {enabled: false},
+		// 	credits: {enabled: false}, 
+		// 	navigator: {enabled: false},
+		// 	scrollbar: { enabled: false },
+		// 	exporting: { enabled: false },
+		// 	title: {text: '<?=$item->day_name_th?>'},
+		// 	xAxis: {type: 'category',labels: {rotation: -45,style: {fontSize: '9px',fontFamily: 'Verdana, sans-serif'}}},
+		// 	yAxis: {min: 0,title: {text: 'PM2.5 (μg/m<sup>3</sup>)'}},
+		// 	legend: {enabled: false},
+		// 	tooltip: {pointFormat: 'PM2.5: <b>{point.y} (μg/m<sup>3</sup>)</b>'},
+		// 	plotOptions: {
+		// 		column: {
+		// 			zones: [{
+		// 				value: 25, 
+		// 				color: colors[0]
+		// 			},{
+		// 				value: 38, 
+		// 				color: colors[1]
+		// 			},{
+		// 				value: 51, 
+		// 				color: colors[2]
+		// 			},{
+		// 				value: 91, 
+		// 				color: colors[3]
+		// 			},{
+		// 				color: colors[4]
+		// 			}]
+		// 		}
+		// 	},
+		// 	series: [{
+		// 		name: 'Population',
+		// 		data: [
+		// 		<?php $k=0;foreach($item->forecast_hours as $val_hour){$k++;?>
+		// 			<?php if($k!=1){echo ',';}?>
+		// 			['<?=$val_hour->time?>', <?=$val_hour->hour_avg_pm25?>]
+		// 		<?php }?>
+		// 		]
+		// 	}]
+		// });
+		// Highcharts.chart('usforcast_container_<?=$i?>', {
+		// 	chart: {
+		// 		type: 'column'
+		// 	},
+		// 	rangeSelector : {enabled: false},
+		// 	credits: {enabled: false}, 
+		// 	navigator: {enabled: false},
+		// 	scrollbar: { enabled: false },
+		// 	exporting: { enabled: false },
+		// 	title: {text: '<?=$item->day_name_th?>'},
+		// 	xAxis: {type: 'category',labels: {rotation: -45,style: {fontSize: '9px',fontFamily: 'Verdana, sans-serif'}}},
+		// 	yAxis: {min: 0,title: {text: 'PM2.5 (μg/m<sup>3</sup>)'}},
+		// 	legend: {enabled: false},
+		// 	tooltip: {pointFormat: 'PM2.5: <b>{point.y} (μg/m<sup>3</sup>)</b>'},
+		// 	plotOptions: {
+		// 		column: {
+		// 			zones: [{
+		// 				value: 12, 
+		// 				color: colors2[0]
+		// 			},{
+		// 				value: 36, 
+		// 				color: colors2[1]
+		// 			},{
+		// 				value: 56, 
+		// 				color: colors2[2]
+		// 			},{
+		// 				value: 151, 
+		// 				color: colors2[3]
+		// 			},{
+		// 				value: 251, 
+		// 				color: colors2[4]
+		// 			},{
+		// 				color: colors2[5]
+		// 			}]
+		// 		}
+		// 	},
+		// 	series: [{
+		// 		name: 'Population',
+		// 		data: [
+		// 		<?php $k=0;foreach($item->forecast_hours as $val_hour){$k++;?>
+		// 			<?php if($k!=1){echo ',';}?>
+		// 			['<?=$val_hour->time?>', <?=$val_hour->hour_avg_pm25?>]
+		// 		<?php }?>
+		// 		]
+		// 	}]
+		// });
+		// <?php }?>
+		// <?php }?>
 		
 		</script>
 		
