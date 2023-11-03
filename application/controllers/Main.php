@@ -823,6 +823,7 @@ class Main extends CI_Controller {
 					$this->siteinfo['pre_title'] = $rsProfile->dustboy_name_th;
 				}
 				
+				exit;
 				$rs = array( 
 					"rsStat" 			=> $this->rsStat,
 					"_lang" 			=> $this->s_lang,
