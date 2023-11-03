@@ -94,7 +94,7 @@
 						<div class="p-3 tab-pane fade show active" id="THAQI" role="tabpanel" aria-labelledby="THAQI-tab">
 							<div class="row" style="margin-bottom:50px;">
 								<div class="col-sm-12">
-									<h4 class="sub-section">Air Quality</h4>
+									<h4 class="sub-section">Air Quality..</h4>
 									<div class="row mb-3" id="airDetail">
 										<div class="col-md-6">
 											<div class="row number forth">
