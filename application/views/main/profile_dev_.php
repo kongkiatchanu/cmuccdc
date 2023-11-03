@@ -461,12 +461,12 @@ function report_typePM25RUS($val)
 				</div>
 			</div>
 
-			<div class="col-md-12 mb-5" style="background-color:#fff">
+			
+		</div>
+		<div class="col-md-12 mb-5" style="background-color:#fff">
 					<a target="_blank" href="<?=base_url()?>download_json/<?=$rsProfile['dustboy_id']?>" class="btn btn-secondary btn-sm"><i class="fa fa-globe "></i> JSON</a>
 					<a target="_blank" href="<?=base_url()?>download_excel/<?=$rsProfile['dustboy_id']?>" class="btn btn-success btn-sm"><i class="fa fa-download"></i> Excel</a>
 			</div>
-		</div>
-
 		
 	</div>
 
