@@ -186,6 +186,269 @@ function report_typePM25RUS($val)
 							aria-controls="USAQI" aria-selected="true">US</a>
 					</li>
 				</ul>
+				<div class="tab-content explain" id="myTabContent">
+						<div class="p-3 tab-pane fade show active" id="THAQI" role="tabpanel" aria-labelledby="THAQI-tab">
+							<div class="row" style="margin-bottom:50px;">
+								<div class="col-sm-12">
+									<h4 class="sub-section">Air Quality</h4>
+									<div class="row mb-3" id="airDetail">
+										<div class="col-md-6">
+											<div class="row number forth">
+												<div class="col-sm-5 text-center"><div id="pm"><?=$rsProfile['value']!=null? $rsProfile['value']->pm25 : '-'?><span>μg/m<sup>3</sup></span></div></div>
+												<div class="col-sm-7 pt-3 pb-3">
+													<div id="detail">
+														<?php if($_lang== 'thailand'){?>
+														<p class="des"><?=$rsProfile['value']!=null? $rsProfile['value']->th_title: 'ไม่มีข้อมูล'?></p>
+														<span class="timer"><i class="far fa-calendar-alt"></i> <?=$rsProfile['value']!=null? getProfileDate($rsProfile['value']->log_datetime,0) : '-'?></span>
+														<span class="timer"><i class="far fa-clock"></i> <?=$rsProfile['value']!=null? getProfilehour($rsProfile['value']->log_datetime) : '-'?></span>
+														<?php }else{?>
+														<p class="des"><?=$rsProfile['value']!=null? $rsProfile['value']->th_title_en: '-'?></p>
+														<span class="timer"><i class="far fa-calendar-alt"></i> <?=$rsProfile['value']!=null? date('D, d-M-y', strtotime($rsProfile['value']->log_datetime,0)) : '-'?></span>
+														<span class="timer"><i class="far fa-clock"></i> <?=$rsProfile['value']!=null? date('H:i', strtotime($rsProfile['value']->log_datetime,0)) : '-'?></span>
+														
+														<?php }?>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<p class="text-center" id="CalculateAQI25GaugeContainer"></p>
+										</div>
+										
+									</div>
+									<div class="row mb-3">
+										<div class="col-md-12">
+											<h5 class="chart-title">PM<sub>2.5</sub> (μg/m<sup>3</sup>) Hourly</h5>
+											<div class="chart_box">
+												<iframe src="https://www.cmuccdc.org/assets/php/getDatabaseColumnChart2.php?reportType=h&dataType=pm25&source=<?=$rsProfile['dustboy_id']?>&key=<?=md5('s'.date('ymdh'))?>" marginheight="0" marginwidth="0" scrolling="no" width="100%" height="250" frameborder="0"></iframe>
+											</div>
+										</div>
+									</div>
+									
+									<div class="row mb-3">
+										<div class="col-md-12">
+											<h5 class="chart-title">PM<sub>2.5</sub> (μg/m<sup>3</sup>) Daily</h5>
+											<div class="chart_box">
+												<iframe src="https://www.cmuccdc.org/assets/php/getDatabaseColumnChart.php?reportType=d&dataType=pm25&source=<?=$rsProfile['dustboy_id']?>&key=<?=md5('s'.date('ymdh'))?>" marginheight="0" marginwidth="0" scrolling="no" width="100%" height="250" frameborder="0"></iframe>
+											</div>
+										</div>
+										
+									</div>	
+								</div>
+							</div>
+							<style>
+							.dforcast{color:#fff;margin: 0;font-size: 16px;text-align: center;padding: 5px 0;border-top-right-radius: 10px;border-top-left-radius: 10px;}
+							.bforcast_content{padding:10px;color:#333;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;}
+							.bforcast_content span.detail{font-size: x-small;padding: 5px;background-color: #fff;border-radius: 5px;}
+							.forcastchart{height:250px;width:100%}
+							.bforcast{cursor:pointer;}
+							.us_bforcast{cursor:pointer;}
+							</style>
+							
+							<?php if(count($rsForcast->forecast_days)>0){?>
+							<?php $col=12/(count($rsForcast->forecast_days));?>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="mb-3">
+										<h3 class="text-center aqi-title">ค่าพยากรณ์ PM2.5 ล่วงหน้า</h3>
+									</div>
+									<div class="row">
+										<div class="col-md-8 offset-md-2">
+											<div class="row">
+												<?php $i=0;foreach($rsForcast->forecast_days as $item){$i++;?>
+												<?php //if($i>1){?>
+												<div class="col-md-<?=$col?> mb-3 bforcast" bid="<?=$i?>">
+													<h5 class="dforcast" style="background-color: rgb(<?=$item->day_th_color?>,.8);"><?=$item->day_name_th?> (<?=ConvertToThaiDateForcast($item->day_date,1)?>)</h5>
+													<div class="bforcast_content text-center" style="background-color: rgb(<?=$item->day_th_color?>,.5)">
+														<div class="row mb-2">
+															<div class="col-12">
+																<img src="/template/image/<?=$item->day_th_icon=="th-dust-boy-05" || $item->day_th_icon=="th-dust-boy-01"? $item->day_th_icon.'.png':$item->day_th_icon.'.svg'?>" width="<?=$item->day_th_icon=="th-dust-boy-05" || $item->day_th_icon=="th-dust-boy-01"? '120':'50'?>">
+															</div>
+														</div>
+														<div class="row mb-3">
+															<div class="col-12">
+																<span class="detail" style="color: rgb(<?=$item->day_th_color?>);">PM2.5 = <?=report_typePM25R($item->day_avg_pm25)?> (μg/m<sup>3</sup>)</span><br/>
+																<span style="font-size: x-small;color: #fff;">ดูข้อมูลรายชั่วโมง</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<?php //}?>
+												<?php }?>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row" id="fcart"style="margin-bottom:50px;">
+								<div class="col-md-12">
+									<?php $i=0;foreach($rsForcast->forecast_days as $item){$i++;?>
+									<div style="display:none;" class="forcastchart" id="forcast_container_<?=$i?>"></div>
+									<?php }?>
+								</div>
+							</div>
+							<?php }?>
+							
+							<div class="row" style="margin-bottom:50px;">
+								<div class="col-md-12">
+									<div class="mb-3">
+										<h3 class="text-center aqi-title"><?=$_lang== 'thailand'?'ดัชนีคุณภาพอากาศของประเทศไทย':'Thailand Air Quality Index'?></h3>
+									</div>
+									<div class="table-responsive">
+										<table class="table table-hover">
+											<thead class="thead-dark">
+												<?php if($_lang=="thailand"){?>
+													<tr>
+													<th class="align-middle" width="10%" style="text-align:center;">สัญลักษณ์</th>
+													<th class="align-middle" width="15%" style="text-align:center;">PM<sub>2.5</sub><br/>เฉลี่ย 24 ชั่วโมงต่อเนื่อง : &#x03BC;g/m<sup>3</sup></th>
+													<th class="align-middle" width="15%" style="text-align:center;">PM<sub>10</sub><br/>เฉลี่ย 24 ชั่วโมงต่อเนื่อง : &#x03BC;g/m<sup>3</sup></th>
+													<th class="align-middle" width="16%" style="text-align:center;">ความหมาย</th>
+													<th class="align-middle" width="37%" style="text-align:center;">แนวทางการป้องกัน</th>
+													</tr>
+												<?php }else{?>
+													<tr>
+													<th class="align-middle" width="10%" style="text-align:center;">Symbol</th>
+													<th class="align-middle" width="15%" style="text-align:center;">PM<sub>2.5</sub><br/>(daily average)  : &#x03BC;g/m<sup>3</sup></th>
+													<th class="align-middle" width="15%" style="text-align:center;">PM<sub>10</sub><br/>(daily average)  : &#x03BC;g/m<sup>3</sup></th>
+													<th class="align-middle" width="16%" style="text-align:center;">AQI category</th>
+													<th class="align-middle" width="37%" style="text-align:center;">Description of Air quality</th>
+													</tr>
+												<?php }?>
+												
+											</thead>
+											<tbody>
+											<?php foreach($rsAir as $val){?>
+												<tr style="background-color:<?=$val->air_color?>;height: 100px;">
+													<td style="text-align:center;"><img src="/template/img/ccdc-0<?=$val->air_id?>-en.png" height="100"></td>
+													
+													<td style="vertical-align: middle;text-align:center;"><?=$val->air_pm25?></td>
+													<td style="vertical-align: middle;text-align:center;"><?=$val->air_pm10?></td>
+													<td style="vertical-align: middle;text-align:center;"><?=$_lang=="thailand"? $val->air_name:$val->air_name_en?></td>
+													<td style="vertical-align: middle;"><?=$_lang=="thailand"?$val->air_detail:$val->air_detail_en?></td>
+												</tr>
+											<?php }?>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="p-3 tab-pane fade" id="USAQI" role="tabpanel" aria-labelledby="USAQI-tab">
+							<div class="row mb-3">
+								
+								<div class="col-sm-12">
+									<h4 class="sub-section">Air Quality</h4>
+									<div class="row mb-3" id="airDetail">
+										<div class="col-md-6">
+											<div class="row number forus">
+												<div class="col-sm-5 text-center"><div id="pm"><?=$rsProfile['value']!=null? $rsProfile['value']->pm25 : '-'?><span>μg/m<sup>3</sup></span></div></div>
+												<div class="col-sm-7 pt-3 pb-3">
+													<div id="detail">
+													<?php if($_lang== 'thailand'){?>
+														<p class="des"><?=$rsProfile['value']!=null? $rsProfile['value']->us_title: 'ไม่มีข้อมูล'?></p>
+														<span class="timer"><i class="far fa-calendar-alt"></i> <?=$rsProfile['value']!=null? getProfileDate($rsProfile['value']->log_datetime,0) : '-'?></span>
+														<span class="timer"><i class="far fa-clock"></i> <?=$rsProfile['value']!=null? getProfilehour($rsProfile['value']->log_datetime) : '-'?></span>
+													<?php }else{?>
+														<p class="des"><?=$rsProfile['value']!=null? $rsProfile['value']->us_title_en: '-'?></p>
+														<span class="timer"><i class="far fa-calendar-alt"></i> <?=$rsProfile['value']!=null? date('D, d-M-y', strtotime($rsProfile['value']->log_datetime,0)) : '-'?></span>
+														<span class="timer"><i class="far fa-clock"></i> <?=$rsProfile['value']!=null? date('H:i', strtotime($rsProfile['value']->log_datetime,0)) : '-'?></span>
+													<?php }?>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<p class="text-center" id="CalculateUSAQI25GaugeContainer"></p>
+										</div>
+										
+									</div>
+									<div class="row mb-3">
+										<div class="col-md-12">
+											<h5 class="chart-title">PM<sub>2.5</sub> (μg/m<sup>3</sup>) Hourly</h5>
+											<div class="chart_box">
+												<iframe src="https://www.cmuccdc.org/assets/php/getDatabaseColumnChartUS.php?reportType=h&dataType=pm25&source=<?=$rsProfile['dustboy_id']?>&key=<?=md5('s'.date('ymdh'))?>" marginheight="0" marginwidth="0" scrolling="no" width="100%" height="250" frameborder="0"></iframe>
+											</div>
+										</div>
+									</div>
+									
+									<div class="row mb-3">
+										<div class="col-md-6">
+											<h5 class="chart-title">PM<sub>2.5</sub> (μg/m<sup>3</sup>) Daily</h5>
+											<div class="chart_box">
+												<iframe src="https://www.cmuccdc.org/assets/php/getDatabaseColumnChartUS.php?reportType=d&dataType=pm25&source=<?=$rsProfile['dustboy_id']?>&key=<?=md5('s'.date('ymdh'))?>" marginheight="0" marginwidth="0" scrolling="no" width="100%" height="250" frameborder="0"></iframe>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<h5 class="chart-title">PM<sub>2.5</sub> US AQI Daily</h5>
+											<div class="chart_box">
+												<iframe src="https://www.cmuccdc.org/assets/php/getDatabaseColumnChartUS.php?reportType=d&dataType=pm25thaqi&source=<?=$rsProfile['dustboy_id']?>&key=<?=md5('s'.date('ymdh'))?>" marginheight="0" marginwidth="0" scrolling="no" width="100%" height="250" frameborder="0"></iframe>
+											</div>
+										</div>
+									</div>	
+								</div>
+							</div>
+							
+							<?php $col=12/(count($rsForcast->forecast_days)-1);?>
+							<?php if($rsForcast->forecast_days!=null){?>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="mb-3">
+										<h3 class="text-center aqi-title">ค่าพยากรณ์ PM2.5 ล่วงหน้า</h3>
+									</div>
+									<div class="row">
+										<div class="col-md-8 offset-md-2">
+											<div class="row">
+												<?php $i=0;foreach($rsForcast->forecast_days as $item){$i++;?>
+												<?php if($i>1){?>
+												<div class="col-md-<?=$col?> mb-3 us_bforcast" bid="<?=$i?>">
+													<h5 class="dforcast" style="background-color: rgb(<?=$item->day_us_color?>,.8);"><?=$item->day_name_th?> (<?=ConvertToThaiDateForcast($item->day_date,1)?>)</h5>
+													<div class="bforcast_content text-center" style="background-color: rgb(<?=$item->day_us_color?>,.5)">
+														<div class="row mb-2">
+															<div class="col-12">
+																<img src="/template/image/<?=$item->day_us_icon.'.svg'?>" width="50">
+															</div>
+														</div>
+														<div class="row mb-3">
+															<div class="col-12">
+																<span class="detail" style="color: rgb(<?=$item->day_us_color?>);">PM2.5 = <?=report_typePM25RUS($item->day_avg_pm25)?> (μg/m<sup>3</sup>)</span><br/>
+																<span style="font-size: x-small;color: #fff;">ดูข้อมูลรายชั่วโมง</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<?php }?>
+												<?php }?>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row" id="us_fcart" style="margin-bottom:50px;">
+								<div class="col-md-12">
+									<?php $i=0;foreach($rsForcast->forecast_days as $item){$i++;?>
+									<div style="display:none;" class="forcastchart" id="usforcast_container_<?=$i?>"></div>
+									<?php }?>
+								</div>
+							</div>
+							<?php }?>
+							
+							<div class="row mb-5">
+								<div class="col-md-12">
+									<div class="mb-3">
+										<h3 class="text-center aqi-title">Air Quality Index scale as defined by<br/> the US-EPA 2016 standard</h3>
+									</div>
+									<?php if($_lang== 'thailand'){?>
+										<p><img src="/template/img/us-01.jpg" style="width:100%"></p>
+									<?php }else{?>
+										<p><img src="/template/img/us-02.jpg" style="width:100%"></p>
+									<?php }?>
+									
+								</div>
+							</div>
+						</div>
+					</div>
 			</div>
 		</div>
 	</div>
