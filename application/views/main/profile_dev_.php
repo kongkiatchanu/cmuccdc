@@ -297,64 +297,7 @@ function report_typePM25RUS($val)
 							}
 						</style>
 
-						<?php if (count($rsForcast->forecast_days) > 0) { ?>
-							<?php $col = 12 / (count($rsForcast->forecast_days)); ?>
-							<div class="row">
-								<div class="col-md-12">
-									<div class="mb-3">
-										<h3 class="text-center aqi-title">ค่าพยากรณ์ PM2.5 ล่วงหน้า</h3>
-									</div>
-									<div class="row">
-										<div class="col-md-8 offset-md-2">
-											<div class="row">
-												<?php $i = 0;
-												foreach ($rsForcast->forecast_days as $item) {
-													$i++; ?>
-													<?php //if($i>1){?>
-													<div class="col-md-<?= $col ?> mb-3 bforcast" bid="<?= $i ?>">
-														<h5 class="dforcast"
-															style="background-color: rgb(<?= $item->day_th_color ?>,.8);">
-															<?= $item->day_name_th ?>
-															(<?= ConvertToThaiDateForcast($item->day_date, 1) ?>)</h5>
-														<div class="bforcast_content text-center"
-															style="background-color: rgb(<?= $item->day_th_color ?>,.5)">
-															<div class="row mb-2">
-																<div class="col-12">
-																	<img src="/template/image/<?= $item->day_th_icon == "th-dust-boy-05" || $item->day_th_icon == "th-dust-boy-01" ? $item->day_th_icon . '.png' : $item->day_th_icon . '.svg' ?>"
-																		width="<?= $item->day_th_icon == "th-dust-boy-05" || $item->day_th_icon == "th-dust-boy-01" ? '120' : '50' ?>">
-																</div>
-															</div>
-															<div class="row mb-3">
-																<div class="col-12">
-																	<span class="detail"
-																		style="color: rgb(<?= $item->day_th_color ?>);">PM2.5 =
-																		<?= report_typePM25R($item->day_avg_pm25) ?>
-																		(μg/m<sup>3</sup>)</span><br />
-																	<span
-																		style="font-size: x-small;color: #fff;">ดูข้อมูลรายชั่วโมง</span>
-																</div>
-															</div>
-														</div>
-													</div>
-													<?php //}?>
-												<?php } ?>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="row" id="fcart" style="margin-bottom:50px;">
-								<div class="col-md-12">
-									<?php $i = 0;
-									foreach ($rsForcast->forecast_days as $item) {
-										$i++; ?>
-										<div style="display:none;" class="forcastchart" id="forcast_container_<?= $i ?>"></div>
-									<?php } ?>
-								</div>
-							</div>
-						<?php } ?>
-
+					
 						<div class="row" style="margin-bottom:50px;">
 							<div class="col-md-12">
 								<div class="mb-3">
