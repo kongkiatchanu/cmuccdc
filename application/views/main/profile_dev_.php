@@ -178,9 +178,7 @@ function report_typePM25RUS($val)
 
 <link rel="stylesheet" href="<?= base_url() ?>assets/plugins/leaflet/leaflet.css" />
 <script src="<?= base_url() ?>assets/plugins/leaflet/leaflet.js?v=signoutz"></script>
-<script src="<?=base_url()?>assets/plugins/3Dchart/d3.v2.js?v=signoutz"></script>
-		<script src="<?=base_url()?>assets/plugins/3Dchart/gauge.profile.js?v=signoutz"></script>
-		<script src="<?=base_url()?>assets/plugins/3Dchart/init.profile.js?v=signoutz"></script>
+
 <script>
 	var db_lat = $('#db_lat').val();
 	var db_lng = $('#db_lng').val();
