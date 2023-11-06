@@ -147,7 +147,7 @@ class Ccdc_2 extends REST_Controller {
                 $id = array(5315,5356,5068,5324,5281,5049,5212,5388,5084,5352,5152,5344,5342,5047);
                 $ids = array(5361,6019,5326,5380,5262,5051,5279,5205,5078,5070,5154,5344,5380,5047);
                 $result = array();
-                $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/temp/'.date('Ymd').$time_n_1.'_stations.json'));
+                $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/temp_aun/'.date('Ymd').$time_n_1.'_stations.json'));
                 foreach($data as $key=>$value){
                     if(in_array($value->id,$id)){
                         $result['pm'.$value->id]=$value;
@@ -528,7 +528,7 @@ class Ccdc_2 extends REST_Controller {
         if (!$data = $this->cache->get('cmu_'.$time)){
             //คณะมนุษย์,แคมปัสแม่เหี่ย
             $time_n_1 = sprintf("%'.02d", $time);
-            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/temp/'.date('Ymd').$time_n_1.'_stations.json'));
+            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/temp_aun/'.date('Ymd').$time_n_1.'_stations.json'));
             $result = array();
             $id = array('5263','5264','5265','5281','5266','5262','5267','5271','5268','5270','5269','6');
             foreach ($data as $key => $value) {
@@ -552,7 +552,7 @@ class Ccdc_2 extends REST_Controller {
         if (!$data = $this->cache->get('cmu4_'.$time)){
             //คณะมนุษย์,แคมปัสแม่เหี่ย
             $time_n_1 = sprintf("%'.02d", $time);
-            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/temp/'.date('Ymd').$time_n_1.'_stations.json'));
+            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/temp_aun/'.date('Ymd').$time_n_1.'_stations.json'));
             $result = array();
             $id = array('4439', '5263', '5723', '5264', '5267', '5281', '5271', '4421', '5265', '6612', '5262', '6', '5266', '4427', '4426','5268','5270', '13');
             //$id = array('5263','5264','5265','5281','5266','5262','5267','5271','5268','5270','5269','6');
