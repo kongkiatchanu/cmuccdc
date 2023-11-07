@@ -8,11 +8,11 @@
 	
 	if($_GET["type"]=="all"){
 		$times	= $_GET['times'];
-		$url 	= 'https://maemoh.3e.world/api/hotspot/list/'.$_GET['times'];
+		$url 	= 'https://maemoh.3e.world/api/hotspot/list/'.$_GET['times']."?apikey=yy8ve3hnW8zUgZnDXYRjtHWTCK5exhcWZUQMQw2B";
 	}else{
 		$times	= $_GET['times'];
 		$pv		= $_GET['pv'];
-		$url 	= 'https://maemoh.3e.world/api/hotspot/listz/'.$_GET['times'].'/'.$_GET['pv'];
+		$url 	= 'https://maemoh.3e.world/api/hotspot/listz/'.$_GET['times'].'/'.$_GET['pv']."?apikey=yy8ve3hnW8zUgZnDXYRjtHWTCK5exhcWZUQMQw2B";
 	}
 	
 	
