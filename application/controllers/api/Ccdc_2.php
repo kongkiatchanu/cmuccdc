@@ -601,9 +601,9 @@ class Ccdc_2 extends REST_Controller {
             $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations_temp.json?v='.date('YmdHis')));
             $result = array();
             foreach ($data as $key => $value) {
-                //if($value->id>=4061&&$value->id<=4100){
+                if($value->id>=4061&&$value->id<=4100){
                     array_push($result,$value);
-               // }
+               }
             }
             sort($result);
             $this->cache->save('pakkret', $result, $time_limit);  
