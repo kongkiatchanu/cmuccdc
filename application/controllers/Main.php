@@ -569,7 +569,7 @@ class Main extends CI_Controller {
 	}
 	
 	public function calculate(){
-		//redirect('/');
+		redirect('/');
 		if($this->s_lang=="english"){
 			$this->siteinfo['pre_title'] = 'AQI Calculator';
 		}else{
