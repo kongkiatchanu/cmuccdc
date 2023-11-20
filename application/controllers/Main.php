@@ -82,6 +82,10 @@ class Main extends CI_Controller {
 	public function switch_pm(){
 		
 	}
+
+	public function dbday(){
+echo 'page..';
+	}
 	
 	public function index()
 	{
