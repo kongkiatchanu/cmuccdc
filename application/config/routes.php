@@ -70,6 +70,8 @@ $route['admin']		 = "admin";
 $route['admin/(:any)']		 = "admin/$1";
 $route['admin/(:any)/(:any)'] = "admin/$1/$2";
 
+$route['2ndDustBoyDay'] 		= 'main/dbday';
+
 $route['pm25'] 		= 'main/pm25';
 $route['overview'] 		= 'main/overview';
 $route['hourly'] 	= 'main/hourly';
