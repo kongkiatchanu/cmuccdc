@@ -84,7 +84,9 @@ class Main extends CI_Controller {
 	}
 
 	public function dbday(){
-echo 'page..';
+		echo 'page..';
+
+
 	}
 	
 	public function index()

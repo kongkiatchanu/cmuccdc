@@ -84,6 +84,8 @@ $route['visitors'] 	= 'main/ga';
 $route['map-visualization'] 	= 'main/mapvz';
 $route['pm25-map-visualization'] 	= 'main/mapvz2';
 
+$route['2ndDustBoyDay'] = 'main/dustboyday';
+
 $route['download_excel/(:any)'] = 'main/download_excel';
 $route['download_excel2/(:any)'] = 'main/download_excel2';
 $route['download_json/(:any)']  = 'main/download_json';
