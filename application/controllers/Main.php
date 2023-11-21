@@ -847,13 +847,10 @@ echo 'page..';
 		if($this->uri->segment(2)!=null){
 			$rsProfile = json_decode(file_get_contents($this->API_URI.'profile/'.$this->uri->segment(2)));
 
-			echo '<pre>';
-			print_r($rsProfile);
-			echo '</pre>';
-			exit;
+
 			if($rsProfile->dustboy_id!=null){
 				$rsAir = json_decode(file_get_contents($this->API_URI.'airinfo'));
-				$rsForcast = json_decode(file_get_contents('https://www-old.cmuccdc.org/api2/dustboy/forecast/'.$rsProfile->dustboy_id));
+				//$rsForcast = json_decode(file_get_contents('https://www-old.cmuccdc.org/api2/dustboy/forecast/'.$rsProfile->dustboy_id));
 				//print_r($rsForcast);
 
 				$this->siteinfo['pre_title'] = $rsProfile->dustboy_name_th;
