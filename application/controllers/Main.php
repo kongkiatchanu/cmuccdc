@@ -820,7 +820,8 @@ echo 'page..';
 			
 			if($rsProfile->dustboy_id!=null){
 				$rsAir = json_decode(file_get_contents($this->API_URI.'airinfo'));
-				$rsForcast = json_decode(file_get_contents('https://www-old.cmuccdc.org/api2/dustboy/forecast/'.$rsProfile->dustboy_id));
+				//$rsForcast = json_decode(file_get_contents('https://www-old.cmuccdc.org/api2/dustboy/forecast/'.$rsProfile->dustboy_id));
+				$rsForcast = array();
 
 				if($this->s_lang=="english"){
 					$this->siteinfo['pre_title'] = $rsProfile->dustboy_name_en;
@@ -850,7 +851,7 @@ echo 'page..';
 
 			if($rsProfile->dustboy_id!=null){
 				$rsAir = json_decode(file_get_contents($this->API_URI.'airinfo'));
-				//$rsForcast = json_decode(file_get_contents('https://www-old.cmuccdc.org/api2/dustboy/forecast/'.$rsProfile->dustboy_id));
+				$rsForcast = json_decode(file_get_contents('https://www-old.cmuccdc.org/api2/dustboy/forecast/'.$rsProfile->dustboy_id));
 				//print_r($rsForcast);
 
 				$this->siteinfo['pre_title'] = $rsProfile->dustboy_name_th;
@@ -862,7 +863,7 @@ echo 'page..';
 					"siteInfo" 			=> $this->siteinfo,
 					"rsProfile" 		=> $rsProfile,
 					"rsAir" 			=> $rsAir,
-					"rsForcast" 		=> '',
+					"rsForcast" 		=> $rsForcast,
 					'view'				=> 'main/profile_dev_',
 					"_pageLink"			=> 'profile'
 				);
