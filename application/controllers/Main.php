@@ -862,7 +862,7 @@ echo 'page..';
 					"siteInfo" 			=> $this->siteinfo,
 					"rsProfile" 		=> $rsProfile,
 					"rsAir" 			=> $rsAir,
-					"rsForcast" 		=> $rsForcast,
+					"rsForcast" 		=> '',
 					'view'				=> 'main/profile_dev_',
 					"_pageLink"			=> 'profile'
 				);
