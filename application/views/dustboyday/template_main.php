@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
     <link href="/dustboy_template/css/bootstrap.min.css" rel="stylesheet">
     <link href="/dustboy_template/css/bootstrap-icons.css" rel="stylesheet">
-    <link href="/dustboy_template/css/templatemo-festava-live.css" rel="stylesheet">
+    <link href="/dustboy_template/css/templatemo-festava-live.css?v=<?=date('his')?>" rel="stylesheet">
 </head>
 
 <body>
