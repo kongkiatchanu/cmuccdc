@@ -273,6 +273,7 @@
             </div>
         </section>
 <style>
+    .tab-content{padding: 0;}
     @media (max-width: 991px) {
   .tab-content>.tab-pane {
     display: block;
