@@ -155,11 +155,11 @@ https://templatemo.com/tm-583-festava-live
             </div>
 
             <div class="video-wrap">
-                <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                    <source src="https://www.youtube.com/embed/R3j6OruIJvE?si=6J29-B9I4aXttrmB" type="video/mp4">
-                   
-                    Your browser does not support the video tag.
-                </video>
+                <!-- <video autoplay="" loop="" muted="" class="custom-video" poster=""> -->
+                    <!-- <source src="https://www.youtube.com/embed/R3j6OruIJvE?si=6J29-B9I4aXttrmB" type="video/mp4"> -->
+                    <iframe class="custom-video" src="https://www.youtube.com/embed/R3j6OruIJvE?si=6J29-B9I4aXttrmB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <!-- Your browser does not support the video tag. -->
+                <!-- </video> -->
             </div>
         </section>
 
