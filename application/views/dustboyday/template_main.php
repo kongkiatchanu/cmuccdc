@@ -296,14 +296,18 @@
 
                                     <tbody>
                                         <tr>
-                                            <td>
-                                                <p>9:00 - 9:05 น.</p>
-                                            </td>
+                                            <td><p class="m-0">9:00 - 9:05 น.</p></td>
                                             <td class="text-start">
                                                 <h3>Welcome message</h3> 
-                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas minima, quae, reiciendis magni totam iste similique error quibusdam omnis quaerat at beatae excepturi in sint magnam! Assumenda quis tempore est?</p>
+                                                <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas minima, quae, reiciendis magni totam iste similique error quibusdam omnis quaerat at beatae excepturi in sint magnam! Assumenda quis tempore est?</p>
                                             </td>
-
+                                        </tr>
+                                        <tr>
+                                            <td><p class="m-0">9:05 - 9:15 น.</p></td>
+                                            <td class="text-start">
+                                                <h3>Opening remark</h3> 
+                                                <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas minima, quae, reiciendis magni totam iste similique error quibusdam omnis quaerat at beatae excepturi in sint magnam! Assumenda quis tempore est?</p>
+                                            </td>
                                         </tr>
 
                                         
