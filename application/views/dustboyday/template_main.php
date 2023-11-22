@@ -299,7 +299,7 @@
                                             <td scope="row">
                                                 <p class="mb-2">9:00 - 9:05 น.</p>
                                             </td>
-                                            <td>
+                                            <td class="text-start">
                                                 <h3>Welcome message</h3> 
                                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas minima, quae, reiciendis magni totam iste similique error quibusdam omnis quaerat at beatae excepturi in sint magnam! Assumenda quis tempore est?</p>
                                             </td>
