@@ -179,14 +179,13 @@
 
                             <div class="about-text-info d-flex">
                                 <div class="d-flex">
-                                    <i class="about-text-icon bi-message"></i>
+                                    <i class="about-text-icon bi-chat-dots"></i>
                                 </div>
 
-
                                 <div class="ms-4">
-                                    <h3>a happy moment</h3>
+                                    <h3>Wellcome message</h3>
 
-                                    <p class="mb-0">Wellcome message What is CCDC</p>
+                                    <p class="mb-0">a happy moment What is CCDC</p>
                                 </div>
                             </div>
                         </div>
