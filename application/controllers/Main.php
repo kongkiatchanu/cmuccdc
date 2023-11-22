@@ -84,7 +84,7 @@ class Main extends CI_Controller {
 	}
 
 	public function dbday(){
-		echo 'page..';
+		$this->load->view("dustboyday/template_main");	
 
 
 	}
