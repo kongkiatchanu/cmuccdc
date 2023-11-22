@@ -212,17 +212,7 @@
                                     <strong>Name:</strong>
                                     Madona
                                 </p>
-
-                                <p>
-                                    <strong>Birthdate:</strong>
-                                    August 16, 1958
-                                </p>
-
-                                <p>
-                                    <strong>Music:</strong>
-                                    Pop, R&amp;B
-                                </p>
-
+                                <p>หัวหน้าหน่วยวิจัย</p>
                             </div>
                         </div>
                     </div>
