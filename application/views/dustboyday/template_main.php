@@ -274,7 +274,9 @@
     background: #ee5007;
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
     color: #fff;
+    font-weight: bold;
     }
+    .nav-tabs .nav-link{color:#fff;font-weight: bold;}
     .nav-tabs{background: transparent;margin-bottom: 15px;padding:0;}
     .tab-content{padding: 0;filter: drop-shadow(2px 2px 4px #606060);background-color: unset !important;}
     .accordion-item:first-of-type{border-radius: 30px;}
