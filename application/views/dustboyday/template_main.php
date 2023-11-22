@@ -156,8 +156,8 @@ https://templatemo.com/tm-583-festava-live
 
             <div class="video-wrap">
                 <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                    <source src="video/pexels-2022395.mp4" type="video/mp4">
-
+                    <source src="https://www.youtube.com/embed/R3j6OruIJvE?si=6J29-B9I4aXttrmB" type="video/mp4">
+                   
                     Your browser does not support the video tag.
                 </video>
             </div>
