@@ -203,7 +203,7 @@
                     <div class="col-lg-5 col-12">
                         <div class="artists-thumb">
                             <div class="artists-image-wrap">
-                                <img src="images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg"
+                                <img src="/dustboy_template/images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg"
                                     class="artists-image img-fluid">
                             </div>
 
@@ -223,12 +223,6 @@
                                     Pop, R&amp;B
                                 </p>
 
-                                <hr>
-
-                                <p class="mb-0">
-                                    <strong>Youtube Channel:</strong>
-                                    <a href="#">Madona Official</a>
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -236,7 +230,7 @@
                     <div class="col-lg-5 col-12">
                         <div class="artists-thumb">
                             <div class="artists-image-wrap">
-                                <img src="images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg"
+                                <img src="/dustboy_template/images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg"
                                     class="artists-image img-fluid">
                             </div>
 
@@ -256,17 +250,11 @@
                                     Country
                                 </p>
 
-                                <hr>
-
-                                <p class="mb-0">
-                                    <strong>Youtube Channel:</strong>
-                                    <a href="#">Rihana Official</a>
-                                </p>
                             </div>
                         </div>
 
                         <div class="artists-thumb">
-                            <img src="images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg"
+                            <img src="/dustboy_template/images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg"
                                 class="artists-image img-fluid">
 
                             <div class="artists-hover">
