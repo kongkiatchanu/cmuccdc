@@ -281,36 +281,7 @@
                     <div class="col-12 text-center">
                         <h2 class="text-white mb-4">Event Schedule</h1>
 
-                            <div class="table-responsive">
-                                <table class="schedule-table table table-dark">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Times</th>
-                                            <th scope="col">Events</th>
-                                        </tr>
-                                    </thead>
-
-                                    <tbody>
-                                        <tr>
-                                            <td ><p class="m-0">09:00 น.</p></td>
-                                            <td class="text-start">
-                                                <p class="text-info d-block d-sm-none m-0 fw-bold">09:00 น.</p>
-                                                <h3>Welcome message</h3> 
-                                                <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas minima, quae, reiciendis magni totam iste similique error quibusdam omnis quaerat at beatae excepturi in sint magnam! Assumenda quis tempore est?</p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><p class="m-0" >09:05 น.</p></td>
-                                            <td class="text-start">
-                                                <p class="text-info d-block d-sm-none m-0 fw-bold">09:05 น.</p>
-                                                <h3>Opening remark</h3> 
-                                                <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas minima, quae, reiciendis magni totam iste similique error quibusdam omnis quaerat at beatae excepturi in sint magnam! Assumenda quis tempore est?</p>
-                                            </td>
-                                        </tr>
-
-                                    </tbody>
-                                </table>
-                            </div>
+                            
                     </div>
                 </div>
             </div>
