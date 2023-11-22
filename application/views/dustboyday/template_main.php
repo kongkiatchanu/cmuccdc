@@ -206,7 +206,6 @@
                                 <img src="/dustboy_template/images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg"
                                     class="artists-image img-fluid">
                             </div>
-
                             <div class="artists-hover">
                                 <p class="m-0"><strong>Name: Madona</strong></p>
                                 <p class="m-0">หัวหน้าหน่วยวิจัย</p>
