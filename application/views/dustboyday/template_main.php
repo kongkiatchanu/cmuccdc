@@ -175,7 +175,7 @@
 
                     <div class="col-lg-6 col-12">
                         <div class="about-text-wrap">
-                            <img src="images/pexels-alexander-suhorucov-6457579.jpg" class="about-image img-fluid">
+                            <img src="/dustboy_template/images/pexels-alexander-suhorucov-6457579.jpg" class="about-image img-fluid">
 
                             <div class="about-text-info d-flex">
                                 <div class="d-flex">
