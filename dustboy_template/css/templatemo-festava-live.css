@@ -618,6 +618,7 @@ strong {
   right: 0;
   left: 0;
   opacity: 0;
+  font-size: 14px;
 }
 
 .artists-hover p strong {
@@ -625,7 +626,7 @@ strong {
   display: inline-block;
   min-width: 180px;
   margin-right: 20px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .artists-hover p a {
