@@ -271,10 +271,9 @@
         </section>
 <style>
     .tab-content{padding: 0;filter: drop-shadow(2px 2px 4px #606060);}
-    .accordion-item{background-color: #212529;
+    .accordion-item:first-of-type{padding:20px;background-color: #212529;
   border: 0;
   opacity: .6;}
-    .accordion-item:first-of-type{padding:20px;}
     @media (max-width: 991px) {
   .tab-content>.tab-pane {
     display: block;
