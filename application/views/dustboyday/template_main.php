@@ -294,6 +294,7 @@
                                         <tr>
                                             <td style="width:200px;" class="d-none d-sm-block"><p class="m-0">09:00</p></td>
                                             <td class="text-start">
+                                                <p class="text-info d-block d-sm-none">09:00</p>
                                                 <h3>Welcome message</h3> 
                                                 <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas minima, quae, reiciendis magni totam iste similique error quibusdam omnis quaerat at beatae excepturi in sint magnam! Assumenda quis tempore est?</p>
                                             </td>
@@ -301,12 +302,12 @@
                                         <tr>
                                             <td class="d-none d-sm-block"><p class="m-0" >09:05</p></td>
                                             <td class="text-start">
+                                                <p class="text-info d-block d-sm-none">09:05</p>
                                                 <h3>Opening remark</h3> 
                                                 <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas minima, quae, reiciendis magni totam iste similique error quibusdam omnis quaerat at beatae excepturi in sint magnam! Assumenda quis tempore est?</p>
                                             </td>
                                         </tr>
 
-                                        
                                     </tbody>
                                 </table>
                             </div>
