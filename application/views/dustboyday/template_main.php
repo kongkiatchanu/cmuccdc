@@ -179,7 +179,7 @@
 
                             <div class="about-text-info d-flex">
                                 <div class="d-flex">
-                                    <i class="about-text-icon bi-person"></i>
+                                    <i class="about-text-icon bi-message"></i>
                                 </div>
 
 
