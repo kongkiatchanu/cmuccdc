@@ -270,17 +270,21 @@
             </div>
         </section>
 <style>
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    background: #ee5007;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    color: #fff;
+    }
     .nav-tabs{background: transparent;margin-bottom: 15px;padding:0;}
     .tab-content{padding: 0;filter: drop-shadow(2px 2px 4px #606060);background-color: unset !important;}
     .accordion-item:first-of-type{border-radius: 30px;}
     .accordion-item:last-of-type{border-radius: 30px;}
-    .accordion-item{color: #fff;padding:20px;background-color: #212529;border: 0;opacity: .7;border-radius: 30px;}
+    .accordion-item{color: #fff;padding:20px;background-color: #212529;border: 0;opacity: .8;border-radius: 30px;}
     @media (max-width: 991px) {
         .tab-content>.tab-pane {
             display: block;
             opacity: 1;
             padding: 0;
-            
         }
         .accordion-item{border-radius: 0px;}
     }
