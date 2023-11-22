@@ -296,7 +296,7 @@
 
                                     <tbody>
                                         <tr>
-                                            <td><p class="m-0">9:00 - 9:05 น.</p></td>
+                                            <td style="width:200px;"><p class="m-0">9:00 - 9:05 น.</p></td>
                                             <td class="text-start">
                                                 <h3>Welcome message</h3> 
                                                 <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas minima, quae, reiciendis magni totam iste similique error quibusdam omnis quaerat at beatae excepturi in sint magnam! Assumenda quis tempore est?</p>
