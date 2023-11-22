@@ -285,14 +285,14 @@
                                 <table class="schedule-table table table-dark">
                                     <thead>
                                         <tr>
-                                            <th scope="col" class="d-none d-sm-block">Times</th>
+                                            <th scope="col">Times</th>
                                             <th scope="col">Events</th>
                                         </tr>
                                     </thead>
 
                                     <tbody>
                                         <tr>
-                                            <td style="width:200px;" class="d-none d-sm-block"><p class="m-0">09:00 น.</p></td>
+                                            <td ><p class="m-0">09:00 น.</p></td>
                                             <td class="text-start">
                                                 <p class="text-info d-block d-sm-none m-0 fw-bold">09:00 น.</p>
                                                 <h3>Welcome message</h3> 
@@ -300,7 +300,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td class="d-none d-sm-block"><p class="m-0" >09:05 น.</p></td>
+                                            <td><p class="m-0" >09:05 น.</p></td>
                                             <td class="text-start">
                                                 <p class="text-info d-block d-sm-none m-0 fw-bold">09:05 น.</p>
                                                 <h3>Opening remark</h3> 
