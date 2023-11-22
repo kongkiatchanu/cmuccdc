@@ -155,7 +155,11 @@ https://templatemo.com/tm-583-festava-live
             </div>
 
             <div class="video-wrap">
-                <iframe class="custom-video" src="https://www.youtube-nocookie.com/embed/R3j6OruIJvE?si=3m7f-CHWipG2-Lw4?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                    <source src="/dutboy_template/video/dustboy_video.mp4" type="video/mp4">
+
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </section>
 
