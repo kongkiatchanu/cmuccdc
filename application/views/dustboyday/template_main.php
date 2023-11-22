@@ -272,7 +272,14 @@
                 </div>
             </div>
         </section>
-
+<style>
+    @media (max-width: 991px) {
+  .tab-content>.tab-pane {
+    display: block;
+    opacity: 1;
+  }
+}
+</style>
 
         <section class="schedule-section section-padding" id="section_4">
             <div class="container">
