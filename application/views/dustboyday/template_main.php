@@ -277,7 +277,10 @@
         .tab-content>.tab-pane {
             display: block;
             opacity: 1;
+            padding: 0;
+            
         }
+        .accordion-item{border-radius: 0px;}
     }
 </style>
 
