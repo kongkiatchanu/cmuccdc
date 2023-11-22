@@ -208,11 +208,8 @@
                             </div>
 
                             <div class="artists-hover">
-                                <p>
-                                    <strong>Name:</strong>
-                                    Madona
-                                </p>
-                                <p>หัวหน้าหน่วยวิจัย</p>
+                                <p class="m-0"><strong>Name: Madona</strong></p>
+                                <p class="m-0">หัวหน้าหน่วยวิจัย</p>
                             </div>
                         </div>
                     </div>
