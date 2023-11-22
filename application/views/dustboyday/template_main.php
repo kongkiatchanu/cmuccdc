@@ -296,8 +296,8 @@
 
                                     <tbody>
                                         <tr>
-                                            <td scope="row">
-                                                <p class="mb-2">9:00 - 9:05 น.</p>
+                                            <td>
+                                                <p>9:00 - 9:05 น.</p>
                                             </td>
                                             <td class="text-start">
                                                 <h3>Welcome message</h3> 
