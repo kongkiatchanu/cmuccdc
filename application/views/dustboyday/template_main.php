@@ -272,6 +272,8 @@
 <style>
     .nav-tabs{background: transparent;margin-bottom: 15px;padding:0;}
     .tab-content{padding: 0;filter: drop-shadow(2px 2px 4px #606060);background-color: unset !important;}
+    .accordion-item:first-of-type{border-radius: 30px;}
+    .accordion-item:last-of-type{border-radius: 30px;}
     .accordion-item{color: #fff;padding:20px;background-color: #212529;border: 0;opacity: .7;border-radius: 30px;}
     @media (max-width: 991px) {
         .tab-content>.tab-pane {
