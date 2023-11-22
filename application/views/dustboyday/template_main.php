@@ -197,7 +197,7 @@
                 <div class="row justify-content-center">
 
                     <div class="col-12 text-center">
-                        <h2 class="mb-4">Meet Artists</h1>
+                        <h2 class="mb-4">Meet Speakers</h1>
                     </div>
 
                     <div class="col-lg-5 col-12">
