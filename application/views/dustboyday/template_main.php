@@ -156,7 +156,7 @@ https://templatemo.com/tm-583-festava-live
 
             <div class="video-wrap">
                 <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                    <source src="/dutboy_template/video/dustboy_video.mp4" type="video/mp4">
+                    <source src="https://www-old.cmuccdc.org/assets/api/haze/dustboy_video.mp4" type="video/mp4">
 
                     Your browser does not support the video tag.
                 </video>
