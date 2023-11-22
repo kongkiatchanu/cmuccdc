@@ -286,11 +286,7 @@
                                     <thead>
                                         <tr>
                                             <th scope="col" class="d-none d-sm-block">Times</th>
-
                                             <th scope="col">Events</th>
-
-                                           
-
                                         </tr>
                                     </thead>
 
@@ -303,7 +299,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td><p class="m-0" class="d-none d-sm-block">09:05</p></td>
+                                            <td class="d-none d-sm-block"><p class="m-0" >09:05</p></td>
                                             <td class="text-start">
                                                 <h3>Opening remark</h3> 
                                                 <p class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas minima, quae, reiciendis magni totam iste similique error quibusdam omnis quaerat at beatae excepturi in sint magnam! Assumenda quis tempore est?</p>
