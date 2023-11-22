@@ -109,7 +109,7 @@
                         <div class="location-wrap mx-auto py-3 py-lg-0">
                             <h5 class="text-white">
                                 <i class="custom-icon bi-geo-alt me-2"></i>
-                                @UNISERV, CMU
+                                @ห้องทองกวาง 1, UNISERV, CMU
                             </h5>
                         </div>
 
@@ -175,7 +175,7 @@
 
                     <div class="col-lg-6 col-12">
                         <div class="about-text-wrap">
-                            <img src="/dustboy_template/images/pexels-alexander-suhorucov-6457579.jpg" class="about-image img-fluid">
+                            <img src="/dustboy_template/images/about.jpg" class="about-image img-fluid">
 
                             <div class="about-text-info d-flex">
                                 <div class="d-flex">
@@ -186,7 +186,7 @@
                                 <div class="ms-4">
                                     <h3>a happy moment</h3>
 
-                                    <p class="mb-0">your amazing festival experience with us</p>
+                                    <p class="mb-0">Wellcome message What is CCDC</p>
                                 </div>
                             </div>
                         </div>
