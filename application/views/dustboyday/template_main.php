@@ -289,6 +289,8 @@
             padding: 0;
         }
         .accordion-item{border-radius: 0px;}
+        .accordion-item:first-of-type{border-radius: 0px;}
+        .accordion-item:last-of-type{border-radius: 0px;}
     }
 </style>
 
