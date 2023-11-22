@@ -625,6 +625,7 @@ strong {
   display: inline-block;
   min-width: 180px;
   margin-right: 20px;
+  font-size: 16px;
 }
 
 .artists-hover p a {
@@ -633,10 +634,6 @@ strong {
 
 .artists-hover p a:hover {
   color: var(--white-color);
-}
-
-.artists-hover hr {
-  margin: 1.5rem 0;
 }
 
 
