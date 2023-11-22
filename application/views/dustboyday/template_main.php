@@ -10,26 +10,12 @@
 
     <title>DustBoy Day</title>
 
-    <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
-
     <link href="/dustboy_template/css/bootstrap.min.css" rel="stylesheet">
-
     <link href="/dustboy_template/css/bootstrap-icons.css" rel="stylesheet">
-
     <link href="/dustboy_template/css/templatemo-festava-live.css" rel="stylesheet">
-
-    <!--
-
-TemplateMo 583 Festava Live
-
-https://templatemo.com/tm-583-festava-live
-
--->
 </head>
 
 <body>
@@ -116,20 +102,20 @@ https://templatemo.com/tm-583-festava-live
                         <div class="date-wrap">
                             <h5 class="text-white">
                                 <i class="custom-icon bi-clock me-2"></i>
-                                10 - 12<sup>th</sup>, Dec 2023
+                                1<sup>st</sup>, Dec 2023
                             </h5>
                         </div>
 
                         <div class="location-wrap mx-auto py-3 py-lg-0">
                             <h5 class="text-white">
                                 <i class="custom-icon bi-geo-alt me-2"></i>
-                                National Center, United States
+                                @UNISERV, CMU
                             </h5>
                         </div>
 
                         <div class="social-share">
                             <ul class="social-icon d-flex align-items-center justify-content-center">
-                                <span class="text-white me-3">Share:</span>
+                                <span class="text-white me-3">Follow Us:</span>
 
                                 <li class="social-icon-item">
                                     <a href="#" class="social-icon-link">
