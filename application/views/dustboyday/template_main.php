@@ -67,7 +67,7 @@
 
                     </ul>
 
-                    <a href="https://www.cmuccdc.org/" target="_blank" class="btn custom-btn d-lg-block d-none">Buy Ticket</a>
+                    <a href="https://www.cmuccdc.org/" target="_blank" class="btn custom-btn d-lg-block d-none">Website</a>
                 </div>
             </div>
         </nav>
