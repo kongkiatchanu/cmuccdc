@@ -161,8 +161,11 @@
                                 <div class="accordion-body">
                                     <table class="table">
                                         <tr>
-                                            <td>8.30</td>
-                                            <td>Openning Remark</td>
+                                            <td>8.30 - 8.40 น.</td>
+                                            <td>
+                                                <h4>Openning Remark</h4>
+                                                <p class="m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta neque amet in iusto pariatur corporis enim ea officia nam, facilis quo sit molestias odio cumque placeat tempora laborum! Laudantium, aspernatur.</p>
+                                            </td>
                                         </tr>
                                     </table>
                                 </div>
