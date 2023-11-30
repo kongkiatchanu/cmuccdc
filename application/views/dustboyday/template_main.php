@@ -190,7 +190,7 @@
 
 
         <section class="artists-section section-padding" id="section_3">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row justify-content-center">
 
                     <div class="col-12 text-center">
