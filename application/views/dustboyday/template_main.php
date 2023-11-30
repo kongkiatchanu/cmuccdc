@@ -84,7 +84,7 @@
 
                         <h1 class="text-white mb-5">2<sup>nd</sup> DustBoy Day 2023</h1>
 
-                        <a class="btn custom-btn smoothscroll" href="#section_2">Let's begin</a>
+                        <a class="btn custom-btn smoothscroll" href="#section_4">Let's begin</a>
                     </div>
 
                     <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
@@ -235,7 +235,7 @@
             </div>
         </section>
 
-        <section class="artists-section section-padding p-0" id="section_3">
+        <section class="artists-section section-padding pb-0" id="section_3">
             <div class="container-fluid">
                 <div class="row justify-content-center">
 
