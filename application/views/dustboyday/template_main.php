@@ -30,7 +30,7 @@
     .accordion-item:first-of-type{border-radius: 30px;}
     .accordion-item:last-of-type{border-radius: 30px;}
     .accordion-item{color: #fff;padding:20px;background-color: #212529;border: 0;opacity: .8;border-radius: 30px;}
-    .s_title{color:#e77424}
+    .s_title{color:#e77424;font-size:25px}
     @media (max-width: 991px) {
         .tab-content>.tab-pane {
             display: block;
@@ -193,7 +193,7 @@
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingTwo" data-bs-parent="#myTabContent">
                                 <div class="accordion-body">
-                                    <h3 class="text-center">DustBoy Data Manipulation</h3>
+                                    <h3 class="text-white mb-3">DustBoy Data Manipulation</h3>
                                     <div class="row mb-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">09.15 – 09.25 น.</p></div>
                                         <div class="col-sm-9 mb-2">
