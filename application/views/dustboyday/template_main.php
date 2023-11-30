@@ -40,11 +40,11 @@
 
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="https://www.cmuccdc.org/2ndDustBoyDay">
                     DustBoy Day
                 </a>
 
-                <a href="ticket.html" class="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>
+                <a href="https://www.cmuccdc.org/" target="_blank" class="btn custom-btn d-lg-none ms-auto me-4">Website</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,11 +56,6 @@
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="#section_1">Home</a>
                         </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_2">About</a>
-                        </li>
-
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="#section_3">Speakers</a>
                         </li>
@@ -71,7 +66,7 @@
 
                     </ul>
 
-                    <a href="ticket.html" class="btn custom-btn d-lg-block d-none">Buy Ticket</a>
+                    <a href="https://www.cmuccdc.org/" target="_blank" class="btn custom-btn d-lg-block d-none">Buy Ticket</a>
                 </div>
             </div>
         </nav>
@@ -143,7 +138,7 @@
         </section>
 
 
-        <section class="about-section section-padding" id="section_2">
+        <!-- <section class="about-section section-padding" id="section_2">
             <div class="container">
                 <div class="row">
 
@@ -186,7 +181,7 @@
 
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
         <section class="artists-section section-padding" id="section_3">
@@ -194,7 +189,7 @@
                 <div class="row justify-content-center">
 
                     <div class="col-12 text-center">
-                        <h2 class="mb-4">Meet Speakers</h1>
+                        <h2 class="mb-4">Speakers</h1>
                     </div>
 
                     <div class="col-12">
@@ -333,10 +328,7 @@
                     </p>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-11 mb-4 mb-lg-0 mb-md-0">
-                    <h5 class="site-footer-title mb-3"></h5>
-
-                </div>
+                
             </div>
         </div>
 
