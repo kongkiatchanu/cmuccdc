@@ -339,7 +339,7 @@
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">11.45 – 11.55 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “Dust Pole และเทคโนโลยีลดฝุ่น” </p>
-                                            <p class="m-0 text-white">โดย คุุณวิโรจน์ โขมพัตราภรณ์ (ประธารกรรมการบริษัท นาโนซายน์ เทคโนโลยี จำกัด)</p>
+                                            <p class="m-0 text-white">โดย คุณวิโรจน์ โขมพัตราภรณ์ (ประธารกรรมการบริษัท นาโนซายน์ เทคโนโลยี จำกัด)</p>
                                         </div>
                                     </div>
                                     <div class="row mb-3">
