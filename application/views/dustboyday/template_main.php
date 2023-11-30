@@ -163,14 +163,14 @@
                                     <div class="row mb-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">08.30 - 08.40 น.</p></div>
                                         <div class="col-sm-9 mb-2">
-                                            <h4 class="s_title">Openning Remark</h4>
+                                            <p class="s_title m-0">Openning Remark</p>
                                             <p class="m-0 text-white">โดย ดร.วิภารัตน์ ดีอ่อง (ผู้อำนวยการสำนักงานการวิจัยแห่งชาติ)</p>
                                         </div>
                                     </div>
                                     <div class="row mb-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">08.40 – 08.45 น.</p></div>
                                         <div class="col-sm-9 mb-2">
-                                            <h4 class="s_title">"DustBoy Next"</h4>
+                                            <p class="s_title m-0">"DustBoy Next"</p>
                                             <p class="m-0 text-white">โดย รศ. ดร.เศรษฐ์ สัมภัตตะกุล (ผู้อำนวยการสำนักบริการวิชาการ มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
@@ -197,28 +197,28 @@
                                     <div class="row mb-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">09.15 – 09.25 น.</p></div>
                                         <div class="col-sm-9 mb-2">
-                                            <h4 class="s_title">บรรยาย “ปัจจัยทางอุตุนิยมวิทยากับค่าฝุ่น PM2.5”</h4>
+                                            <p class="s_title m-0">บรรยาย “ปัจจัยทางอุตุนิยมวิทยากับค่าฝุ่น PM2.5”</p>
                                             <p class="m-0 text-white">โดย ดร.สุกฤษฎ์ เกิดแสง (ผู้เชี่ยวชาญเฉพาะด้านวิจัยและพัฒนาอุตุนิยมวิทยา)</p>
                                         </div>
                                     </div>
                                     <div class="row mb-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">09.25 – 09.35 น.</p></div>
                                         <div class="col-sm-9 mb-2">
-                                            <h4 class="s_title">บรรยาย “การสร้างมาตรฐาน Low-cost PM sensor”</h4>
+                                            <p class="s_title m-0">บรรยาย “การสร้างมาตรฐาน Low-cost PM sensor”</p>
                                             <p class="m-0 text-white">โดย ดร.พัชรพล กอกิตรัตนกุล (นักวิจัย สถาบันมาตรวิทยาแห่งชาติ)</p>
                                         </div>
                                     </div>
                                     <div class="row mb-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">09.35 – 09.45 น.</p></div>
                                         <div class="col-sm-9 mb-2">
-                                            <h4 class="s_title">บรรยาย “การบูรณาการระบบการส่งข้อมูลผ่านดาวเทียม”</h4>
+                                            <p class="s_title m-0">บรรยาย “การบูรณาการระบบการส่งข้อมูลผ่านดาวเทียม”</p>
                                             <p class="m-0 text-white">โดย อ.ดร.ภูดินันท์ สิงห์คำฟู (อาจารย์ประจำวิทยาลัยศิลปะ สื่อ และเทคโนโลยี มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
                                     <div class="row mb-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">09.45 – 09.55 น.</p></div>
                                         <div class="col-sm-9 mb-2">
-                                            <h4 class="s_title">บรรยาย “DustBoy Open Source”</h4>
+                                            <p class="s_title m-0">บรรยาย “DustBoy Open Source”</p>
                                             <p class="m-0 text-white">โดย คุณณัฐ วีระวรรณ์ (นักพัฒนาซอฟท์แวร์ หน่วยวิจัยเพื่อการจัดการพลังงานและเศรษฐนิเวศ สถาบันวิจัยพหุศาสตร์ มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
@@ -237,35 +237,35 @@
                                     <div class="row mb-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">09.55 – 10.05 น.</p></div>
                                         <div class="col-sm-9 mb-2">
-                                            <h4 class="s_title">บรรยาย “โครงการไม่เผาเราซื้อ”</h4>
+                                            <p class="s_title m-0">บรรยาย “โครงการไม่เผาเราซื้อ”</p>
                                             <p class="m-0 text-white">โดย คุณเกษศิรินทร์ แปงเสน (หัวหน้าโครงการแม่เมาะเมืองน่าอยู่ การไฟฟ้าฝ่ายผลิตแห่งประเทศไทย)</p>
                                         </div>
                                     </div>
                                     <div class="row mb-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">10.05 – 10.15 น.</p></div>
                                         <div class="col-sm-9 mb-2">
-                                            <h4 class="s_title">บรรยาย “DustBoy ในโมเดลพยากรณ์และแพลตฟอร์ม”</h4>
+                                            <p class="s_title m-0">บรรยาย “DustBoy ในโมเดลพยากรณ์และแพลตฟอร์ม”</p>
                                             <p class="m-0 text-white">โดย ผศ.ดร.ชาคริต โชติอมรศักดิ์ (อาจารย์ประจำคณะสังคมศาสตร์ มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
                                     <div class="row mb-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">10.15 – 10.25 น.</p></div>
                                         <div class="col-sm-9 mb-2">
-                                            <h4 class="s_title">บรรยาย “การบูรณาการข้อมูล DustBoy เพื่อแสดงผล”</h4>
+                                            <p class="s_title m-0">บรรยาย “การบูรณาการข้อมูล DustBoy เพื่อแสดงผล”</p>
                                             <p class="m-0 text-white">โดย ผศ.ดร.อริศรา เจริญปัญญาเนตร (หัวหน้าศูนย์ GISTNORTH คณะสังคมศาสตร์ มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
                                     <div class="row mb-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">10.25 – 10.35 น.</p></div>
                                         <div class="col-sm-9 mb-2">
-                                            <h4 class="s_title">บรรยาย “DustBoy กับการพัฒนาคู่แฝดพลวัตดิจิทัลเพื่อการจัดการมหาวิทยาลัยอัจฉริยะอย่างยั่งยืน”</h4>
+                                            <p class="s_title m-0">บรรยาย “DustBoy กับการพัฒนาคู่แฝดพลวัตดิจิทัลเพื่อการจัดการมหาวิทยาลัยอัจฉริยะอย่างยั่งยืน”</p>
                                             <p class="m-0 text-white">โดย คุณสัตยา มะโนแก้ว (นักวิจัยเชิงรุก สำนักบริหารการวิจัย มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
                                     <div class="row mb-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">10.35 – 10.45 น.</p></div>
                                         <div class="col-sm-9 mb-2">
-                                            <h4 class="s_title">บรรยาย “DustBoy & SuperMap”</h4>
+                                            <p class="s_title m-0">บรรยาย “DustBoy & SuperMap”</p>
                                             <p class="m-0 text-white">โดย ดร. สรศักดิ์ คุ้มบุญ (Technical Support บริษัท SuperMap)</p>
                                         </div>
                                     </div>
