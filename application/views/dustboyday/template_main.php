@@ -30,7 +30,7 @@
     .accordion-item:first-of-type{border-radius: 30px;}
     .accordion-item:last-of-type{border-radius: 30px;}
     .accordion-item{color: #fff;padding:20px;background-color: #212529;border: 0;opacity: .8;border-radius: 30px;}
-    .s_title{color:#ee5007}
+    .s_title{color:#e77424}
     @media (max-width: 991px) {
         .tab-content>.tab-pane {
             display: block;
