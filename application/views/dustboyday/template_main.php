@@ -81,7 +81,7 @@
                             <a class="nav-link click-scroll" href="#section_1">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4">Schedule</a>
+                            <a class="nav-link click-scroll" href="#section_2">Schedule</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="#section_3">Speakers</a>
@@ -105,7 +105,7 @@
 
                         <h1 class="text-white mb-5">2<sup>nd</sup> DustBoy Day 2023</h1>
 
-                        <a class="btn custom-btn smoothscroll" href="#section_4">Let's begin</a>
+                        <a class="btn custom-btn smoothscroll" href="#section_2">Let's begin</a>
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@
 
  
 
-        <section class="schedule-section section-padding" id="section_4">
+        <section class="schedule-section section-padding" id="section_2">
             <div class="container">
                 <div class="row">
 
