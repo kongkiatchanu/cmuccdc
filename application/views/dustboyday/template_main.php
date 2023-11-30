@@ -192,7 +192,7 @@
                         <h2 class="mb-4">Speakers</h1>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 p-0">
                         <img src="https://www.cmuccdc.org/dustboy_template/images/speakers.jpg" class="img-fluid" alt="">
                     </div>
 
