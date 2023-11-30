@@ -16,12 +16,36 @@
     <link href="/dustboy_template/css/bootstrap.min.css" rel="stylesheet">
     <link href="/dustboy_template/css/bootstrap-icons.css" rel="stylesheet">
     <link href="/dustboy_template/css/templatemo-festava-live.css?v=<?=date('his')?>" rel="stylesheet">
+           
+<style>
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    background: #ee5007;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    color: #fff;
+    font-weight: bold;
+    }
+    .nav-tabs .nav-link{color:#fff;font-weight: bold;}
+    .nav-tabs{background: transparent;margin-bottom: 15px;padding:0;}
+    .tab-content{padding: 0;filter: drop-shadow(2px 2px 4px #606060);background-color: unset !important;}
+    .accordion-item:first-of-type{border-radius: 30px;}
+    .accordion-item:last-of-type{border-radius: 30px;}
+    .accordion-item{color: #fff;padding:20px;background-color: #212529;border: 0;opacity: .8;border-radius: 30px;}
+    @media (max-width: 991px) {
+        .tab-content>.tab-pane {
+            display: block;
+            opacity: 1;
+            padding: 0;
+        }
+        .accordion-item{border-radius: 0px;}
+        .accordion-item:first-of-type{border-radius: 0px;}
+        .accordion-item:last-of-type{border-radius: 0px;}
+    }
+</style>
 </head>
 
 <body>
 
     <main>
-
         <header class="site-header">
             <div class="container">
                 <div class="row">
@@ -62,9 +86,6 @@
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="#section_3">Speakers</a>
                         </li>
-
-                        
-
                     </ul>
 
                     <a href="https://www.cmuccdc.org/" target="_blank" class="btn custom-btn d-lg-block d-none">Website</a>
@@ -86,8 +107,6 @@
 
                         <a class="btn custom-btn smoothscroll" href="#section_4">Let's begin</a>
                     </div>
-
-                    
                 </div>
             </div>
 
@@ -104,31 +123,7 @@
         
 
 
-        
-<style>
-    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
-    background: #ee5007;
-    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-    color: #fff;
-    font-weight: bold;
-    }
-    .nav-tabs .nav-link{color:#fff;font-weight: bold;}
-    .nav-tabs{background: transparent;margin-bottom: 15px;padding:0;}
-    .tab-content{padding: 0;filter: drop-shadow(2px 2px 4px #606060);background-color: unset !important;}
-    .accordion-item:first-of-type{border-radius: 30px;}
-    .accordion-item:last-of-type{border-radius: 30px;}
-    .accordion-item{color: #fff;padding:20px;background-color: #212529;border: 0;opacity: .8;border-radius: 30px;}
-    @media (max-width: 991px) {
-        .tab-content>.tab-pane {
-            display: block;
-            opacity: 1;
-            padding: 0;
-        }
-        .accordion-item{border-radius: 0px;}
-        .accordion-item:first-of-type{border-radius: 0px;}
-        .accordion-item:last-of-type{border-radius: 0px;}
-    }
-</style>
+ 
 
         <section class="schedule-section section-padding" id="section_4">
             <div class="container">
