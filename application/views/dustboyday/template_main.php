@@ -161,17 +161,23 @@
                                 <div id="collapseOne" class="accordion-collapse collapse show  d-lg-block" aria-labelledby="headingOne" data-bs-parent="#myTabContent">
                                 <div class="accordion-body">
                                     <div class="row mb-3">
-                                        <div class="col-sm-3 mb-2">08.30 - 08.40 น.</div>
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">08.30 - 08.40 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <h4 class="s_title">Openning Remark</h4>
                                             <p class="m-0 text-white">โดย ดร.วิภารัตน์ ดีอ่อง (ผู้อำนวยการสำนักงานการวิจัยแห่งชาติ)</p>
                                         </div>
                                     </div>
                                     <div class="row mb-3">
-                                        <div class="col-sm-3 mb-2">08.40 – 08.45 น.</div>
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">08.40 – 08.45 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <h4 class="s_title">"DustBoy Next"</h4>
                                             <p class="m-0 text-white">โดย รศ. ดร.เศรษฐ์ สัมภัตตะกุล (ผู้อำนวยการสำนักบริการวิชาการ มหาวิทยาลัยเชียงใหม่)</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">08.45 – 09.15 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <p class="m-0 text-white">พิธีลงนามความร่วมมือระหว่างมหาวิทยาลัยเชียงใหม่และ SuperMap</p>
                                         </div>
                                     </div>
     
