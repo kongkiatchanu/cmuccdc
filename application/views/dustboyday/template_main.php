@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="CCDC : Climate Change Data Center">
+    <meta name="author" content="CCDC : Climate Change Data Center">
 
     <title>DustBoy Day</title>
 
