@@ -233,7 +233,42 @@
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingThree" data-bs-parent="#myTabContent">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <h3 class="text-white mb-3">DustBoy Data to Platform</h3>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">09.55 – 10.05 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <h4 class="s_title">บรรยาย “โครงการไม่เผาเราซื้อ”</h4>
+                                            <p class="m-0 text-white">โดย คุณเกษศิรินทร์ แปงเสน (หัวหน้าโครงการแม่เมาะเมืองน่าอยู่ การไฟฟ้าฝ่ายผลิตแห่งประเทศไทย)</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">10.05 – 10.15 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <h4 class="s_title">บรรยาย “DustBoy ในโมเดลพยากรณ์และแพลตฟอร์ม”</h4>
+                                            <p class="m-0 text-white">โดย ผศ.ดร.ชาคริต โชติอมรศักดิ์ (อาจารย์ประจำคณะสังคมศาสตร์ มหาวิทยาลัยเชียงใหม่)</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">10.15 – 10.25 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <h4 class="s_title">บรรยาย “การบูรณาการข้อมูล DustBoy เพื่อแสดงผล”</h4>
+                                            <p class="m-0 text-white">โดย ผศ.ดร.อริศรา เจริญปัญญาเนตร (หัวหน้าศูนย์ GISTNORTH คณะสังคมศาสตร์ มหาวิทยาลัยเชียงใหม่)</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">10.25 – 10.35 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <h4 class="s_title">บรรยาย “DustBoy กับการพัฒนาคู่แฝดพลวัตดิจิทัลเพื่อการจัดการมหาวิทยาลัยอัจฉริยะอย่างยั่งยืน”</h4>
+                                            <p class="m-0 text-white">โดย คุณสัตยา มะโนแก้ว (นักวิจัยเชิงรุก สำนักบริหารการวิจัย มหาวิทยาลัยเชียงใหม่)</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">10.35 – 10.45 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <h4 class="s_title">บรรยาย “DustBoy & SuperMap”</h4>
+                                            <p class="m-0 text-white">โดย ดร. สรศักดิ์ คุ้มบุญ (Technical Support บริษัท SuperMap)</p>
+                                        </div>
+                                    </div>
                                 </div>
                                 </div>
                             </div>
