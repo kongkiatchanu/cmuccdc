@@ -196,7 +196,9 @@
                             <div class="tab-pane fade show active accordion-item" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
 
                                 <h2 class="accordion-header d-lg-none" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Accordion Item #1</button>
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                       #Welcome
+                                    </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show  d-lg-block" aria-labelledby="headingOne" data-bs-parent="#myTabContent">
                                 <div class="accordion-body">
@@ -205,10 +207,10 @@
                                 </div>
 
                             </div>
-                            <div class="tab-pane fade accordion-item" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                            <div class="tab-pane fade accordion-item" id="session1-tab-pane" role="tabpanel" aria-labelledby="session1-tab" tabindex="0">
                                 <h2 class="accordion-header d-lg-none" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Accordion Item #2
+                                    #Session 1
                                 </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingTwo" data-bs-parent="#myTabContent">
@@ -217,13 +219,37 @@
                                 </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade accordion-item" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                            <div class="tab-pane fade accordion-item" id="session2-tab-pane" role="tabpanel" aria-labelledby="session2-tab" tabindex="0">
                                 <h2 class="accordion-header d-lg-none" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Accordion Item #3
+                                    Session 2
                                 </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingThree" data-bs-parent="#myTabContent">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade accordion-item" id="session3-tab-pane" role="tabpanel" aria-labelledby="session3-tab" tabindex="0">
+                                <h2 class="accordion-header d-lg-none" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree">
+                                    Session 3
+                                </button>
+                                </h2>
+                                <div id="collapseThree3" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingThree" data-bs-parent="#myTabContent">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade accordion-item" id="session4-tab-pane" role="tabpanel" aria-labelledby="session4-tab" tabindex="0">
+                                <h2 class="accordion-header d-lg-none" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree">
+                                    Session 4
+                                </button>
+                                </h2>
+                                <div id="collapseThree4" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingThree" data-bs-parent="#myTabContent">
                                 <div class="accordion-body">
                                     <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                                 </div>
@@ -235,14 +261,11 @@
             </div>
         </section>
 
-        <section class="artists-section section-padding pb-0" id="section_3">
+        <section class="artists-section section-padding p-0" id="section_3">
             <div class="container-fluid">
                 <div class="row justify-content-center">
 
-                    <div class="col-12 text-center">
-                        <h2 class="mb-4">Speakers</h1>
-                    </div>
-
+                   
                     <div class="col-12 p-0">
                         <img src="https://www.cmuccdc.org/dustboy_template/images/speakers.jpg" class="img-fluid" alt="">
                     </div>
