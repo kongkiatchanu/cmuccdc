@@ -327,7 +327,28 @@
                                 </h2>
                                 <div id="collapseThree4" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingThree" data-bs-parent="#myTabContent">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <h3 class="text-white mb-3">DustBoy to Dust Innovation</h3>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">11.35 – 11.45 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <p class="s_title m-0">บรรยาย “ระบบห้องปลอดฝุ่นแรงดันบวก” </p>
+                                            <p class="m-0 text-white">โดย ดร.ณัฐวุฒิ จารุวสุพันธ์ (สถาบันวิจัยและพัฒนาพลังงานนครพิงค์ มหาวิทยาลัยเชียงใหม่)</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">11.45 – 11.55 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <p class="s_title m-0">บรรยาย “Dust Pole และเทคโนโลยีลดฝุ่น” </p>
+                                            <p class="m-0 text-white">โดย คุุณวิโรจน์ โขมพัตราภรณ์ (ประธารกรรมการบริษัท นาโนซายน์ เทคโนโลยี จำกัด)</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">11.55 – 12.05 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <p class="s_title m-0">บรรยาย “DustBoy กับระบบฟอกอากาศในอาคาร” </p>
+                                            <p class="m-0 text-white">โดย คุณสุริยัณห์ คำแก้ว (บริษัท วินเซนต์ ออโตเมชัน จำกัด)</p>
+                                        </div>
+                                    </div>
                                 </div>
                                 </div>
                             </div>
