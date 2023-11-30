@@ -826,7 +826,6 @@ strong {
   background-color: var(--dark-color);
   position: relative;
   overflow: hidden;
-  padding-bottom: 30px;
 }
 
 .site-footer-top {

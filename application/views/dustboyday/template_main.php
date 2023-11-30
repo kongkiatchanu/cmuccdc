@@ -409,11 +409,10 @@
                 <div class="row">
 
                     <div class="col-lg-3 col-12 text-center">
-                        <p class="copyright-text">Copyright © 2023 cmuccdc.org</p>
+                        <p class="copyright-text m-0 py-2">Copyright © 2023 cmuccdc.org</p>
 
                     </div>
 
-                   
                 </div>
             </div>
         </div>
