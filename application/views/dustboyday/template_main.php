@@ -30,6 +30,7 @@
     .accordion-item:first-of-type{border-radius: 30px;}
     .accordion-item:last-of-type{border-radius: 30px;}
     .accordion-item{color: #fff;padding:20px;background-color: #212529;border: 0;opacity: .8;border-radius: 30px;}
+    .s_title{color:#ee5007}
     @media (max-width: 991px) {
         .tab-content>.tab-pane {
             display: block;
@@ -129,8 +130,8 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-12 text-center">
-                        <h2 class="text-white mb-4">Event Schedule</h1>
+                    <div class="col-12">
+                        <h2 class="text-white text-center mb-4">Event Schedule</h1>
 
                         <ul class="nav nav-tabs d-none d-lg-flex" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
@@ -162,8 +163,8 @@
                                     <div class="row">
                                         <div class="col-sm-3 mb-2">8.30 - 8.40 น.</div>
                                         <div class="col-sm-9 mb-2">
-                                            <h4>Openning Remark</h4>
-                                            <p class="m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta neque amet in iusto pariatur corporis enim ea officia nam, facilis quo sit molestias odio cumque placeat tempora laborum! Laudantium, aspernatur.</p>
+                                            <h4 class="s_title">Openning Remark</h4>
+                                            <p class="m-0 text-white">โดย ดร.วิภารัตน์ ดีอ่อง (ผู้อำนวยการสำนักงานการวิจัยแห่งชาติ)</p>
                                         </div>
                                     </div>
     
@@ -186,7 +187,7 @@
                             <div class="tab-pane fade accordion-item" id="session2-tab-pane" role="tabpanel" aria-labelledby="session2-tab" tabindex="0">
                                 <h2 class="accordion-header d-lg-none" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Session 2
+                                    #Session 2
                                 </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingThree" data-bs-parent="#myTabContent">
@@ -198,7 +199,7 @@
                             <div class="tab-pane fade accordion-item" id="session3-tab-pane" role="tabpanel" aria-labelledby="session3-tab" tabindex="0">
                                 <h2 class="accordion-header d-lg-none" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree">
-                                    Session 3
+                                    #Session 3
                                 </button>
                                 </h2>
                                 <div id="collapseThree3" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingThree" data-bs-parent="#myTabContent">
@@ -210,7 +211,7 @@
                             <div class="tab-pane fade accordion-item" id="session4-tab-pane" role="tabpanel" aria-labelledby="session4-tab" tabindex="0">
                                 <h2 class="accordion-header d-lg-none" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree">
-                                    Session 4
+                                    #Session 4
                                 </button>
                                 </h2>
                                 <div id="collapseThree4" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingThree" data-bs-parent="#myTabContent">
