@@ -280,7 +280,42 @@
                                 </h2>
                                 <div id="collapseThree3" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingThree" data-bs-parent="#myTabContent">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <h3 class="text-white mb-3">DustBoy and Health Application</h3>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">10.45 – 10.55 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <p class="s_title m-0">บรรยาย “DustBoy กับการดำเนินงานของ ศอ.1 เพื่อรองรับสถานการณ์ฝุ่นควัน”</p>
+                                            <p class="m-0 text-white">โดย คุณเอกรินทร์ วินันท์ (นักวิชาการสาธารณสุขชำนาญการ ศูนย์อนามัยที่ 1 เชียงใหม่)</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">10.55 – 11.05 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <p class="s_title m-0">บรรยาย “ห้องปลอดฝุ่นในเทศบาลนครปากเกร็ด”</p>
+                                            <p class="m-0 text-white">โดย ดร.ทิพวรรณ ประภามณฑล (นักวิจัยอาวุโส สถาบันวิจัยวิทยาศาสตร์สุขภาพ มหาวิทยาลัยเชียงใหม่)</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">11.05 – 11.15 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <p class="s_title m-0">บรรยาย “ข้อมูลคุณภาพอากาศกับแพลตฟอร์มด้านสาธารณสุข”</p>
+                                            <p class="m-0 text-white">โดย ผศ.ดร.กรรณิการ์ อินต๊ะวงศ์ (คณะสาธารณสุขศาสตร์ มหาวิทยาลัยเชียงใหม่)</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">11.15 – 11.25 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <p class="s_title m-0">บรรยาย “ผลกระทบจากฝุ่นขนาดเล็กและการป้องกัน”</p>
+                                            <p class="m-0 text-white">โดย ผศ.พญ.จินต์จุฑา ภานุมาสวิวัฒน์ (คณะแพทยศาสตร์ มหาวิทยาลัยเชียงใหม่)</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">11.25 – 11.35 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <p class="s_title m-0">บรรยาย “DustBoy กับผลของฝุ่นขนาดเล็กต่อผู้สูงวัยที่มีภาวะเบาหวาน”</p>
+                                            <p class="m-0 text-white">โดย คุณศรานตา ฟรีออฟ (นักวิจัย คณะเทคนิคการแพทย์ มหาวิทยาลัยเชียงใหม่)</p>
+                                        </div>
+                                    </div>
                                 </div>
                                 </div>
                             </div>
