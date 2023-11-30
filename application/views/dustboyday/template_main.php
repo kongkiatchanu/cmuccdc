@@ -159,15 +159,14 @@
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show  d-lg-block" aria-labelledby="headingOne" data-bs-parent="#myTabContent">
                                 <div class="accordion-body">
-                                    <table class="table">
-                                        <tr>
-                                            <td>8.30 - 8.40 น.</td>
-                                            <td>
-                                                <h4>Openning Remark</h4>
-                                                <p class="m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta neque amet in iusto pariatur corporis enim ea officia nam, facilis quo sit molestias odio cumque placeat tempora laborum! Laudantium, aspernatur.</p>
-                                            </td>
-                                        </tr>
-                                    </table>
+                                    <div class="row">
+                                        <div class="col-sm-3 mb-2">8.30 - 8.40 น.</div>
+                                        <div class="col-sm-9 mb-2">
+                                            <h4>Openning Remark</h4>
+                                            <p class="m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta neque amet in iusto pariatur corporis enim ea officia nam, facilis quo sit molestias odio cumque placeat tempora laborum! Laudantium, aspernatur.</p>
+                                        </div>
+                                    </div>
+    
                                 </div>
                                 </div>
 
