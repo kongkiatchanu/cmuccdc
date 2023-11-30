@@ -57,12 +57,13 @@
                             <a class="nav-link click-scroll" href="#section_1">Home</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_4">Schedule</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link click-scroll" href="#section_3">Speakers</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4">Schedule</a>
-                        </li>
+                        
 
                     </ul>
 
@@ -138,68 +139,10 @@
         </section>
 
 
-        <!-- <section class="about-section section-padding" id="section_2">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
-                        <div class="services-info">
-                            <h2 class="text-white mb-4">About Festava 2022</h2>
-
-                            <p class="text-white">Festava Live is free CSS template provided by TemplateMo website. This
-                                layout is built on Bootstrap v5.2.2 CSS library. You are free to use this template for
-                                your commercial website.</p>
-
-                            <h6 class="text-white mt-4">Once in Lifetime Experience</h6>
-
-                            <p class="text-white">You are not allowed to redistribute the template ZIP file on any other
-                                website without a permission.</p>
-
-                            <h6 class="text-white mt-4">Whole Night Party</h6>
-
-                            <p class="text-white">Please tell your friends about our website. Thank you.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-12">
-                        <div class="about-text-wrap">
-                            <img src="/dustboy_template/images/about.jpg" class="about-image img-fluid">
-
-                            <div class="about-text-info d-flex">
-                                <div class="d-flex">
-                                    <i class="about-text-icon bi-chat-dots"></i>
-                                </div>
-
-                                <div class="ms-4">
-                                    <h3>Welcome message</h3>
-
-                                    <p class="mb-0">a happy moment What is CCDC</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section> -->
+        
 
 
-        <section class="artists-section section-padding" id="section_3">
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-
-                    <div class="col-12 text-center">
-                        <h2 class="mb-4">Speakers</h1>
-                    </div>
-
-                    <div class="col-12 p-0">
-                        <img src="https://www.cmuccdc.org/dustboy_template/images/speakers.jpg" class="img-fluid" alt="">
-                    </div>
-
-                    
-                </div>
-            </div>
-        </section>
+        
 <style>
     .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
     background: #ee5007;
@@ -292,6 +235,20 @@
             </div>
         </section>
 
+        <section class="artists-section section-padding p-0" id="section_3">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+
+                    <div class="col-12 text-center">
+                        <h2 class="mb-4">Speakers</h1>
+                    </div>
+
+                    <div class="col-12 p-0">
+                        <img src="https://www.cmuccdc.org/dustboy_template/images/speakers.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
 
        
 
