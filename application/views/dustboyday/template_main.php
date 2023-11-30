@@ -19,7 +19,7 @@
            
 <style>
     .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
-    background: #ee5007;
+    background: #e77424;
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
     color: #fff;
     font-weight: bold;
@@ -193,7 +193,35 @@
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingTwo" data-bs-parent="#myTabContent">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    <h3 class="text-center">DustBoy Data Manipulation</h3>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">09.15 – 09.25 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <h4 class="s_title">บรรยาย “ปัจจัยทางอุตุนิยมวิทยากับค่าฝุ่น PM2.5”</h4>
+                                            <p class="m-0 text-white">โดย ดร.สุกฤษฎ์ เกิดแสง (ผู้เชี่ยวชาญเฉพาะด้านวิจัยและพัฒนาอุตุนิยมวิทยา)</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">09.25 – 09.35 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <h4 class="s_title">บรรยาย “การสร้างมาตรฐาน Low-cost PM sensor”</h4>
+                                            <p class="m-0 text-white">โดย ดร.พัชรพล กอกิตรัตนกุล (นักวิจัย สถาบันมาตรวิทยาแห่งชาติ)</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">09.35 – 09.45 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <h4 class="s_title">บรรยาย “การบูรณาการระบบการส่งข้อมูลผ่านดาวเทียม”</h4>
+                                            <p class="m-0 text-white">โดย อ.ดร.ภูดินันท์ สิงห์คำฟู (อาจารย์ประจำวิทยาลัยศิลปะ สื่อ และเทคโนโลยี มหาวิทยาลัยเชียงใหม่)</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">09.45 – 09.55 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <h4 class="s_title">บรรยาย “DustBoy Open Source”</h4>
+                                            <p class="m-0 text-white">โดย คุุณณัฐ วีระวรรณ์ (นักพัฒนาซอฟท์แวร์ หน่วยวิจัยเพื่อการจัดการพลังงานและเศรษฐนิเวศ สถาบันวิจัยพหุศาสตร์ มหาวิทยาลัยเชียงใหม่)</p>
+                                        </div>
+                                    </div>
                                 </div>
                                 </div>
                             </div>
