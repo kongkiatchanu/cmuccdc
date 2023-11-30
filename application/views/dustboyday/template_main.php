@@ -197,75 +197,11 @@
                         <h2 class="mb-4">Meet Speakers</h1>
                     </div>
 
-                    <div class="col-lg-5 col-12">
-                        <div class="artists-thumb">
-                            <div class="artists-image-wrap">
-                                <img src="/dustboy_template/images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg"
-                                    class="artists-image img-fluid">
-                            </div>
-                            <div class="artists-hover">
-                                <p class="m-0"><strong>Name: Madona</strong></p>
-                                <p class="m-0">หัวหน้าหน่วยวิจัย</p>
-                            </div>
-                        </div>
+                    <div class="col-12">
+                        <img src="https://www.cmuccdc.org/dustboy_template/images/speakers.jpg" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-lg-5 col-12">
-                        <div class="artists-thumb">
-                            <div class="artists-image-wrap">
-                                <img src="/dustboy_template/images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg"
-                                    class="artists-image img-fluid">
-                            </div>
-
-                            <div class="artists-hover">
-                                <p>
-                                    <strong>Name:</strong>
-                                    Rihana
-                                </p>
-
-                                <p>
-                                    <strong>Birthdate:</strong>
-                                    Feb 20, 1988
-                                </p>
-
-                                <p>
-                                    <strong>Music:</strong>
-                                    Country
-                                </p>
-
-                            </div>
-                        </div>
-
-                        <div class="artists-thumb">
-                            <img src="/dustboy_template/images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg"
-                                class="artists-image img-fluid">
-
-                            <div class="artists-hover">
-                                <p>
-                                    <strong>Name:</strong>
-                                    Bruno Bros
-                                </p>
-
-                                <p>
-                                    <strong>Birthdate:</strong>
-                                    October 8, 1985
-                                </p>
-
-                                <p>
-                                    <strong>Music:</strong>
-                                    Pop
-                                </p>
-
-                                <hr>
-
-                                <p class="mb-0">
-                                    <strong>Youtube Channel:</strong>
-                                    <a href="#">Bruno Official</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
+                    
                 </div>
             </div>
         </section>
