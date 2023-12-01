@@ -449,7 +449,7 @@ T e m p l a t e M o
     <script src="/dustboy_template/js/jquery.min.js"></script>
     <script src="/dustboy_template/js/bootstrap.min.js"></script>
     <script src="/dustboy_template/js/jquery.sticky.js"></script>
-    <script src="/dustboy_template/js/click-scroll.js"></script>
+    <!-- <script src="/dustboy_template/js/click-scroll.js"></script> -->
     <script src="/dustboy_template/glightbox/js/glightbox.min.js?v=1"></script>
     <script src="/dustboy_template/js/custom.js"></script>
 
