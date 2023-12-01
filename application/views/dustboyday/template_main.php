@@ -168,10 +168,10 @@
                                             <p class="m-0 text-white">โดย ดร.วิภารัตน์ ดีอ่อง (ผู้อำนวยการสำนักงานการวิจัยแห่งชาติ)</p>
                                         </div>
                                         <div class="col-sm-3 mb-2">
-                                            <a class="link_file glightbox me-2" href="#">
+                                            <a class=" glightbox me-2" href="#">
                                                 <span class="bi bi-play-circle"></span> Click to play
                                             </a>
-                                            <a class="link_file" href="#">
+                                            <a class="" href="#">
                                                 <span class="bi bi-journal-richtext"></span> Document
                                             </a>
                                         </div>
@@ -185,10 +185,10 @@
                                             <p class="m-0 text-white">โดย รศ. ดร.เศรษฐ์ สัมภัตตะกุล (ผู้อำนวยการสำนักบริการวิชาการ มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                         <div class="col-sm-3 mb-2">
-                                            <a class="link_file glightbox me-2" href="#">
+                                            <a class=" glightbox me-2" href="#">
                                                 <span class="bi bi-play-circle"></span> Click to play
                                             </a>
-                                            <a class="link_file" href="#">
+                                            <a class="" href="#">
                                                 <span class="bi bi-journal-richtext"></span> Document
                                             </a>
                                         </div>
@@ -199,10 +199,10 @@
                                             <p class="m-0 text-white">พิธีลงนามความร่วมมือระหว่างมหาวิทยาลัยเชียงใหม่และ SuperMap</p>
                                         </div>
                                         <div class="col-sm-3 mb-2">
-                                            <a class="link_file glightbox me-2" href="#">
+                                            <a class=" glightbox me-2" href="#">
                                                 <span class="bi bi-play-circle"></span> Click to play
                                             </a>
-                                            <a class="link_file" href="#">
+                                            <a class="" href="#">
                                                 <span class="bi bi-journal-richtext"></span> Document
                                             </a>
                                         </div>
