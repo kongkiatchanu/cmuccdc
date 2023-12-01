@@ -169,10 +169,10 @@
                                         </div>
                                         <div class="col-sm-1 mb-2">
                                             <a class="glightbox" href="#">
-                                                <span class="bi bi-play-circle"></span>
+                                                <span class="bi bi-play-circle"></span> Click to play
                                             </a>
                                             <a class="link_file" href="#">
-                                                <span class="bi bi-journal-richtext"></span>
+                                                <span class="bi bi-journal-richtext"></span> Document
                                             </a>
                                         </div>
                                     </div>
