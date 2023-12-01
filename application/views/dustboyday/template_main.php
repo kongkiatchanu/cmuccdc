@@ -128,7 +128,7 @@
                 <div class="row">
                 
                     <div class="col-12">
-                        <a href="https://www.youtube.com/watch?v=StpBR2W8G5A" class="glightbox">ssssss</a>
+                       
                         <h2 class="text-white text-center mb-4">Event Schedule</h1>
 
                         <ul class="nav nav-tabs d-none d-lg-flex" id="myTab" role="tablist">
@@ -162,7 +162,7 @@
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">08.30 - 08.40 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">
-                                                <span class="bi bi-play-circle"></span> Openning Remark
+                                                <a class="glightbox" href="#"><span class="bi bi-play-circle"></span> Openning Remark</a>
                                             </p>
                                             <p class="m-0 text-white">โดย ดร.วิภารัตน์ ดีอ่อง (ผู้อำนวยการสำนักงานการวิจัยแห่งชาติ)</p>
                                         </div>
