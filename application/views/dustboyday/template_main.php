@@ -16,7 +16,7 @@
     <link href="/dustboy_template/css/bootstrap.min.css" rel="stylesheet">
     <link href="/dustboy_template/css/bootstrap-icons.css" rel="stylesheet">
     <link href="/dustboy_template/css/templatemo-festava-live.css?v=<?=date('his')?>" rel="stylesheet">
-           
+    <?php $this->load->view('main/analytics');?>
 <style>
     .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
     background: #e77424;
