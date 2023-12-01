@@ -171,6 +171,7 @@
                                             <a class="glightbox" href="#">
                                                 <span class="bi bi-play-circle"></span> Click to play
                                             </a>
+                                            <br/>
                                             <a class="link_file" href="#">
                                                 <span class="bi bi-journal-richtext"></span> Document
                                             </a>
