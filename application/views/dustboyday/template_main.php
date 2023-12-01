@@ -161,21 +161,21 @@
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show  d-lg-block" aria-labelledby="headingOne" data-bs-parent="#myTabContent">
                                 <div class="accordion-body">
-                                    <div class="row mb-3 r_line">
+                                    <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">08.30 - 08.40 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">Openning Remark</p>
                                             <p class="m-0 text-white">โดย ดร.วิภารัตน์ ดีอ่อง (ผู้อำนวยการสำนักงานการวิจัยแห่งชาติ)</p>
                                         </div>
                                     </div>
-                                    <div class="row mb-3 r_line">
+                                    <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">08.40 – 08.45 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">"DustBoy Next"</p>
                                             <p class="m-0 text-white">โดย รศ. ดร.เศรษฐ์ สัมภัตตะกุล (ผู้อำนวยการสำนักบริการวิชาการ มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
-                                    <div class="row mb-3">
+                                    <div class="row mb-3 py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">08.45 – 09.15 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="m-0 text-white">พิธีลงนามความร่วมมือระหว่างมหาวิทยาลัยเชียงใหม่และ SuperMap</p>
@@ -195,28 +195,28 @@
                                 <div id="collapseTwo" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingTwo" data-bs-parent="#myTabContent">
                                 <div class="accordion-body">
                                     <h3 class="text-white mb-3">DustBoy Data Manipulation</h3>
-                                    <div class="row mb-3 r_line">
+                                    <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">09.15 – 09.25 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “ปัจจัยทางอุตุนิยมวิทยากับค่าฝุ่น PM2.5”</p>
                                             <p class="m-0 text-white">โดย ดร.สุกฤษฎ์ เกิดแสง (ผู้เชี่ยวชาญเฉพาะด้านวิจัยและพัฒนาอุตุนิยมวิทยา)</p>
                                         </div>
                                     </div>
-                                    <div class="row mb-3 r_line">
+                                    <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">09.25 – 09.35 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “การสร้างมาตรฐาน Low-cost PM sensor”</p>
                                             <p class="m-0 text-white">โดย ดร.พัชรพล กอกิตรัตนกุล (นักวิจัย สถาบันมาตรวิทยาแห่งชาติ)</p>
                                         </div>
                                     </div>
-                                    <div class="row mb-3 r_line">
+                                    <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">09.35 – 09.45 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “การบูรณาการระบบการส่งข้อมูลผ่านดาวเทียม”</p>
                                             <p class="m-0 text-white">โดย อ.ดร.ภูดินันท์ สิงห์คำฟู (อาจารย์ประจำวิทยาลัยศิลปะ สื่อ และเทคโนโลยี มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
-                                    <div class="row mb-3">
+                                    <div class="row mb-3 py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">09.45 – 09.55 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “DustBoy Open Source”</p>
@@ -235,35 +235,35 @@
                                 <div id="collapseThree" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingThree" data-bs-parent="#myTabContent">
                                 <div class="accordion-body">
                                     <h3 class="text-white mb-3">DustBoy Data to Platform</h3>
-                                    <div class="row mb-3 r_line">
+                                    <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">09.55 – 10.05 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “โครงการไม่เผาเราซื้อ”</p>
                                             <p class="m-0 text-white">โดย คุณเกษศิรินทร์ แปงเสน (หัวหน้าโครงการแม่เมาะเมืองน่าอยู่ การไฟฟ้าฝ่ายผลิตแห่งประเทศไทย)</p>
                                         </div>
                                     </div>
-                                    <div class="row mb-3 r_line">
+                                    <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">10.05 – 10.15 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “DustBoy ในโมเดลพยากรณ์และแพลตฟอร์ม”</p>
                                             <p class="m-0 text-white">โดย ผศ.ดร.ชาคริต โชติอมรศักดิ์ (อาจารย์ประจำคณะสังคมศาสตร์ มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
-                                    <div class="row mb-3 r_line">
+                                    <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">10.15 – 10.25 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “การบูรณาการข้อมูล DustBoy เพื่อแสดงผล”</p>
                                             <p class="m-0 text-white">โดย ผศ.ดร.อริศรา เจริญปัญญาเนตร (หัวหน้าศูนย์ GISTNORTH คณะสังคมศาสตร์ มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
-                                    <div class="row mb-3 r_line">
+                                    <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">10.25 – 10.35 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “DustBoy กับการพัฒนาคู่แฝดพลวัตดิจิทัลเพื่อการจัดการมหาวิทยาลัยอัจฉริยะอย่างยั่งยืน”</p>
                                             <p class="m-0 text-white">โดย คุณสัตยา มะโนแก้ว (นักวิจัยเชิงรุก สำนักบริหารการวิจัย มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
-                                    <div class="row mb-3">
+                                    <div class="row mb-3 py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">10.35 – 10.45 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “DustBoy & SuperMap”</p>
@@ -282,35 +282,35 @@
                                 <div id="collapseThree3" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingThree" data-bs-parent="#myTabContent">
                                 <div class="accordion-body">
                                     <h3 class="text-white mb-3">DustBoy and Health Application</h3>
-                                    <div class="row mb-3 r_line">
+                                    <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">10.45 – 10.55 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “DustBoy กับการดำเนินงานของ ศอ.1 เพื่อรองรับสถานการณ์ฝุ่นควัน”</p>
                                             <p class="m-0 text-white">โดย คุณเอกรินทร์ วินันท์ (นักวิชาการสาธารณสุขชำนาญการ ศูนย์อนามัยที่ 1 เชียงใหม่)</p>
                                         </div>
                                     </div>
-                                    <div class="row mb-3 r_line">
+                                    <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">10.55 – 11.05 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “ห้องปลอดฝุ่นในเทศบาลนครปากเกร็ด”</p>
                                             <p class="m-0 text-white">โดย ดร.ทิพวรรณ ประภามณฑล (นักวิจัยอาวุโส สถาบันวิจัยวิทยาศาสตร์สุขภาพ มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
-                                    <div class="row mb-3 r_line">
+                                    <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">11.05 – 11.15 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “ข้อมูลคุณภาพอากาศกับแพลตฟอร์มด้านสาธารณสุข”</p>
                                             <p class="m-0 text-white">โดย ผศ.ดร.กรรณิการ์ อินต๊ะวงศ์ (คณะสาธารณสุขศาสตร์ มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
-                                    <div class="row mb-3 r_line">
+                                    <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">11.15 – 11.25 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “ผลกระทบจากฝุ่นขนาดเล็กและการป้องกัน”</p>
                                             <p class="m-0 text-white">โดย ผศ.พญ.จินต์จุฑา ภานุมาสวิวัฒน์ (คณะแพทยศาสตร์ มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
-                                    <div class="row mb-3">
+                                    <div class="row mb-3 py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">11.25 – 11.35 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “DustBoy กับผลของฝุ่นขนาดเล็กต่อผู้สูงวัยที่มีภาวะเบาหวาน”</p>
@@ -329,21 +329,21 @@
                                 <div id="collapseThree4" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingThree" data-bs-parent="#myTabContent">
                                 <div class="accordion-body">
                                     <h3 class="text-white mb-3">DustBoy to Dust Innovation</h3>
-                                    <div class="row mb-3 r_line">
+                                    <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">11.35 – 11.45 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “ระบบห้องปลอดฝุ่นแรงดันบวก” </p>
                                             <p class="m-0 text-white">โดย ดร.ณัฐวุฒิ จารุวสุพันธ์ (สถาบันวิจัยและพัฒนาพลังงานนครพิงค์ มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
-                                    <div class="row mb-3 r_line">
+                                    <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">11.45 – 11.55 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “Dust Pole และเทคโนโลยีลดฝุ่น” </p>
                                             <p class="m-0 text-white">โดย คุณวิโรจน์ โขมพัตราภรณ์ (ประธารกรรมการบริษัท นาโนซายน์ เทคโนโลยี จำกัด)</p>
                                         </div>
                                     </div>
-                                    <div class="row mb-3 r_line">
+                                    <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">11.55 – 12.05 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “DustBoy กับระบบฟอกอากาศในอาคาร” </p>
@@ -351,7 +351,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="row mb-3">
+                                    <div class="row mb-3 py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">12.05 – 12.15 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “การพัฒนาเครื่องวัดฝุ่นให้ง่ายต่อการใช้งาน” </p>
