@@ -168,7 +168,7 @@
                                             <p class="m-0 text-white">โดย ดร.วิภารัตน์ ดีอ่อง (ผู้อำนวยการสำนักงานการวิจัยแห่งชาติ)</p>
                                         </div>
                                         <div class="col-sm-2 mb-2">
-                                            <a class="glightbox" href="#">
+                                            <a class="glightbox me-2" href="#">
                                                 <span class="bi bi-play-circle"></span> Click to play
                                             </a>
                                             <br/>
