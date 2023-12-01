@@ -25,6 +25,7 @@
     color: #fff;
     font-weight: bold;
     }
+    .link_file{color:#eee;}
     .r_line{border-bottom: 1px dashed #eee;}
     .nav-tabs .nav-link{color:#fff;font-weight: bold;}
     .nav-tabs{background: transparent;margin-bottom: 15px;padding:0;}
@@ -165,7 +166,7 @@
                                                 <a class="glightbox" href="#"><span class="bi bi-play-circle"></span> Openning Remark</a>
                                             </p>
                                             <p class="m-0 text-white">โดย ดร.วิภารัตน์ ดีอ่อง (ผู้อำนวยการสำนักงานการวิจัยแห่งชาติ)</p>
-                                            <a href="#"><span class="bi bi-columns"></span> ไฟล์เอกสาร</a>
+                                            <a class="link_file" href="#"><span class="bi bi-journal-richtext"></span> ไฟล์เอกสาร</a>
                                         </div>
                                     </div>
                                     <div class="row mb-3 r_line py-3">
