@@ -168,10 +168,9 @@
                                             <p class="m-0 text-white">โดย ดร.วิภารัตน์ ดีอ่อง (ผู้อำนวยการสำนักงานการวิจัยแห่งชาติ)</p>
                                         </div>
                                         <div class="col-sm-3 mb-2">
-                                            <a class="glightbox me-2" href="#">
+                                            <a class="link_file glightbox me-2" href="#">
                                                 <span class="bi bi-play-circle"></span> Click to play
                                             </a>
-                                            
                                             <a class="link_file" href="#">
                                                 <span class="bi bi-journal-richtext"></span> Document
                                             </a>
