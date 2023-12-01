@@ -164,14 +164,14 @@
                                     <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">08.30 - 08.40 น.</p></div>
                                         <div class="col-sm-9 mb-2">
-                                            <p class="s_title m-0">Openning Remark</p>
+                                            <p class="s_title m-0"><span class="bi bi-play-circle"></span> Openning Remark</p>
                                             <p class="m-0 text-white">โดย ดร.วิภารัตน์ ดีอ่อง (ผู้อำนวยการสำนักงานการวิจัยแห่งชาติ)</p>
                                         </div>
                                     </div>
                                     <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">08.40 – 08.45 น.</p></div>
                                         <div class="col-sm-9 mb-2">
-                                            <p class="s_title m-0">"DustBoy Next"</p>
+                                            <p class="s_title m-0"><span class="bi bi-play-circle"></span> "DustBoy Next"</p>
                                             <p class="m-0 text-white">โดย รศ. ดร.เศรษฐ์ สัมภัตตะกุล (ผู้อำนวยการสำนักบริการวิชาการ มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
