@@ -161,13 +161,13 @@
                                 <div class="accordion-body">
                                     <div class="row mb-3 r_line py-3">
                                         <div class="col-sm-2 mb-2"><p class="m-0 text-white">08.30 - 08.40 น.</p></div>
-                                        <div class="col-sm-8 mb-2">
+                                        <div class="col-sm-7 mb-2">
                                             <p class="s_title m-0">
                                                 Openning Remark
                                             </p>
                                             <p class="m-0 text-white">โดย ดร.วิภารัตน์ ดีอ่อง (ผู้อำนวยการสำนักงานการวิจัยแห่งชาติ)</p>
                                         </div>
-                                        <div class="col-sm-2 mb-2">
+                                        <div class="col-sm-3 mb-2">
                                             <a class="glightbox me-2" href="#">
                                                 <span class="bi bi-play-circle"></span> Click to play
                                             </a>
