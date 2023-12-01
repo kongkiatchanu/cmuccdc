@@ -160,13 +160,15 @@
                                 <div id="collapseOne" class="accordion-collapse collapse show  d-lg-block" aria-labelledby="headingOne" data-bs-parent="#myTabContent">
                                 <div class="accordion-body">
                                     <div class="row mb-3 r_line py-3">
-                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">08.30 - 08.40 น.</p></div>
+                                        <div class="col-sm-2 mb-2"><p class="m-0 text-white">08.30 - 08.40 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">
-                                                Openning Remark <a class="glightbox" href="#"><span class="bi bi-play-circle"></span></a><a class="link_file" href="#"><span class="bi bi-journal-richtext"></span></a>
+                                                Openning Remark
                                             </p>
                                             <p class="m-0 text-white">โดย ดร.วิภารัตน์ ดีอ่อง (ผู้อำนวยการสำนักงานการวิจัยแห่งชาติ)</p>
-                                            
+                                        </div>
+                                        <div class="col-sm-1 mb-2">
+                                            <a class="glightbox" href="#"><span class="bi bi-play-circle"></span></a><a class="link_file" href="#"><span class="bi bi-journal-richtext"></span></a>
                                         </div>
                                     </div>
                                     <div class="row mb-3 r_line py-3">
