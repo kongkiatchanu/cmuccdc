@@ -134,6 +134,7 @@
                 <div class="row">
                 
                     <div class="col-12">
+                        <a href="https://www.youtube.com/watch?v=StpBR2W8G5A" class="glightbox"></a>
                         <h2 class="text-white text-center mb-4">Event Schedule</h1>
 
                         <ul class="nav nav-tabs d-none d-lg-flex" id="myTab" role="tablist">
