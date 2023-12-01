@@ -32,49 +32,7 @@
     .accordion-item:last-of-type{border-radius: 30px;}
     .accordion-item{color: #fff;padding:20px;background-color: #212529;border: 0;opacity: .8;border-radius: 30px;}
     .s_title{color:#e77424;}
-    .play-btn {
-        width: 94px;
-        height: 94px;
-        background: radial-gradient(#3f43fd 50%, rgba(63, 67, 253, 0.4) 52%);
-        border-radius: 50%;
-        display: block;
-        position: absolute;
-        left: calc(50% - 47px);
-        top: calc(50% - 47px);
-        overflow: hidden;
-    }
-    .play-btn::before {
-  content: "";
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  animation-delay: 0s;
-  animation: pulsate-btn 2s;
-    animation-iteration-count: 1;
-  animation-direction: forwards;
-  animation-iteration-count: infinite;
-  animation-timing-function: steps;
-  opacity: 1;
-  border-radius: 50%;
-  border: 5px solid rgba(63, 67, 253, 0.7);
-  top: -15%;
-  left: -15%;
-  background: rgba(198, 16, 0, 0);
-}
-.play-btn::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-40%) translateY(-50%);
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
-  z-index: 100;
-  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
+    
     @media (max-width: 991px) {
         .tab-content>.tab-pane {
             display: block;
@@ -173,7 +131,7 @@
         <section class="schedule-section section-padding" id="section_2">
             <div class="container">
                 <div class="row">
-                <a href="https://www.youtube.com/watch?v=StpBR2W8G5A" class="glightbox play-btn mb-4"></a>
+                
                     <div class="col-12">
                         <h2 class="text-white text-center mb-4">Event Schedule</h1>
 
