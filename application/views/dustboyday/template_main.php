@@ -30,7 +30,7 @@
     .accordion-item:first-of-type{border-radius: 30px;}
     .accordion-item:last-of-type{border-radius: 30px;}
     .accordion-item{color: #fff;padding:20px;background-color: #212529;border: 0;opacity: .8;border-radius: 30px;}
-    .s_title{color:#e77424;font-size:25px}
+    .s_title{color:#e77424;}
     @media (max-width: 991px) {
         .tab-content>.tab-pane {
             display: block;
@@ -163,7 +163,7 @@
                                     <div class="row mb-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">08.30 - 08.40 น.</p></div>
                                         <div class="col-sm-9 mb-2">
-                                            <p class="s_title m-0">Openning Remark <span class="bi bi-play-circle"></span></p>
+                                            <p class="s_title m-0">Openning Remark</p>
                                             <p class="m-0 text-white">โดย ดร.วิภารัตน์ ดีอ่อง (ผู้อำนวยการสำนักงานการวิจัยแห่งชาติ)</p>
 
 
