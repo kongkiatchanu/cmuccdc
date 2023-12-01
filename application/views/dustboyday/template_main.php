@@ -163,8 +163,11 @@
                                     <div class="row mb-3">
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">08.30 - 08.40 น.</p></div>
                                         <div class="col-sm-9 mb-2">
-                                            <p class="s_title m-0">Openning Remark</p>
+                                            <p class="s_title m-0">Openning Remark <span class="bi bi-play-circle"></span></p>
                                             <p class="m-0 text-white">โดย ดร.วิภารัตน์ ดีอ่อง (ผู้อำนวยการสำนักงานการวิจัยแห่งชาติ)</p>
+
+
+
                                         </div>
                                     </div>
                                     <div class="row mb-3">
@@ -347,6 +350,14 @@
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">บรรยาย “DustBoy กับระบบฟอกอากาศในอาคาร” </p>
                                             <p class="m-0 text-white">โดย คุณสุริยัณห์ คำแก้ว (บริษัท วินเซนต์ ออโตเมชัน จำกัด)</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-3">
+                                        <div class="col-sm-3 mb-2"><p class="m-0 text-white">12.05 – 12.15 น.</p></div>
+                                        <div class="col-sm-9 mb-2">
+                                            <p class="s_title m-0">บรรยาย “การพัฒนาเครื่องวัดฝุ่นให้ง่ายต่อการใช้งาน” </p>
+                                            <p class="m-0 text-white">โดย คุณสราวุฒิ ไชยชนะ (นักพัฒนาฮาร์ดแวร์ หน่วยวิจัยเพื่อการจัดการพลังงานและเศรษฐนิเวศ สถาบันวิจัยพหุศาสตร์ มหาวิทยาลัยเชียงใหม่)</p>
                                         </div>
                                     </div>
                                 </div>
