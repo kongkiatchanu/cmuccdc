@@ -7,6 +7,10 @@
     $('.navbar-collapse a').on('click',function(){
       $(".navbar-collapse").collapse('hide');
     });
+
+    const glightbox = GLightbox({
+      selector: '.glightbox'
+    });
     
     // CUSTOM LINK
     $('.smoothscroll').click(function(){

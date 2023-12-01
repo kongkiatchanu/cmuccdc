@@ -16,6 +16,7 @@
     <link href="/dustboy_template/css/bootstrap.min.css" rel="stylesheet">
     <link href="/dustboy_template/css/bootstrap-icons.css" rel="stylesheet">
     <link href="/dustboy_template/css/templatemo-festava-live.css?v=<?=date('his')?>" rel="stylesheet">
+    <link href="/dustboy_template/glightbox/css/glightbox.min.css?v=1" rel="stylesheet">
     <?php $this->load->view('main/analytics');?>
 <style>
     .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
@@ -448,6 +449,7 @@ T e m p l a t e M o
     <script src="/dustboy_template/js/bootstrap.min.js"></script>
     <script src="/dustboy_template/js/jquery.sticky.js"></script>
     <script src="/dustboy_template/js/click-scroll.js"></script>
+    <script src="/dustboy_template/glightbox/js/glightbox.min.js?v=1"></script>
     <script src="/dustboy_template/js/custom.js"></script>
 
 </body>
