@@ -163,10 +163,10 @@
                                         <div class="col-sm-3 mb-2"><p class="m-0 text-white">08.30 - 08.40 น.</p></div>
                                         <div class="col-sm-9 mb-2">
                                             <p class="s_title m-0">
-                                                <a class="glightbox" href="#"><span class="bi bi-play-circle"></span> Openning Remark</a>
+                                                <a class="glightbox" href="#"><span class="bi bi-play-circle"></span> Openning Remark</a> | <a class="link_file" href="#"><span class="bi bi-journal-richtext"></span></a>
                                             </p>
                                             <p class="m-0 text-white">โดย ดร.วิภารัตน์ ดีอ่อง (ผู้อำนวยการสำนักงานการวิจัยแห่งชาติ)</p>
-                                            <a class="link_file" href="#"><span class="bi bi-journal-richtext"></span> ไฟล์เอกสาร</a>
+                                            
                                         </div>
                                     </div>
                                     <div class="row mb-3 r_line py-3">
