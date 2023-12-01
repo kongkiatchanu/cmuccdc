@@ -165,6 +165,7 @@
                                                 <a class="glightbox" href="#"><span class="bi bi-play-circle"></span> Openning Remark</a>
                                             </p>
                                             <p class="m-0 text-white">โดย ดร.วิภารัตน์ ดีอ่อง (ผู้อำนวยการสำนักงานการวิจัยแห่งชาติ)</p>
+                                            <a href="#"><span class="bi bi-columns"></span>ไฟล์เอกสาร</a>
                                         </div>
                                     </div>
                                     <div class="row mb-3 r_line py-3">
