@@ -522,6 +522,7 @@
 			'Smart-Meter'		=>'Smart-Meter',
 			'DB-BLACK'		=>'Dustboy Black',
 			'WPLUS'		=>'WPlus',
+			'NC'		=>'Model NC',
 		);
 		return $ar;
 	}
