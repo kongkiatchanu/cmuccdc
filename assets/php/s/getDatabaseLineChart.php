@@ -100,12 +100,12 @@ $(function () {
                 }
 				<?php if($datatype=="pm25"){?>
 				,plotLines: [{
-                    value: 50,
+                    value: 37.5,
                     color: 'red',
                     dashStyle: 'shortdash',
                     width: 2,
                     label: {
-                        text: 'ค่ามาตรฐาน PM2.5 = 50 ug/m3'
+                        text: 'ค่ามาตรฐาน PM2.5 = 37.5 ug/m3'
                     }
                 }]
 				<?php }?>
@@ -135,18 +135,18 @@ $(function () {
 					
 										
 					<?php if($datatype=="pm25"){?>							
-					if (p1 <=25){
+					if (p1 <=15){
 						var  type = "boxtool_goo";
-					}else if (p1 >25 && p1<=37){
+					}else if (p1 >15 && p1<=25){
 						var  type = "boxtool_mod";
 		  
-					}else if (p1 >37 && p1<=50){
+					}else if (p1 >25 && p1<=37.5){
 						var  type = "boxtool_sen";
 						
-					}else if (p1 >50 && p1<=90){
+					}else if (p1 >37.5 && p1<=75){
 						var  type = "boxtool_unheal";	
 						
-					}else if (p1 >90){
+					}else if (p1 >75){
 						var  type = "boxtool_haz";
 					}
 					<?php }?>
