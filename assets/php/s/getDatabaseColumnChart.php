@@ -24,8 +24,8 @@
 	}
 	
 	if($datatype=="pm25"){
-		$sVal = 50;
-		$sTxt = 'ค่ามาตรฐาน PM2.5 = 50 ug/m3';
+		$sVal = 37.5;
+		$sTxt = 'ค่ามาตรฐาน PM2.5 = 37.5 ug/m3';
 		$sResult = 'จำนวนวันที่มีค่า PM2.5 เกินค่ามาตรฐาน = ';
 	}else if($datatype=="pm10"){
 		$sVal = 120;
@@ -203,18 +203,18 @@ $(function () {
 					var  type = "";
 					
 					<?php if($datatype=="pm25"){?>							
-					if (p1 <=25){
+					if (p1 <=15){
 						var  type = "boxtool_goo";
-					}else if (p1 >25 && p1<=37){
+					}else if (p1 >15 && p1<=25){
 						var  type = "boxtool_mod";
 		  
-					}else if (p1 >37 && p1<=50){
+					}else if (p1 >25 && p1<=37.5){
 						var  type = "boxtool_sen";
 						
-					}else if (p1 >50 && p1<=90){
+					}else if (p1 >27.5 && p1<=75){
 						var  type = "boxtool_unheal";	
 						
-					}else if (p1 >90){
+					}else if (p1 >75){
 						var  type = "boxtool_haz";
 					}
 					<?php }?>
@@ -292,16 +292,16 @@ $(function () {
 				<?php if($datatype=="pm25"){?>
 				column: {
 					zones: [{
-						value: 25, 
+						value: 15, 
 						color: colors[0]
 					},{
-						value: 37, 
+						value: 25, 
 						color: colors[1]
 					},{
-						value: 50, 
+						value: 37.5, 
 						color: colors[2]
 					},{
-						value: 90, 
+						value: 75, 
 						color: colors[3]
 					},{
 						color: colors[4]
