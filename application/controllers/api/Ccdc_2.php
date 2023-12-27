@@ -1028,7 +1028,7 @@ class Ccdc_2 extends REST_Controller {
 		$time_limit = 1200;
         $data = $this->cache->get('wsrapathum');
         if (!$data||date('H',$this->cache->get_metadata('wsrapathum')['mtime'])<date('H')){
-            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/api2/dustboy/stations?v='.date('YmdHis')));
+            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations_temp.json?v='.date('YmdHis')));
             $result = array();
             foreach ($data as $key => $value) {
                 if($value->id==6643||$value->id==6644){
@@ -1049,7 +1049,7 @@ class Ccdc_2 extends REST_Controller {
 		$time_limit = 1200;
         $data = $this->cache->get('sannameng');
         if (!$data||date('H',$this->cache->get_metadata('sannameng')['mtime'])<date('H')){
-            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/api2/dustboy/stations?v='.date('YmdHis')));
+            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations_temp.json?v='.date('YmdHis')));
             $result = array();
             foreach ($data as $key => $value) {
                 if($value->id==2109||$value->id==2110 || $value->id==2132){
@@ -1070,7 +1070,7 @@ class Ccdc_2 extends REST_Controller {
 		$time_limit = 1200;
         $data = $this->cache->get('maechaem');
         if (!$data||date('H',$this->cache->get_metadata('maechaem')['mtime'])<date('H')){
-            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/api2/dustboy/stations?v='.date('YmdHis')));
+            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations_temp.json?v='.date('YmdHis')));
             $result = array();
             foreach ($data as $key => $value) {
                 if($value->id==5731||$value->id==5732||$value->id==5734||$value->id==5735){
@@ -1096,7 +1096,7 @@ class Ccdc_2 extends REST_Controller {
 		$time_limit = 1200;
         $data = $this->cache->get('udonthani');
         if (!$data||date('H',$this->cache->get_metadata('udonthani')['mtime'])<date('H')){
-            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/api2/dustboy/stations?v='.date('YmdHis')));
+            $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/assets/api/haze/pwa/json/stations_temp.json?v='.date('YmdHis')));
             $result = array();
             foreach ($data as $key => $value) {
                if (in_array($value->id, $ar_station)){
