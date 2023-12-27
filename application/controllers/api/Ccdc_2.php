@@ -1052,7 +1052,7 @@ class Ccdc_2 extends REST_Controller {
             $data = json_decode(file_get_contents('https://www-old.cmuccdc.org/api2/dustboy/stations?v='.date('YmdHis')));
             $result = array();
             foreach ($data as $key => $value) {
-                if($value->id==2109||$value->id==2110){
+                if($value->id==2109||$value->id==2110 || $value->id==2132){
                     array_push($result,$value);
                 }
             }
